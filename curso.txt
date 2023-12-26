@@ -1,1 +1,44 @@
 Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
+MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
+    Tipos de datos
+        Lo primero que vamos a trabajar durante este módulo de fundamentos son "Los tipos de datos". Vamos a trabajar básicamente con 4 tipos:
+
+        Números
+        Cadenas
+        Booleanos
+        Tipos especiales
+
+        En el vídeo que tienes a continuación vamos a 
+        profundizar sobre cada uno de ellos. Cómo te hemos comentado al inicio, 
+        no te asustes que no resultan complejos. 
+    Operaciones
+        Una vez hemos visto los tipos de datos con los que vamos a trabajar, vamos a comenzar a realizar operaciones con ellos. Vamos a trabajar básicamente con 3 tipos de operaciones:
+
+        Operaciones con números.
+        Operaciones con cadenas
+        Operaciones con booleanos
+
+        En el vídeo que tienes a continuación vamos a trabajar las operaciones que podemos 
+        realizar con cada uno de los tipos de datos que hemos definido anteriormente.
+        Veamos como podemos operar con los diferentes datos.    
+    Variables
+        Una variable es un cajón con una etiqueta donde almacenamos datos de un programa. 
+        Para definir una variable en JavaScript,
+        usamos la palabra reservada"var" seguida del nombre que le queremos dar a la variable.
+
+        En el siguiente video, veremos como declarar variables para utilizarlas
+        en nuestros programas. ¡Adelante!    
+    Comparaciones entre variables
+        Una vez visto, qué son y cómo se declaran las variables en nuestros programas, ahora toca trabajar sobre la comparación entre ellas. Vamos a ver los operadores principales para llevar a cabo la comparación entre varibles:
+
+        Igualdad y desigualdad
+        Mayor y menor
+        Falsy y truthy
+        Dicen que las comparaciones son odiosas: ¡vamos a verlo!
+
+        En el siguiente enlace te puedes descargar el material con todo 
+        lo que has trabajado durante el módulo.    
+    PRUEBA 
+        Test superado
+        Has obtenido un 100 en esta tarea  
+          
