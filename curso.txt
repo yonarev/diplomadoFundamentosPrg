@@ -41,4 +41,107 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
     PRUEBA 
         Test superado
         Has obtenido un 100 en esta tarea  
-          
+
+    ¿Te gustaría aprender a programar? ¡Estás en el lugar adecuado para ello!
+        Antes de estudiar cualquier lenguaje de programación, 
+        es necesario adquirir las capacidades de razonamiento lógico
+        para poder desenvolverse el mundo de la programación.
+        En este curso te enseñaremos a utilizar 
+        las estructuras lógicas de programación de forma adecuada,
+        aplicando los principios,
+        tanto de la programación estructurada y modular,
+        como las técnicas de la programación orientada a objetos, 
+        empleadas en los lenguajes modernos.   
+
+    MÓDULO 1. FUNDAMENTOS DE INFORMÁTICA.
+            La información para la empresa resulta determinante, 
+            no solo para sus beneficios, 
+            sino incluso para su propia supervivencia. 
+            La manera en la que se van a tratar y manipular los datos resulta pues crucial.
+
+        La informática estudia el tratamiento automático 
+            de la información utilizando dispositivos electrónicos 
+            y sistemas computacionales.
+
+        Un ordenador es una máquina que permite automatizar 
+            el tratamiento de la información. 
+            Por sí solo, el ordenador no toma decisiones, 
+            carece de inteligencia, simplemente se encarga de realizar las tareas 
+            para las que se le ha programado. Estas tareas son definidas 
+            en lo que se conoce como un programa.
+        Componentes del ordenador
+            El ordenador está formado por dos tipos de componentes:
+            Hardware. 
+                Es la parte física, que la componen 
+                    la CPU, 
+                    la memoria 
+                    y los dispositivos periféricos.
+            Software. 
+                La forman los elementos lógicos, 
+                    como el sistema operativo 
+                    y los programas.
+                Es el verdadero cerebro del ordenador. 
+                Observa el siguiente esquema para ver su interacción con el resto de componentes:        
+            
+            La unidad aritmético – lógica
+                Su función es ejecutar la operación sobre los datos 
+                que recibe de la unidad de control. 
+                Observa el siguiente esquema para ver su flujo de trabajo:     
+
+            Memoria
+                La memoria o memoria principal es un componente hardware 
+                que almacena las instrucciones que debe procesar la CPU 
+                así como los datos generados por esta durante el procesamiento 
+                de las instrucciones de un programa. Podemos dividirla en dos tipos:
+                    circuitos de memoria rom 
+                    memoria ram (expandible e intercambiable)
+            El sistema operativo
+                El sistema operativo es el componente software más importante del ordenador, 
+                pues se trata de un programa que hace que el propio ordenador funcione.
+                Entre sus funciones principales están:
+                    Proporcionar una interfaz entre el resto de programas del ordenador, 
+                        los dispositivos hardware y el usuario.
+                    Administrar los recursos de la máquina, como la memoria y la CPU
+                    Gestionar y organizar los archivos
+                    Controlar los dispositivos periféricos
+
+                A continuación, los principales sistemas operativos que puedes encontrar 
+                en un ordenador o dispositivo móvil:   
+                    windows 10
+                    linux 
+                    android 
+                    mac ios 
+
+            2.1 | Unidad central de proceso (CPU)
+                Es el verdadero cerebro del ordenador. 
+                Su misión consiste en 
+                    coordinar 
+                    y controlar o realizar todas
+                        las operaciones del sistema. 
+                        Se comunica con los otros componentes hardware a través de 
+                            los buses o canales por donde fluye la información de un bloque a otro             
+                La CPU está formada por:
+                    • La unidad de control. 
+                        Como su nombre indica, es el centro de control del ordenador, 
+                        desde ella 
+                            se localizan y se interpretan
+                                las instrucciones a ejecutar con las correspondientes
+                                operaciones que conllevan. 
+                            También gestiona la recogida de datos necesarios para 
+                                la realización de operaciones, datos que
+                                    son entregados a la unidad aritmético-lógica 
+                                    para que opere con ellos, 
+                                así como el almacenamiento del resultado de dichas
+                                    operaciones.
+                    • La unidad aritmético-lógica. Realiza las operaciones
+                    elementales de tipo aritmético y lógico. Su función es ejecutar
+                    la operación sobre los datos que recibe de la unidad de control.
+                    Esta unidad se compone a su vez de dos partes:
+                    • Banco de registros generales, que es donde se almacenan los
+                    datos que vienen de la unidad de control. Uno de estos registros
+                    es el acumulador, donde se van acumulando los resultados de
+                    las operaciones y otro es el registro temporal, que como su
+                    nombre indica, almacena de forma temporal datos de entrada
+                    • Operador. Es el encargado de realizar las operaciones. El
+                    operador entrega al acumulador el resultado de las operaciones
+    
