@@ -54,22 +54,81 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
         empleadas en los lenguajes modernos.   
 
     MÓDULO 1. FUNDAMENTOS DE INFORMÁTICA.
-            La información para la empresa resulta determinante, 
-            no solo para sus beneficios, 
-            sino incluso para su propia supervivencia. 
+        1.1 | Informática e Información
+            El uso eficaz de la información para la empresa resulta determinante, 
+                no solo para sus beneficios,
+                sino incluso para su propia supervivencia. 
             La manera en la que se van a tratar y manipular los datos resulta pues crucial.
 
-        La informática estudia el tratamiento automático 
-            de la información utilizando dispositivos electrónicos 
-            y sistemas computacionales.
+            En este contexto surge el concepto de informática, que hoy en día
+            puede considerarse como 
+                la Ciencia que estudia 
+                    el tratamiento,
+                    elaboración, 
+                    transmisión 
+                    y utilización de la información. 
+            La informática estudia 
+                el tratamiento automático de la información
+                    utilizando 
+                        dispositivos electrónicos 
+                        y sistemas computacionales.
+            La informática está estrechamente ligada a los ordenadores,
+            entendiendo como tal un sistema electrónico capaz de 
+                tratar y
+                manipular la información, 
+                procesando los datos de manera 
+                    rápida
+                    y segura.
+            Hoy en día los ordenadores se han convertido en una herramienta
+            indispensable para la vida actual, pues la mayor parte de los
+            aparatos que utilizamos hoy en día 
+                (ordenadores, teléfonos móviles,televisores, etc.) 
+                cuentan con capacidad de computación.
+            En informática aparecen involucrados diferentes facetas de las
+            ciencias de la computación, como 
+                la programación 
+                y las metodologías para el desarrollo de software, 
+                la arquitectura de ordenadores, 
+                las redes de datos (como Internet) 
+                y la inteligencia artificial.
+        1.2 | El ordenador
+            La información para la empresa resulta determinante, 
+                no solo para sus beneficios, 
+                sino incluso para su propia supervivencia. 
+            La manera en la que se van a tratar y manipular los datos resulta pues crucial.
 
-        Un ordenador es una máquina que permite automatizar 
-            el tratamiento de la información. 
-            Por sí solo, el ordenador no toma decisiones, 
-            carece de inteligencia, simplemente se encarga de realizar las tareas 
-            para las que se le ha programado. Estas tareas son definidas 
-            en lo que se conoce como un programa.
-        Componentes del ordenador
+            La informática estudia el tratamiento automático 
+                de la información utilizando dispositivos electrónicos 
+                y sistemas computacionales.
+
+            Un ordenador es una máquina que permite 
+                automatizar el tratamiento de la información. 
+                Por sí solo, el ordenador no toma decisiones, 
+                carece de inteligencia, 
+                simplemente se encarga de realizar las tareas 
+                para las que se le ha programado. 
+                Estas tareas son definidas 
+                en lo que se conoce como un programa.
+
+            Los programas establecen las tareas que el ordenador debe realizar
+                con los datos. Básicamente, estas tareas se definen en forma de
+                    operaciones aritméticas, 
+                    lógicas, 
+                    almacenamiento 
+                    y recuperación de datos. 
+                Los programas, conocidos también como aplicaciones,
+                    permiten a los usuarios de un ordenador realizar tareas complejas
+                        de forma sencilla 
+                        y rápida que de otra manera serían tediosas o imposibles de realizar, 
+                            como 
+                                realizar cálculos 
+                                y manipulaciones de grandes cantidades de datos, 
+                                procesar textos e imágenes, 
+                                almacenar y gestionar datos, etc.
+            En líneas generales, podemos decir que la misión de un ordenador
+            es recoger unos datos de entrada, 
+        
+        2 Componentes del ordenador
             El ordenador está formado por dos tipos de componentes:
             Hardware. 
                 Es la parte física, que la componen 
@@ -82,19 +141,274 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     y los programas.
                 Es el verdadero cerebro del ordenador. 
                 Observa el siguiente esquema para ver su interacción con el resto de componentes:        
-            
-            La unidad aritmético – lógica
-                Su función es ejecutar la operación sobre los datos 
-                que recibe de la unidad de control. 
-                Observa el siguiente esquema para ver su flujo de trabajo:     
 
-            Memoria
-                La memoria o memoria principal es un componente hardware 
-                que almacena las instrucciones que debe procesar la CPU 
-                así como los datos generados por esta durante el procesamiento 
-                de las instrucciones de un programa. Podemos dividirla en dos tipos:
+            2.1 | Unidad central de proceso (CPU)
+                Es el verdadero cerebro del ordenador. 
+                Su misión consiste en 
+                    coordinar 
+                    y controlar 
+                    o realizar todas las operaciones del sistema. 
+                Se comunica con los otros componentes hardware a través de 
+                    los buses o canales por donde fluye la información de un bloque a otro.
+
+                La CPU está formada por:
+
+                    • La unidad de control. 
+                        Como su nombre indica, es el centro de control del ordenador, 
+                        desde ella se localizan y se interpretan las instrucciones 
+                        a ejecutar con las correspondientes operaciones que conllevan. 
+                        También gestiona la recogida de datos necesarios para 
+                        la realización de operaciones, datos que son entregados a 
+                        la unidad aritmético-lógica para que opere con ellos, 
+                        así como el almacenamiento del resultado de dichas
+                        operaciones.
+   
+                     •  La unidad aritmético – lógica
+                        Su función es ejecutar la operación sobre los datos 
+                        que recibe de la unidad de control. 
+                        . Realiza las operaciones elementales de tipo aritmético y lógico. 
+                            Su función es ejecutar la operación sobre los datos que recibe 
+                            de la unidad de control.
+                            Esta unidad se compone a su vez de dos partes:   
+                                • Banco de registros generales, 
+                                    que es donde se almacenan los datos que vienen de la unidad de control. 
+                                    Uno de estos registros es 
+                                        el acumulador, 
+                                            donde se van acumulando los resultados de las operaciones y otro es 
+                                        el registro temporal, que como su nombre indica, 
+                                            almacena de forma temporal datos de entrada
+                                • Operador. 
+                                    Es el encargado de realizar las operaciones. 
+                                    El operador entrega al acumulador el resultado de las operaciones
+
+            2.2 | Memoria
+                La memoria o memoria principal es un componente hardware que almacena las instrucciones
+                que debe procesar la CPU así como los datos generados por esta durante el procesamiento 
+                de las instrucciones de un programa.
+                Podemos dividirla en dos tipos:
                     circuitos de memoria rom 
                     memoria ram (expandible e intercambiable)
+
+                Memoria RAM (Random Access Memory): 
+                    Esta memoria es de tipo volátil, 
+                    lo que significa que la información que contiene solo permanece en ella 
+                    mientras el ordenador esta encendido.
+                    Su contenido puede ser 
+                        leído 
+                        y modificado por la CPU. 
+                    Es de acceso aleatorio porque la CPU puede acceder directamente a
+                    cualquier posición de la misma, sin tener que recorrerla de forma
+                    secuencial.
+                    Una variante de la memoria RAM es la memoria cache. 
+                        Se trata de una parte de la RAM a la que la CPU puede acceder de forma
+                        especialmente rápida. 
+                        Está destinada a almacenar 
+                            instrucciones
+                            y datos de uso común por parte de la CPU.
+                • Memoria ROM (Read Only Memory): 
+                    Memoria solo de lectura,
+                    su contenido no puede ser modificado y permanece almacenado
+                    de forma permanente, incluso después de apagar el ordenador.
+                    Normalmente, esta memoria contiene 
+                        instrucciones básicas del sistema operativo del equipo, 
+                        es decir, aquellas que son fundamentales para que el ordenador pueda funcionar, 
+                        entre ellas las conocidas como 
+                            BIOS (Basic Input-Output System) o instrucciones básicas de control de dispositivos.
+
+                    La Memoria ROM se encuentra fijada a la placa base del ordenador, 
+                    mientras que la memoria RAM se compone de uno o varios chips insertables, 
+                    lo que en muchos ordenadores permite que la capacidad de este tipo de memoria 
+                    pueda ser ampliable.
+            2.3 | Dispositivos de entrada / salida
+                Son aquellos que comunican 
+                    el ordenador 
+                    con el exterior 
+                    y se comunican con la CPU 
+                    y la memoria a través de los buses 
+                        de entrada/salida.
+                Por un lado, tenemos 
+                    los dispositivos de entrada, 
+                        que permiten al usuario introducir
+                            datos, 
+                            comandos 
+                            y programas en el ordenador. 
+                        El dispositivo de entrada más común es un teclado, 
+                        a través del cual el usuario teclea la información, 
+                        que es convertida en señales eléctricas binarias 
+                        (1 y 0) que se almacenan en la memoria central.
+
+                Por otro lado están 
+                    los dispositivos de salida,
+                        que permiten al usuario ver los resultados de
+                            los cálculos 
+                            o de las manipulaciones de datos
+                            realizados por el ordenador. 
+                        El dispositivo de salida más común es el monitor, 
+                        que presenta los caracteres y gráficos en una
+                        pantalla similar a la de un televisor.
+                A continuación, te presentamos algunos
+                    de los dispositivos de entrada y salida más
+                    utilizados en la actualidad:
+                        Teclado. 
+                            El teclado es un dispositivo
+                            eficaz para introducir datos no gráficos,
+                            como aquellos que nos solicitan los
+                            programas para su funcionamiento.
+                            También dispone de teclas para realizar
+                            funciones especiales.
+                        • Ratón. 
+                            Este dispositivo nos permite dar
+                            instrucciones a nuestra computadora
+                            a través de un cursor que aparece en 
+                            a pantalla mediante la realización de
+                            un clic para que se lleve a cabo una
+                            acción determinada; a medida que el
+                            Mouse rueda sobre el escritorio, el
+                            cursor (Puntero) en la pantalla hace lo
+                            mismo. El ratón se conecta a uno de los
+                            puertos USB del ordenador (conectores
+                            universales) a través de un cable, aunque
+                            también existen los ratones ópticos que
+                            se comunican con señales ópticas y no
+                            requieren cableado
+                        • Scanner. 
+                            Es dispositivo de entrada de
+                            información. Permite la introducción
+                            de imágenes gráficas al computador
+                            mediante un sistema de matrices de
+                            puntos, como resultado de un barrido 
+                            óptico del documento. La información
+                            se almacena en archivos en forma de
+                            mapas de bits (bit maps), o en otros
+                            formatos más eficientes como Jpeg o Gif.
+                        • Cámara Digital. 
+                            Es otro dispositivo de
+                            entrada que transmite al ordenador
+                            las imágenes que capta. Un ejemplo
+                            de este tipo de dispositivos es la
+                            Webcam, que se trata de una cámara de
+                            pequeñas dimensiones y que tiene que
+                            estar conectada al PC para. Su uso es
+                            generalmente para videoconferencias
+                            por Internet, pero mediante el software
+                            adecuado, se pueden grabar videos
+                            como una cámara normal y tomar fotos
+                            estáticas.
+                        • Pantalla o monitor. 
+                            Permite visualizar
+                            la información suministrada por el
+                            ordenador. En el caso más habitual se
+                            trata de un aparato basado en un tubo
+                            de rayos catódicos (CRT) como el de
+                            los televisores, mientras que en los
+                            portátiles y en ordenadores actuales
+                            es una pantalla plana de cristal líquido
+                            (LCD).
+                        • Impresora. 
+                            Se utiliza para presentar
+                            información impresa en papel.
+                            Actualmente se utilizan impresoras de
+                            tinta e impresoras de tóner    
+                        • Pendrive o memoria USB. 
+                            Una memoria USB (de Universal Serial Bus, en inglés
+                            pendrive o USB flash drive) es un pequeño
+                            dispositivo de almacenamiento que se
+                            conecta al ordenador a través del puerto
+                            USB y permite almacenar información de
+                            manera permanente. Actualmente, se
+                            pueden alcanzar con este tipo memorias
+                            capacidades del orden de varias decenas
+                            de gigabytes.
+                        • CD. El Compact Disc (CD) 
+                            es un soporte digital óptico utilizado
+                            para almacenar cualquier tipo de nformación (audio, vídeo,
+                            documentos y otros datos). En un CD la información se almacena
+                            en formato digital, es decir, utiliza un sistema binario para
+                            guardar los datos
+                         DVD. 
+                            Son discos que utilizan un formato de almacenamiento
+                            óptico que puede ser usado para guardar datos, incluyendo
+                            películas con alta calidad de vídeo y audio. A diferencia de los
+                            CD, todos los DVD guardan los datos utilizando un sistema de
+                            archivos denominado UDF (Universal Disk Format), el cual es una
+                            extensión del estándar ISO 9660, usado para CD de datos.
+            2.4 | Memoria
+                El sistema operativo 
+                    es el componente software más importante del ordenador, 
+                    pues se trata de un programa que hace que el propio ordenador funcione                
+
+                    Entre sus funciones principales están:
+                        • Proporcionar una interfaz entre el resto de programas del
+                            ordenador, los dispositivos hardware y el usuario.
+                        • Administrar los recursos de la máquina, como la memoria y la
+                            CPU.
+                        • Gestionar y organizar los archivos.
+                        • Controlar los dispositivos periféricos.
+
+                    Como vemos, es el responsable de que todo funcione adecuadamente
+                    dentro del ordenador
+                Existen varios tipos de sistemas operativos en función 
+                    del número de usuarios simultáneos que lo pueden utilizar,
+                    del número de microprocesadores que gestionan, etc. Por ejemplo, un sistema
+                        operativo multiusuario 
+                            permite que varios usuarios utilicen los
+                            programas al mismo tiempo, 
+                        mientras que los multiprocesador
+                            gestionan máquinas con varias CPU. 
+                        También tenemos los sistemas operativos multitarea, 
+                            que permiten ejecutar en el ordenador varios programas al mismo tiempo.
+                    Los sistemas operativos deben proporcionar una interfaz al usuario
+                    a través de la cual éste pueda proporcionarle determinadas órdenes,
+                    como 
+                        copiar o mover ficheros, 
+                        eliminar ficheros, 
+                        ejecutar y cancelar programas.
+                    Esta interfaz puede ser 
+                        a través de un sistema de comandos 
+                        O bien a través de un entorno gráfico amigable con el que podemos
+                            interaccionar a través del ratón. 
+                Actualmente existen muchos Sistemas Operativos, entre los cuales
+                    podemos mencionar:
+                        • DOS. 
+                            Fue uno de los primeros sistemas operativos de ordenador,
+                            la interacción con el usuario es a través de comandos.
+                        • Windows. 
+                            Sistema operativo creado por Microsoft y, sin duda, el
+                            más popular. Se basa en la interacción con el usuario a través de
+                            interfaz gráfica. Desde que apareció a mediados de los 80, ha ido
+                            pasando por muchos cambios y versiones, desde el Windows 3.0
+                            hasta el Windows 2010 actual.
+                        • Linux. 
+                            Se trata de un sistema operativo de libre distribución y es
+                            el que más ha crecido en los últimos años, hasta el punto de que
+                            actualmente es casi tan utilizado como Windows. Está basado
+                            en Unix y, aunque las primeras versiones utilizaban línea de
+                            comandos para interaccionar con el usuario, las distribuciones
+                            existentes actualmente se basan en interfaz gráfica.
+                            Linux no es el producto de una sola compañía, es el resultado
+                            de la contribución de un gran número de compañías y grupos de
+                            personas. De hecho, el sistema GNU/Linux es un componente
+                            central, el cual se transforma en muchos productos diferentes:
+                            las llamadas distribuciones.
+                            Cada distribución proporciona su propia apariencia y
+                            funcionamiento a Linux. Las hay desde grandes sistemas
+                            completos, hasta las más ligeras que entran en una memoria
+                            USB.
+                        • OS MAC.
+                            El sistema operativo OS fue creado por Apple para sus
+                            ordenadores Mac. Está diseñado sobre una sólida base UNIX
+                            para aprovechar el hardware al máximo. Su variante IOS es el
+                            sistema operativo que llevan los teléfonos iPhone y las tabletas
+                            iPad.
+                        • Android. 
+                            Android es un sistema operativo creado por Google
+                            para ser utilizado en Smarthphones y tabletas de diferentes
+                            fabricantes. La mayoría de los dispositivos de este tipo, salvo
+                            los Apple, incluyen este sistema operativo. Está basado en
+                            Linux, lo que lo hace bastante robusto y seguro. Actualmente,
+                            los programas que corren sobre este sistema operativo están
+                            escritos en lenguaje Java.
+
             El sistema operativo
                 El sistema operativo es el componente software más importante del ordenador, 
                 pues se trata de un programa que hace que el propio ordenador funcione.
@@ -112,36 +426,4 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     android 
                     mac ios 
 
-            2.1 | Unidad central de proceso (CPU)
-                Es el verdadero cerebro del ordenador. 
-                Su misión consiste en 
-                    coordinar 
-                    y controlar o realizar todas
-                        las operaciones del sistema. 
-                        Se comunica con los otros componentes hardware a través de 
-                            los buses o canales por donde fluye la información de un bloque a otro             
-                La CPU está formada por:
-                    • La unidad de control. 
-                        Como su nombre indica, es el centro de control del ordenador, 
-                        desde ella 
-                            se localizan y se interpretan
-                                las instrucciones a ejecutar con las correspondientes
-                                operaciones que conllevan. 
-                            También gestiona la recogida de datos necesarios para 
-                                la realización de operaciones, datos que
-                                    son entregados a la unidad aritmético-lógica 
-                                    para que opere con ellos, 
-                                así como el almacenamiento del resultado de dichas
-                                    operaciones.
-                    • La unidad aritmético-lógica. Realiza las operaciones
-                    elementales de tipo aritmético y lógico. Su función es ejecutar
-                    la operación sobre los datos que recibe de la unidad de control.
-                    Esta unidad se compone a su vez de dos partes:
-                    • Banco de registros generales, que es donde se almacenan los
-                    datos que vienen de la unidad de control. Uno de estos registros
-                    es el acumulador, donde se van acumulando los resultados de
-                    las operaciones y otro es el registro temporal, que como su
-                    nombre indica, almacena de forma temporal datos de entrada
-                    • Operador. Es el encargado de realizar las operaciones. El
-                    operador entrega al acumulador el resultado de las operaciones
-    
+            

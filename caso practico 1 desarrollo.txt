@@ -1,0 +1,66 @@
+Las arquitecturas de Von Neumann y Harvard son 
+dos enfoques fundamentales en el diseño de computadoras, 
+y cada una tiene características distintivas que afectan 
+la forma en que se organizan y manejan los datos y las instrucciones. 
+Aquí hay una explicación de ambas, destacando sus diferencias:
+
+Arquitectura de Von Neumann:
+    Unidad de Control y Unidad de Procesamiento Compartidas:
+
+    En la arquitectura de Von Neumann, 
+    la unidad de control y la unidad de procesamiento comparten el mismo bus de memoria.
+    Ambas unidades acceden a la memoria central para leer instrucciones y datos.
+    Memoria Única:
+        Utiliza una memoria única para almacenar tanto las instrucciones como los datos.
+        Las instrucciones y los datos se almacenan en la misma memoria principal, 
+        lo que se conoce como el principio de "almacenamiento de programa".
+    Acceso Secuencial a la Memoria:
+        La CPU accede a la memoria de manera secuencial, leyendo una instrucción o un dato a la vez.
+    Instrucciones y Datos:
+        Las instrucciones y los datos se almacenan en el mismo formato binario en la memoria.
+        Las instrucciones son recuperadas de la memoria y ejecutadas por la CPU de manera secuencial.
+
+Arquitectura de Harvard:
+    Unidades de Memoria Diferentes:
+
+    En la arquitectura de Harvard, 
+        hay dos conjuntos de memoria separados: 
+            una para las instrucciones 
+            y otra para los datos.
+        Cada conjunto de memoria tiene su propio bus, 
+        lo que permite la lectura simultánea de instrucciones y datos.
+
+    Acceso Simultáneo:
+        La CPU puede acceder a 
+            la memoria de instrucciones 
+            y a la memoria de datos al mismo tiempo, 
+            
+            permitiendo una ejecución más eficiente de ciertos tipos de programas.
+            Mayor Ancho de Banda:
+
+        Al tener buses de memoria separados para instrucciones y datos, 
+        la arquitectura de Harvard puede ofrecer un mayor ancho de banda en comparación con Von Neumann.
+    
+    Programas y Datos en Formatos Diferentes:
+        A menudo, las instrucciones y los datos se almacenan en formatos binarios
+        diferentes en la memoria.
+
+Diferencias Clave:
+    Acceso a la Memoria:
+        Von Neumann: Acceso secuencial compartido a una memoria única.
+        Harvard: Acceso simultáneo a dos memorias separadas.
+Buses de Memoria:
+        Von Neumann: Un solo bus de memoria.
+        Harvard: Buses de memoria separados para instrucciones y datos.
+Eficiencia:
+        Von Neumann: Menor ancho de banda debido al acceso secuencial.
+Harvard: Mayor ancho de banda debido al acceso simultáneo.
+
+Ambas arquitecturas tienen sus ventajas y desventajas, 
+    y la elección entre ellas depende de las necesidades específicas de la aplicación. 
+    La arquitectura de Von Neumann 
+        es más común en computadoras personales, 
+    mientras que la de Harvard 
+        se encuentra a menudo en 
+            sistemas embebidos 
+            y en algunos tipos de procesadores especializados.
