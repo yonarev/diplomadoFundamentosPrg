@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binario a Decimal</title>
+</head>
+<body>
+
+    <script>
+        function binarioADecimal() {
+            // Preguntar al usuario la entrada binaria
+            var binario = prompt("Ingrese el número binario:");
+
+            // Preguntar al usuario la cantidad de bits
+            var bits = parseInt(prompt("Ingrese la cantidad de bits del número binario:"), 10);
+
+            // Validar la entrada binaria
+            if (!/^[01]+$/.test(binario)) {
+                alert("Entrada no válida. Por favor, ingrese un número binario válido.");
+                return;
+            }
+
+            // Validar la cantidad de bits
+            if (binario.length > bits) {
+                alert("La cantidad de bits ingresada es menor que la longitud del número binario.");
+                return;
+            }
+
+            // Convertir de binario a decimal
+            var decimal = parseInt(binario, 2);
+
+            // Mostrar el resultado
+            alert("El número binario " + binario + " con " + bits + " bits es igual a " + decimal + " en decimal.");
+        }
+
+        // Llamar a la función al cargar la página (puedes hacerlo de otra manera según tus necesidades)
+        window.onload = function() {
+            binarioADecimal();
+        };
+    </script>
+
+</body>
+</html>

@@ -426,4 +426,69 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     android 
                     mac ios 
 
-            
+        1. Codificación de la información    
+            1.1 | Sistema binario
+                Los datos, y toda la información en general, 
+                son codificados en el interior del ordenador utilizando
+                un sistema de numeración conocido como binario. 
+                El sistema binario utiliza nada más que dos dígitos para 
+                representar la información, el 0 y el 1.
+
+                El sistema numérico binario fue el escogido por los ingenieros
+                informáticos para el funcionamiento de los ordenadores, porque
+                era más fácil para el sistema electrónico de la máquina distinguir
+                y manejar solamente dos dígitos, en lugar de los diez dígitos (del
+                0 al 9), que constituyen el sistema numérico decimal. Además, la
+                mayoría de los circuitos electrónicos que conforman un ordenador
+                sólo puede detectar 
+                    la presencia 3.
+                    o ausencia de tensión en el circuito.
+                A la presencia de tensión en un punto del circuito le asignamos el
+                valor 1 y a la ausencia de la misma el valor 0.
+
+                Conversión de binario a decimal
+                    Mediante la combinación de unos y ceros podemos representar
+                    cualquier valor, por ejemplo, 
+                        para representar el número dos
+                            utilizaremos la combinación 10, 
+                        para el tres sería 11, 
+                            mientras que para el cuatro será 100. 
+                    Cada posición, representada por n, tiene un
+                    valor 2n, siendo 0 la posición más a la derecha:
+
+                    2e6     2e5     2e4     2e3     2e2     2e1     2e0
+                     1      0       1       0        0       1        1
+
+                    Según esto, la combinación indicada en la imagen 
+                    representaría al número:
+                    1*2e6 + 0  +    1*2e4 + 0    +   0 +    2   +   1   
+                    64              +16                     +2  +   1=83
+
+                    1 0 1 0 0 1 1 = 83
+                    1010011
+
+                    El sistema binario es un sistema de base dos, dos dígitos, 
+                    de ahí que a los componentes que utilizan dicho sistema 
+                    se les conozca también como digitales. 
+                    A cada posición de un dígito binario se le conoce también como 
+                    bit, así el número representado anteriormente estaría formado 
+                    por 7 bits.    
+                Conversión de decimal a binario
+                    Para obtener cual es la representación en binario de cualquier
+                    cantidad decimal, se toma este número y se divide entre 2, si el
+                    cociente obtenido es mayor que 2, se vuelve a dividir entre 2 y
+                    así sucesivamente. El resultado será el último cociente obtenido
+                    seguido de los restos de cada división en orden inverso a como se
+                    han obtenido. El siguiente ejemplo ilustra gráficamente lo explicado:    
+                    72/2=38     resto 1
+                    38/2= 19    resto 0
+                    19/2= 9     resto 1
+                    9/2=4       resto 1
+                    4/2=2       resto 0    
+                    2/2=1       resto 0
+                    1/1=0       resto 1
+
+                    72= 1 0 1 1 0 0 1 = 1001101 
+                    <--------------- es inverso
+                   
+                    https://es.convertbinary.com/decimal-a-binario/
