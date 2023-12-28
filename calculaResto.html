@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>División, Cociente y Resto</title>
+</head>
+<body>
+
+    <script>
+        function calcularCocienteYResto() {
+            // Preguntar al usuario los dos números
+            var dividendo = parseInt(prompt("Ingrese el dividendo:"));
+            var divisor = parseInt(prompt("Ingrese el divisor:"));
+
+            // Validar las entradas
+            if (isNaN(dividendo) || isNaN(divisor) || divisor === 0) {
+                alert("Entrada no válida. Por favor, ingrese números válidos y asegúrese de que el divisor no sea cero.");
+                return;
+            }
+
+            // Calcular el cociente y el resto
+            var cociente = Math.floor(dividendo / divisor);
+            var resto = dividendo % divisor;
+
+            // Mostrar el resultado
+            alert("El cociente de la división " + dividendo + " / " + divisor + " es: " + cociente +
+                  "\nEl resto de la división es: " + resto);
+        }
+
+        // Llamar a la función al cargar la página
+        window.onload = function() {
+            calcularCocienteYResto();
+        };
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binario a Hexadecimal</title>
+</head>
+<body>
+
+    <script>
+        function binarioAHexadecimal() {
+            // Preguntar al usuario los 4 números binarios de 4 bits cada uno
+            var binarios = [];
+            for (var i = 1; i <= 4; i++) {
+                var binario = prompt("Ingrese el número binario " + i + " de 4 bits:");
+                // Validar la entrada binaria
+                if (!/^[01]{4}$/.test(binario)) {
+                    alert("Entrada no válida. Por favor, ingrese un número binario de 4 bits.");
+                    return;
+                }
+                binarios.push(binario);
+            }
+
+            // Convertir a hexadecimal
+            var hexadecimales = binarios.map(function(binario) {
+                var decimal = parseInt(binario, 2);
+                return decimal.toString(16).toUpperCase();
+            });
+
+            // Mostrar el resultado
+            alert("Los números binarios " + binarios.join(", ") + " en hexadecimal son: " + hexadecimales.join(", "));
+        }
+
+        // Llamar a la función al cargar la página
+        window.onload = function() {
+            binarioAHexadecimal();
+        };
+    </script>
+
+</body>
+</html>

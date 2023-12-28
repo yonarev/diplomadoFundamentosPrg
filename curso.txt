@@ -467,6 +467,9 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     1 0 1 0 0 1 1 = 83
                     1010011
 
+                    CODIGO CREADO
+                       ./binarioAdecimal.html 
+
                     El sistema binario es un sistema de base dos, dos dígitos, 
                     de ahí que a los componentes que utilizan dicho sistema 
                     se les conozca también como digitales. 
@@ -490,5 +493,144 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
 
                     72= 1 0 1 1 0 0 1 = 1001101 
                     <--------------- es inverso
-                   
-                    https://es.convertbinary.com/decimal-a-binario/
+
+                    CODIGO CREADO
+                        ./decimalAbinario.html
+
+                    CONVIERTE DECIMAL A BINARIO
+                        https://es.convertbinary.com/decimal-a-binario/+
+                        
+
+                    Tabla de números binarios
+                        https://es.convertbinary.com/numeros/
+            
+            1.2 | Sistema hexadecimal
+                El sistema hexadecimal utiliza 
+                    16 símbolos para representar los datos.
+                    Además de los números del 0 al 9, 
+                    se emplean las letras               A, B,  C,  D,  E  y F, 
+                        que representarían los números 10, 11, 12, 13, 14 y 15,
+                        respectivamente.
+                Combinando estos símbolos podemos representar cualquier
+                cantidad, teniendo en cuenta que el peso de cada posición tiene un
+                valor de 16n. Así pues, 
+                    la combinación 5FA representaría al número:
+                    = 5         F         A
+                    =5*16e2 + 15*16e1 + 10*16e0 
+                    =1280   + 240+10
+                    =1530
+                El sistema hexadecimal no es utilizado internamente por los
+                ordenadores, que como hemos explicado, emplean el binario, 
+                sin embargo, resulta muy útil en informática para representar 
+                cantidades grandes de datos y el hecho de que 16 sea potencia de 2,
+                simplifica la transformación de representación binaria a hexadecimal,
+                pues bastará con transformar cada grupo de cuatro bits a su equivalente
+                hexadecimal, comenzando por la derecha:
+                
+                TRANSFORMACIÓN BINARIO A HEXADECIMAL
+                        (binarios de 4 bits)
+                    1000    1011    0001    1101
+                     8       B       1       D
+
+                        CODIGO HTML CREADO 
+                            ./4binariosAexadecimal.html
+                            ./letraOnumeroAbinario4bits.html
+
+                    Conversión de binario a hexadecimal
+                        https://www.calcuvio.com/conversion-binario-hexadecimal
+
+
+                    convierte de exadecinal a binario 
+                        https://es.convertbinary.com/hexadecimal-a-binario/  
+
+                De la misma forma que si hizo para convertir a binario, si queremos
+                obtener la representación hexadecimal de cualquier cantidad
+                en decimal, debemos dividir esta por 16, así como los diversos
+                cocientes obtenidos. El resultado en hexadecimal será el último
+                cociente seguido de los restos en orden inverso:
+                    3790 / 16
+                        14 236 / 16
+                            12  14
+                    <--------------- inverso        
+                    el resultado es 14 12 14
+                        3790 =      E  C  E
+
+                        CODIGO HTML CREADO 
+                            ./calculaResto.html
+
+            1.3 | Medidas de información   
+                Unidad      Abrev.  Se habla de     Representa
+                1 bit       bit         bits        unidad mínima
+                1 Byte      Byte        bytes       conjunto de 8 bits
+                1 kiloByte  KB          kas         1024 Bytes  
+                1 MegaByte  MB          megas       1024 KB (1.048.576 bytes)
+                1 GigaByte  BG          gigas       1024 MB (1.073.741.824 bytes)
+                1 TeraByte  TB          teras       1024 GB (un billón de bytes)
+
+                Como hemos explicado, el sistema binario
+                es el que utilizan los computadores para
+                representar la información. En este sistema,
+                    la unidad de medida básica es el bit, con
+                        el que podemos representar solamente
+                        dos posibles valores el 0 y el 1. 
+                    Para poder referirnos a cantidades mayores, se
+                        introdujo el byte, que es la combinación de
+                        8 bits. A partir de ahí, se utilizan múltiplos
+                    de esta unidad de medida, como el KiloByte,
+                        que son 1024 bytes, 
+                    o el MegaByte que son 1.024.000 bytes. 
+
+                Dado que la información en el interior de una memoria o un disco
+                duro se representa en binario, 
+                las unidades de mediada anteriores se utilizan también para expresar 
+                las capacidades de estos componentes. 
+                Así, cuando decimos que 
+                    una memoria tiene una capacidad de 4 gigas, 
+                        estamos diciendo que es capaz de almacenar 
+                        más de cuatro millones de bytes de información, 
+                        dicho de otra manera, podría contener 
+                            hasta 4*8=32 millones de ceros y unos de Información
+            1.4 | Codificación ASCII - Unicode
+                Los sistemas de codificación se utilizan para 
+                    representar 
+                    y almacenar la información en memoria.
+                En la década de 1960, se adoptó el código ASCII 
+                    como estándar para representación de 
+                    los caracteres del alfabeto latino 
+                    tal como se usa en inglés moderno 
+                    y en otras lenguas occidentales                
+                Código ASCII  
+                    En ASCII Cada carácter alfanumérico tiene asignado una combinación
+                    binaria de 8 bits (byte), con lo que utilizando este sistema de
+                    codificación podríamos representar 
+                        hasta 256 símbolos. 
+                    Datos y programas son codificados en este sistema 
+                    dentro del ordenador.
+                    Los símbolos que puede representar el código ASCII se pueden
+                    dividir en tres grupos:  
+                        • Caracteres de control. 
+                            No representan caracteres con una representación visual, 
+                            sino que, como su nombre indica, tienen
+                            funciones de control, como por ejemplo 
+                                la tecla escape, 
+                                el control de carro, 
+                                la tabulación, etc. 
+                            Este grupo de símbolos
+                            están representados con los códigos ASCII 
+                            del 0 al 31 y también el 127
+                        • Caracteres alfanuméricos. 
+                            Se trata de 
+                                los números, 
+                                las letras del alfabeto 
+                                y otros símbolos utilizados 
+                                    en la escritura de texto.
+                            Están representados por los códigos que van 
+                                del 32 al 126.    
+                ASCII extendido   
+                    Se emplea para representar caracteres especiales, como
+                        letras acentuadas 
+                        y con diéresis, 
+                        la letra ñ, etc. 
+                        
+                    Los códigos correspondientes a estos caracteres van 
+                        del 128 a 255.             

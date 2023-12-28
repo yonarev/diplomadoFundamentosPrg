@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor a Binario de 4 bits</title>
+    <h1>las letras las da con error</h1>
+</head>
+<body>
+
+    <script>
+        function convertirABinario4Bits() {
+            // Preguntar al usuario el número o letra
+            var entrada = prompt("Ingrese un número o letra:");
+
+            // Validar la entrada
+            if (!entrada) {
+                alert("Entrada no válida. Por favor, ingrese un número o letra.");
+                return;
+            }
+
+            // Convertir a binario de 4 bits
+            var valor;
+            if (!isNaN(entrada)) {
+                valor = parseInt(entrada).toString(2).padStart(4, '0');
+            } else if (entrada.length === 1) {
+                // Convertir letra a binario de 4 bits
+                var charCode = entrada.charCodeAt(0);
+                valor = charCode.toString(2).padStart(8, '0').slice(-4);
+            } else {
+                alert("Entrada no válida. Por favor, ingrese un número o una letra.");
+                return;
+            }
+
+            // Mostrar el resultado
+            alert("La representación binaria de " + entrada + " en 4 bits es: " + valor);
+        }
+
+        // Llamar a la función al cargar la página
+        window.onload = function() {
+            convertirABinario4Bits();
+        };
+    </script>
+
+</body>
+</html>

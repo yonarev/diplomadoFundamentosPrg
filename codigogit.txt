@@ -13,7 +13,7 @@ git branch -M main
 git push -u origin main
 ----
 git add .
-git commit -m "SEXTO commit"
+git commit -m "SEPTIMO commit"
 git branch -M main
 git push -u origin main
 ------
