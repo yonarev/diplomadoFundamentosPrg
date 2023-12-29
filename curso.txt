@@ -503,7 +503,6 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
 
                     Tabla de números binarios
                         https://es.convertbinary.com/numeros/
-            
             1.2 | Sistema hexadecimal
                 El sistema hexadecimal utiliza 
                     16 símbolos para representar los datos.
@@ -519,6 +518,9 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     =5*16e2 + 15*16e1 + 10*16e0 
                     =1280   + 240+10
                     =1530
+                     4          F       A
+                     4*16e2 + 15*16E1 + 10*1660
+
                 El sistema hexadecimal no es utilizado internamente por los
                 ordenadores, que como hemos explicado, emplean el binario, 
                 sin embargo, resulta muy útil en informática para representar 
@@ -557,7 +559,6 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
 
                         CODIGO HTML CREADO 
                             ./calculaResto.html
-
             1.3 | Medidas de información   
                 Unidad      Abrev.  Se habla de     Representa
                 1 bit       bit         bits        unidad mínima
@@ -633,4 +634,52 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                         la letra ñ, etc. 
                         
                     Los códigos correspondientes a estos caracteres van 
-                        del 128 a 255.             
+                        del 128 a 255.
+            
+            PRUEBA
+                Test superado
+                Has obtenido un 100 en esta tarea
+
+                1 kilobyte (KB) = 1024 bytes
+                1 megabyte (MB) = 1024 kilobytes
+
+                Primero, convirtamos 3.4 megabytes a bytes:
+                    3.4MB=3.4×1024KB×1024bytes/KB
+                    3.4MB=3,584KB×1024bytes/KB
+                    3.4MB=3,665,216bytes
+                 
+                1. Indica cual de los siguientes elementos no corresponde a un dispositivo de entrada y salida:
+                    CD-ROM
+                    X Memoria ROM
+                    Impresora
+                    Scanner
+
+                2. Las operaciones sobre los datos manejados por un programa son realizadas por:
+                    La memoria RAM
+                    La memoria cache
+                    X La CPU
+                    La memoria ROM
+
+                3. 4 MB son aproximadamente:
+                    X 4.000.000 bytes
+                    4.000 bytes
+                    40.000  bits
+                    400.000 bits
+
+                4. La representación en binario del número hexadecimal 4FA es:
+                    110001110110
+                    111111110001
+                    010100001111
+                    X 010011111010
+
+                    "&" se representa con el código decimal 38 (SE VE EN LA TABLA ASCCII), que en binario es 00100110
+
+                5. El símbolo & se representa internamente en el ordenador:
+                    X Mediante la combinación 00100110
+                    Directamente como &, pues es un símbolo ASCII
+                    Este símbolo no tiene representación
+                    Mediante la combinación 0&h  
+    Módulo 2. Introducción a la programación.
+        
+
+                                         
