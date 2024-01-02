@@ -1439,20 +1439,20 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     de números naturales que hay que sumar, comenzando por el 1,
                     hasta que la suma alcance el valor 1000.
                 2  Análisis de un ordinograma
-                        ORDINOGRAMA 1
-                    A continuación te vamos a proponer que resuelvas el siguiente
-                    ejercicio. Teniendo en cuenta que el operador “%” calcula el resto
-                    de la división entre dos números, dado el siguiente diagrama de
-                    flujo:
-                    Explica el funcionamiento del programa y que es lo que hace.
-                    Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
-                    ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
-                    de la variable cont?
-                3 ORDINOGRAMA 2
-                    A continuación, dado el siguiente ordinograma, te proponemos
-                    que respondas a una serie de preguntas:
-                    ¿Qué es lo que hace el algoritmo anterior?. ¿Qué se mostraría si la
-                    secuencia de números introducidos fuera 2, 5, 9, 3, -1, 4?
+                    ORDINOGRAMA 1
+                        A continuación te vamos a proponer que resuelvas el siguiente
+                        ejercicio. Teniendo en cuenta que el operador “%” calcula el resto
+                        de la división entre dos números, dado el siguiente diagrama de
+                        flujo:
+                        Explica el funcionamiento del programa y que es lo que hace.
+                        Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+                        ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+                        de la variable cont?
+                    ORDINOGRAMA 2
+                        A continuación, dado el siguiente ordinograma, te proponemos
+                        que respondas a una serie de preguntas:
+                        ¿Qué es lo que hace el algoritmo anterior?. ¿Qué se mostraría si la
+                        secuencia de números introducidos fuera 2, 5, 9, 3, -1, 4?
 
         LUEGO PRUEBA TEORICA
 
