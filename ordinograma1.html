@@ -4,26 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ordinograma1</title>
-   
-    
 </head>
 <body>
     <script>
-        let total =0,cont=0
-        
-        let n = prompt("ingrese N")
-        //si es par
-        if(n%2===0){
-            total=total+1    
+        // Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+        // ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+        // de la variable cont?
+        //n es = 2  total acumulando= 1 contador = 1 / n%2= 0  es par
+        //n es = 4  total acumulando= 2 contador = 2 / n%2= 0  es par
+        //n es = 5  total acumulando= 2 contador = 3 / n%2= 1  es impar
+        //n es = 1  total acumulando= 2 contador = 4 / n%2= 1  es impar
+        //n es = 9  total acumulando= 2 contador = 5 / n%2= 1  es impar
+        //n es = 17  total acumulando= 2 contador = 6 / n%2= 1  es impar
+        //n es = 25  total acumulando= 2 contador = 7 / n%2= 1  es impar
+        //n es = 27  total acumulando= 2 contador = 8 / n%2= 1  es impar
+        //n es = 16  total acumulando= 3 contador = 9 / n%2= 0  es par
+        //n es = 30  total acumulando= 4 contador = 10 / n%2= 0  es par
+        //Total: 4 contador = 10
+        // Cada vez que el usuario ingresa un número, 
+        // se verifica si es par, 
+        // y si es par se incrementa el total 
+        // siempre el contador cont se incrementa en 1. 
+        // y Después de las 10 iteraciones, se muestra el total.
+        // que es el total de numeros pares ingresados
+        // el numero 11 no se logra ingresar pues son solo 10 iteraciones
+        let daRespuesta=true
+        let mensaje=""
+        let espar=false
+        let total = 0;
+        let cont = 0;
+        // debugger
+        while (cont < 10) {
+            let n = prompt("Ingrese un número");
+            //si cancel el ingreso
+            if(n===null){
+                daRespuesta=false
+                break
+            }
+            //si es numero par acumula en el total
+            if (n % 2 === 0) {
+                total = total + 1;
+                espar=true //si es par es true
+            }    
+            //siempre se acumula 1
+            cont = cont + 1;
+            //si es par guarda el mensaje
+            if(espar){
+                mensaje=" es par"
+                
+            } else {
+                mensaje=" es impar"
+            }
+            espar=false
+            alert("n es = " + n +"  total acumulando= " + total + " contador = " +cont+ " / n%2= " +n%2 +" "+mensaje)
         }
-        //si hay 20 conteos da el total
-        if(cont==10){
-            alert("total= "+total)
+        if(daRespuesta){
+            alert("Total: " + total+" contador = "+cont);
         } else {
-            cont=cont+1
+            alert("se cancelo la operacion")
         }
-
     </script>
+
     
 </body>
 </html>

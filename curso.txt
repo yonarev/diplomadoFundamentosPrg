@@ -1435,9 +1435,42 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     momento en que deje de ejecutarse se continuará por otro camino.
  
             CASOS PRACTICOS 
-                1    Realiza un ordinograma para un algoritmo que calcule el total
+                1   Realiza un ordinograma para un algoritmo que calcule el total
                     de números naturales que hay que sumar, comenzando por el 1,
                     hasta que la suma alcance el valor 1000.
+
+                        DESARROLLO
+
+                        Inicio                                                      | total = 0                          
+                            num = 1    
+                            CONDICION                         
+                                ?si (total <= 1000)           
+                                    total = total + num          
+                                    num = num + 1  
+                                ?no                 
+                                    presentar "El total es: " + total    
+                        Fin    
+
+                        <!DOCTYPE html>
+                        <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Document</title>
+                        </head>
+                        <body>
+                            <script>
+                                let total = 0;
+                                let num = 1;
+                                while (total <= 1000) {
+                                    total = total + num;
+                                    num = num + 1;
+                                }
+                                console.log("El total es: " + total);
+                            </script>
+                        </body>
+                        </html>
+                             
                 2  Análisis de un ordinograma
                     ORDINOGRAMA 1
                         A continuación te vamos a proponer que resuelvas el siguiente
@@ -1448,6 +1481,77 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                         Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
                         ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
                         de la variable cont?
+
+                            DESARROLLO 
+                                Cada vez que el usuario ingresa un número, 
+                                se verifica si es par, 
+                                y si es par se incrementa el total 
+                                siempre el contador cont se incrementa en 1. 
+                                y Después de las 10 iteraciones, se muestra el total.
+                                que es el total de numeros pares ingresados
+                                el numero 11 no se logra ingresar pues son solo 10 iteraciones
+
+                            <!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Ordinograma1</title>
+                            </head>
+                            <body>
+                                <script>
+                                    // Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+                                    // ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+                                    // de la variable cont?
+                                    //n es = 2  total acumulando= 1 contador = 1 / n%2= 0  es par
+                                    //n es = 4  total acumulando= 2 contador = 2 / n%2= 0  es par
+                                    //n es = 5  total acumulando= 2 contador = 3 / n%2= 1  es impar
+                                    //n es = 1  total acumulando= 2 contador = 4 / n%2= 1  es impar
+                                    //n es = 9  total acumulando= 2 contador = 5 / n%2= 1  es impar
+                                    //n es = 17  total acumulando= 2 contador = 6 / n%2= 1  es impar
+                                    //n es = 25  total acumulando= 2 contador = 7 / n%2= 1  es impar
+                                    //n es = 27  total acumulando= 2 contador = 8 / n%2= 1  es impar
+                                    //n es = 16  total acumulando= 3 contador = 9 / n%2= 0  es par
+                                    //n es = 30  total acumulando= 4 contador = 10 / n%2= 0  es par
+                                    //Total: 4 contador = 10
+                                    
+                                    let daRespuesta=true
+                                    let mensaje=""
+                                    let espar=false
+                                    let total = 0;
+                                    let cont = 0;
+                                    // debugger
+                                    while (cont < 10) {
+                                        let n = prompt("Ingrese un número");
+                                        //si cancel el ingreso
+                                        if(n===null){
+                                            daRespuesta=false
+                                            break
+                                        }
+                                        //si es numero par acumula en el total
+                                        if (n % 2 === 0) {
+                                            total = total + 1;
+                                            espar=true //si es par es true
+                                        }    
+                                        //siempre se acumula 1
+                                        cont = cont + 1;
+                                        //si es par guarda el mensaje
+                                        if(espar){
+                                            mensaje=" es par"
+                                            
+                                        } else {
+                                            mensaje=" es impar"
+                                        }
+                                        espar=false
+                                        alert("n es = " + n +"  total acumulando= " + total + " contador = " +cont+ " / n%2= " +n%2 +" "+mensaje)
+                                    }
+                                    if(daRespuesta){
+                                        alert("Total: " + total+" contador = "+cont);
+                                    } else {
+                                        alert("se cancelo la operacion")
+                                    }
+                            </script>
+
                     ORDINOGRAMA 2
                         A continuación, dado el siguiente ordinograma, te proponemos
                         que respondas a una serie de preguntas:
@@ -1455,8 +1559,37 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                         secuencia de números introducidos fuera 2, 5, 9, 3, -1, 4?
 
         LUEGO PRUEBA TEORICA
+            Test superado
+            Has obtenido un 100 en esta tarea
 
+            Tus respuestas
+            1. Una variable es:
+                Un tipo de dato utilizado en un programa
+                Un mecanismo para creación de algoritmos
+                Una instrucción de control
+                X Una zona de memoria que almacena un dato
+            2. El lenguaje que manipula registros del procesador es:
+                Lenguaje máquina
+                Lenguaje C
+                Cualquier lenguaje de alto nivel
+                Lenguaje ensamblador
+            3. Indica cual de las siguientes es una diferencia entre un compilador y un intérprete:
+                Un compilador genera código ejecutable puro, mientras que el intérprete genera código intermedio
+                X Un compilador genera un archivo de código objeto, mientras que el intérprete no genera ningún archivo intermedio
+                Un compilador genera código binario, mientras que el intérprete genera código en ensamblador
+                Un compilador solo es aplicable a lenguajes de alto nivel, mientras que el intérprete se emplea con lenguajes de código intermedio.
 
+            4. En un programa tenemos una variable llamada “intentos” que almacena el número de intentos disponibles que tenemos para poder realizar una determinada tarea. Cada vez que se falla la tarea se deberá quitar un intento, ¿qué instrucción de proceso debemos escribir para ello?:
+                intentos=-1
+                intentos=-intentos
+                intentos-1
+                X intentos=intentos-1
+            5. Teniendo en cuenta que el operador “%” calcula el resto de la división entre dos números, dado el siguiente diagrama de flujo:
+                Indica los valores de las variables total y cont al finalizar el programa, suponiendo que los números leídos fueran: 2, 4, 5, 1, 9, 17, 25, 16, 30 y 11:
+                    total=0, cont=2
+                    X total=4, cont=10
+                    total=5,cont=11
+                    total=6,cont=0
 
     MÓDULO 2. ESTRUCTURAS DE CONTROL
         Estructuras de selección
