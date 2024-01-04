@@ -1839,15 +1839,42 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                                 Código:
                                 A=7
                                 B=4
-                                C=9
-                                Mientras (A<>C) hacer
-                                    Si (C>9) entonces
-                                        B=B+5
+                                C=9 //C=9
+                                Mientras (A<>C) hacer //7<>9
+                                    Si (C>9) entonces //9 no es mayor que 9
+                                        B=B+5  //B=4
                                     Sino
-                                        A=A+2
+                                        A=A+2 //a=7 c=9 a=7+2=9 A=9
                                     Fin Si
                                 Fin Mientras
                             Fin
+
+                            <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>algoritomo 1</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var A = 7;
+                                            var B = 4;
+                                            var C = 9;
+                                            while (A !== C) {
+                                                if (C > 9) {
+                                                    B = B + 5;
+                                                } else {
+                                                    A = A + 2;
+                                                }
+                                            }
+                                            console.log("A: " + A); //9
+                                            console.log("B: " + B); //4
+                                            console.log("C: " + C); //9
+                                        </script>
+                                    </body>
+                                </html>
+
                         ALGORITMO 2 
                             Indica los valores de las variables X, Y y Z al finalizar el siguiente
                             proceso.
@@ -1886,13 +1913,34 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                                 P=4
                                 X=0
                                 Contador=0
-                                Mientras(P<>8) hacer
-                                    X=X+5
-                                    P=P+1
-                                    Contador=Contador+1
+                                Mientras(P<>8) hacer    //4<>8 se cumple
+                                    X=X+5               //x=0+5=5 //10 //15 // 20
+                                    P=P+1               //p=4+1=5 //6  //7 // 8
+                                    Contador=Contador+1 //cont =1 //2
                                 Fin Mientras
-                                Mostrar “El valor de X es”, X
+                                Mostrar “El valor de X es”, X //x=20
                             Fin   
+                            <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Ejemplo de código en HTML con JS</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var P = 4;
+                                            var X = 0;
+                                            var Contador = 0;
+                                            while (P !== 8) {
+                                                X = X + 5;
+                                                P = P + 1;
+                                                Contador = Contador + 1;
+                                            }
+                                            console.log("El valor de X es " + X); //x=20
+                                        </script>
+                                    </body>
+                                </html>
 
                         ALGORITMO 4
                             Indica el valor de la variable X al finalizar el proceso siguiente:
