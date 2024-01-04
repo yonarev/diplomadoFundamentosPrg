@@ -1750,18 +1750,211 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                             seguido del tipo de dato con el que vamos a trabajar:
 
                                 Nombre_variable tipo
+
                             A continuación, mostramos una versión del programa anterior en el
                             que se realiza una separación entre datos y código   
                                 Inicio
                                     suma=0
                                     Hacer
-                                        leer n
-                                        suma=suma+n
-                                        mostrar “¿Desea introducir otro número?”
-                                        leer op
+                                    leer n
+                                    suma=suma+n
+                                    mostrar “¿Desea introducir otro número?”
+                                    leer op
                                         Mientras (op==”si”)
-                                    Mostrar suma
+                                        Mostrar suma
                                 Fin 
+                            Los nombres de los tipos de datos los indicaremos según nuestro
+                            criterio, aunque será conveniente estandarizarlos. Más adelante
+                            daremos unas indicaciones sobre los tipos de datos habituales que
+                            podemos encontrarnos en un programa.
+
+                            Veamos otro algoritmo de ejemplo en pseudocódigo. Corresponde al
+                            de un programa encargado de leer un número y mostrar el factorial
+                            de dicho número.  
+
+                            El factorial de un número se calcula multiplicando todos los números
+                            naturales menores de ese número hasta 1. Por ejemplo, el factorial
+                            del 5 se calcularía  
+
+                                5*4*3*2*1
+
+                            He aquí el algoritmo:
+
+                                Inicio
+                                    Datos:
+                                    factorial entero
+                                    cont entero
+                                    n entero
+                                    Código:
+                                factorial=1
+                                Leer n
+                                cont=n
+                                    Mientras (cont>=1)
+                                        factorial=factorial*cont
+                                        cont=cont-1
+                                    Fin mientras
+                                    mostrar factorial
+                                Fin    
+
+                                En este ejemplo mostrado se trata de ir multiplicando los números
+                                naturales comprendidos entre 1 y el número leído.
+                                Una vez más, para ir ejecutando repetidas veces una tarea tenemos
+                                que echar mano de la instrucción mientras. 
+
+                                Para controlar el número de multiplicaciones realizadas, utilizamos
+                                una variable contador que se inicializa al número leído y que con cada
+                                multiplicación se decrementa en una unidad. La variable factorial se
+                                utiliza como acumulador de las multiplicaciones
+
+                1.2 | Seguimiento de algoritmos
+                    El seguimiento de algoritmos es un ejercicio mental que,
+                    como su nombre indica, consiste en seguir
+                    la lógica de un algoritmo, en nuestro caso escrito mediante pseudocódigo, 
+                    tal y como lo haría un ordenador, a fin de determinar el valor final 
+                    de ciertas variables.
+                    Este ejercicio mental nos va ayudar a comprender el funcionamiento
+                    de las estructuras lógicas utilizadas en programación, lo que sin
+                    duda va a contribuir enormemente a adaptar nuestra mente a la
+                    lógica de programación.  
+
+                Casos prácticos "Pseudocódigo"
+                    A continuación te preesentamos un caso práctico relacionado con  
+                    pseudocódigo. Lee atentamente y desarrolla la actividad planteada. 
+                    Puedes compartirla en el foro con tus compañeros.      
+                    1 - Realización de algoritmos en pseudocódigo
+                        ALGORITMO 1
+                            Realiza el algoritmo correspondiente a un programa que lea un
+                            número y muestre un texto indicando si el número es o no primo
+                        ALGORITMO 2
+                            Diseñar un algoritmo que lea dos números y realice la suma de todos los
+                            números pares comprendidos entre ambos números.
+                    2- Seguimiento de algoritmos
+                        ALGORITMO 1
+                            Indica el valor de las variables A y B al finalizar el siguiente
+                            algoritmo:
+
+                            Inicio
+                                Datos:
+                                A, B, C entero
+                                Código:
+                                A=7
+                                B=4
+                                C=9
+                                Mientras (A<>C) hacer
+                                    Si (C>9) entonces
+                                        B=B+5
+                                    Sino
+                                        A=A+2
+                                    Fin Si
+                                Fin Mientras
+                            Fin
+                        ALGORITMO 2 
+                            Indica los valores de las variables X, Y y Z al finalizar el siguiente
+                            proceso.
+
+                            Inicio
+                            Datos:
+                                X entero
+                                Y entero
+                                Z entero
+                            Código:
+                                X=0
+                                Y=7
+                                Z=-4
+                                Mientras (X > Z) hacer
+                                    Si (Y<15) entonces
+                                        Y=Y+4
+                                    Sino
+                                        Si(Z<0) entonces
+                                        Z=Z+2
+                                        Sino
+                                            Z=Z+1
+                                            X=X-1
+                                        Fin si
+                                        Y=Y+3
+                                    Fin si
+                                Fin mientras
+                            Fin  
+
+                        ALGORITMO 3
+                            Indica el valor que se imprimirá al finalizar el proceso:
+
+                            Inicio
+                                Datos:
+                                P,X, Contador entero
+                                Código:
+                                P=4
+                                X=0
+                                Contador=0
+                                Mientras(P<>8) hacer
+                                    X=X+5
+                                    P=P+1
+                                    Contador=Contador+1
+                                Fin Mientras
+                                Mostrar “El valor de X es”, X
+                            Fin   
+
+                        ALGORITMO 4
+                            Indica el valor de la variable X al finalizar el proceso siguiente:
+                            
+                            Inicio
+                                Datos:
+                                A, B, X, Y, Z entero
+                                Código:
+                                A=15
+                                B=15
+                                X=100
+                                Y=100
+                                Z=0
+                                Mientras(A==B) hacer
+                                    A=A+3
+                                    Mientras(X==Y) hacer
+                                        X=X+Z
+                                    Fin Mientras
+                                    B=B+3
+                                Fin Mientras
+                            Fin  
+
+                        ALGORITMO 5
+                            Indica el valor de la variable Z al finalizar el proceso siguiente:
+
+                            Inicio
+                                Datos:
+                                A, B, X, Y, Z entero
+                                Código:
+                                A=60
+                                B=0
+                                X=100
+                                Y=100
+                                Z=100
+                                Mientras(A<>B) hacer
+                                    A=A+10
+                                    Mientras(X==Y) hacer
+                                        X=X+Z
+                                    Fin Mientras
+                                    B=B+20
+                                    A=A-10
+                                    Y=X
+                                Fin Mientras
+                            Fin   
+
+                        ALGORITMO 6
+                            Indica el valor al que habrá que inicializar P para que al finalizar
+                            el proceso el valor que se imprima de X sea 10:
+                            
+                            Inicio:
+                                Datos:
+                                X, P entero
+                                Código:
+                                X=0
+                                P=?
+                                Mientras(P<=7) hacer
+                                    X=X+1
+                                    P=P+1
+                                Fin Mientras
+                                Mostrar “El valor de X es “, X
+                            Fin       
+
     MÓDULO 2. ESTRUCTURAS DE CONTROL
         Estructuras de selección
             Hasta ahora hemos visto instrucciones en un orden secuencial, 
