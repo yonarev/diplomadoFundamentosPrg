@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Suma de Números Pares</title>
+    </head>
+    <body>
+        <script>
+            function intercambiarNumeros(a, b) {
+                return [b, a];
+            }
+            function sumaNumerosPares() {
+                var numero1 = parseInt(prompt("Ingrese el primer número:"));
+                var numero2 = parseInt(prompt("Ingrese el segundo número:"));
+                if (numero1 > numero2) {
+                    [numero1, numero2] = intercambiarNumeros(numero1, numero2);
+                }
+                document.write("NUMERO1= "+numero1 + " NUMERO2="+numero2+ "<br>");
+                var suma = 0;
+                for (var i = numero1; i <= numero2; i++) {
+                    if (i % 2 === 0) {
+                        suma += i;
+                        document.write("I= "+i + " suma="+suma + "<br>");
+                    }
+                }
+                alert("La suma de los números pares entre " + numero1 + " y " + numero2 + " es " + suma);
+            }
+            sumaNumerosPares();
+        </script>
+    </body>
+</html>

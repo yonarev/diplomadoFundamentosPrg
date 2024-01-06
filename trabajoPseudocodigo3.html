@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALGORITMO 3 ANALISIS</title>
+</head>
+<body>
+<script>
+    var A = 15;
+    var B = 15;
+    var X = 100;
+    var Y = 100;
+    var Z = 0;
+    while (A == B) {
+        A = A + 3;
+        while (X == Y) {
+            X = X + Z;
+            alert("X =" + X + " Y= "+Y)
+            console.log("X =" + X + " Y= "+Y)
+             //para evitar loop infinito    
+            if (X >= 30) {
+            break;
+        }
+        }
+        B = B + 3;
+        console.log("A= "+A+ " B= "+B)
+        alert("A= "+A+ " B= "+B)
+        //para evitar loop infinito    
+        if (A >= 30) {
+            break;
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo 2 analisis</title>
+</head>
+<body>
+    <script>
+        var X = 0;
+        var Y = 7;
+        var Z = -4;
+        while (X > Z) {
+            console.log("X= "+X+" Z= "+Z)
+            if (Y < 15) {
+                Y = Y + 4;
+                console.log("y= "+Y)
+            } else {
+                if (Z < 0) {
+                    Z = Z + 2;
+                    console.log("Z= "+Z)
+                } else {
+                    Z = Z + 1;
+                    console.log("Z= "+Z)
+                    X = X - 1;
+                    console.log("X= "+X)
+                }
+                Y = Y + 3;
+                console.log("y= "+Y)
+            }
+        }
+        alert("X="+X+" Y="+Y+" Z="+Z)
+    </script>
+</body>
+</html>

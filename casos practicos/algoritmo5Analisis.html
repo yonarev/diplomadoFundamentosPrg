@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Algoritmo 5</title>
+    </head>
+    <body>
+        <script>
+            var A = 60;
+            var B = 0;
+            var X = 100;
+            var Y = 100;
+            var Z = 100;
+            document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+            while (A !== B && !window.detener) {
+                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                A = A + 10;
+                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                while (X == Y) {
+                    X = X + Z;
+                    document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                }
+                B = B + 20;
+                A = A - 10;
+                Y = X;
+                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+            }
+        </script>
+        <button onclick="window.detener = true;">Detener</button>
+    </body>
+</html>
