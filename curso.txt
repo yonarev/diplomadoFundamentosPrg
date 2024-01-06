@@ -1,58 +1,78 @@
 Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
-MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
-    Tipos de datos
-        Lo primero que vamos a trabajar durante este módulo de fundamentos son "Los tipos de datos". Vamos a trabajar básicamente con 4 tipos:
+    MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
+        Tipos de datos
+            Lo primero que vamos a trabajar durante este módulo de fundamentos son "Los tipos de datos". Vamos a trabajar básicamente con 4 tipos:
 
-        Números
-        Cadenas
-        Booleanos
-        Tipos especiales
+            Números
+            Cadenas
+            Booleanos
+            Tipos especiales
 
-        En el vídeo que tienes a continuación vamos a 
-        profundizar sobre cada uno de ellos. Cómo te hemos comentado al inicio, 
-        no te asustes que no resultan complejos. 
-    Operaciones
-        Una vez hemos visto los tipos de datos con los que vamos a trabajar, vamos a comenzar a realizar operaciones con ellos. Vamos a trabajar básicamente con 3 tipos de operaciones:
+            En el vídeo que tienes a continuación vamos a 
+            profundizar sobre cada uno de ellos. Cómo te hemos comentado al inicio, 
+            no te asustes que no resultan complejos. 
+        Operaciones
+            Una vez hemos visto los tipos de datos con los que vamos a trabajar, vamos a comenzar a realizar operaciones con ellos. Vamos a trabajar básicamente con 3 tipos de operaciones:
 
-        Operaciones con números.
-        Operaciones con cadenas
-        Operaciones con booleanos
+            Operaciones con números.
+            Operaciones con cadenas
+            Operaciones con booleanos
 
-        En el vídeo que tienes a continuación vamos a trabajar las operaciones que podemos 
-        realizar con cada uno de los tipos de datos que hemos definido anteriormente.
-        Veamos como podemos operar con los diferentes datos.    
-    Variables
-        Una variable es un cajón con una etiqueta donde almacenamos datos de un programa. 
-        Para definir una variable en JavaScript,
-        usamos la palabra reservada"var" seguida del nombre que le queremos dar a la variable.
+            En el vídeo que tienes a continuación vamos a trabajar las operaciones que podemos 
+            realizar con cada uno de los tipos de datos que hemos definido anteriormente.
+            Veamos como podemos operar con los diferentes datos.    
+        Variables
+            Una variable es un cajón con una etiqueta donde almacenamos datos de un programa. 
+            Para definir una variable en JavaScript,
+            usamos la palabra reservada"var" seguida del nombre que le queremos dar a la variable.
 
-        En el siguiente video, veremos como declarar variables para utilizarlas
-        en nuestros programas. ¡Adelante!    
-    Comparaciones entre variables
-        Una vez visto, qué son y cómo se declaran las variables en nuestros programas, ahora toca trabajar sobre la comparación entre ellas. Vamos a ver los operadores principales para llevar a cabo la comparación entre varibles:
+            En el siguiente video, veremos como declarar variables para utilizarlas
+            en nuestros programas. ¡Adelante!    
+        Comparaciones entre variables
+            Una vez visto, qué son y cómo se declaran las variables en nuestros programas, ahora toca trabajar sobre la comparación entre ellas. Vamos a ver los operadores principales para llevar a cabo la comparación entre varibles:
 
-        Igualdad y desigualdad
-        Mayor y menor
-        Falsy y truthy
-        Dicen que las comparaciones son odiosas: ¡vamos a verlo!
+            Igualdad y desigualdad
+            Mayor y menor
+            Falsy y truthy
+            Dicen que las comparaciones son odiosas: ¡vamos a verlo!
 
-        En el siguiente enlace te puedes descargar el material con todo 
-        lo que has trabajado durante el módulo.    
-    PRUEBA 
-        Test superado
-        Has obtenido un 100 en esta tarea  
+            En el siguiente enlace te puedes descargar el material con todo 
+            lo que has trabajado durante el módulo. 
+        ESTRUCTURAS DE CONTROL
+            Estructuras de selección
+                Hasta ahora hemos visto instrucciones en un orden secuencial, 
+                es decir, una detrás de otra. 
+                Aunque se pueden ejecutar instrucciones bajo algunas condiciones, 
+                para poder ejecutar mediante estas instrucciones, 
+                utilizaremos las estructuras de selección. 
+                En el siguiente vídeo te explicamos más sobre ellas. ¡Comenzamos!       
+        PRUEBA 
+            Test superado
+            Has obtenido un 100 en esta tarea
 
-    ¿Te gustaría aprender a programar? ¡Estás en el lugar adecuado para ello!
-        Antes de estudiar cualquier lenguaje de programación, 
-        es necesario adquirir las capacidades de razonamiento lógico
-        para poder desenvolverse el mundo de la programación.
-        En este curso te enseñaremos a utilizar 
-        las estructuras lógicas de programación de forma adecuada,
-        aplicando los principios,
-        tanto de la programación estructurada y modular,
-        como las técnicas de la programación orientada a objetos, 
-        empleadas en los lenguajes modernos.   
+            Tus respuestas
+            1. Una variable es:
+                Un tipo de dato utilizado en un programa
+                Un mecanismo para creación de algoritmos
+                Una instrucción de control
+                X Una zona de memoria que almacena un dato
+            2. El lenguaje que manipula registros del procesador es:
+                Lenguaje máquina
+                Lenguaje C
+                Cualquier lenguaje de alto nivel
+                Lenguaje ensamblador
+            3. Indica cual de las siguientes es una diferencia entre un compilador y un intérprete:
+                Un compilador genera código ejecutable puro, mientras que el intérprete genera código intermedio
+                X Un compilador genera un archivo de código objeto, mientras que el intérprete no genera ningún archivo intermedio
+                Un compilador genera código binario, mientras que el intérprete genera código en ensamblador
+                Un compilador solo es aplicable a lenguajes de alto nivel, mientras que el intérprete se emplea con lenguajes de código intermedio.
 
+            4. En un programa tenemos una variable llamada “intentos” que almacena el número de intentos disponibles que tenemos para poder realizar una determinada tarea. Cada vez que se falla la tarea se deberá quitar un intento, ¿qué instrucción de proceso debemos escribir para ello?:
+                intentos=-1
+                intentos=-intentos
+                intentos-1
+                X intentos=intentos-1
+            5. Teniendo en cuenta que el operador “%” calcula el resto de la división entre dos números, dado el siguiente diagrama de flujo:
     MÓDULO 1. FUNDAMENTOS DE INFORMÁTICA.
         1.1 | Informática e Información
             El uso eficaz de la información para la empresa resulta determinante, 
@@ -127,7 +147,6 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                                 almacenar y gestionar datos, etc.
             En líneas generales, podemos decir que la misión de un ordenador
             es recoger unos datos de entrada, 
-        
         2 Componentes del ordenador
             El ordenador está formado por dos tipos de componentes:
             Hardware. 
@@ -1051,547 +1070,39 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                     utilizarse con cualquiera de los lenguajes que forman la plataforma
                     .NET, como Visual Basic y C#.    
 
-        1. Fases en el desarrollo de un programa
-            El desarrollo de cualquier programa informático sigue una serie de
-            fases que no siempre son llevadas a cabo por la misma persona, pero
-            que es necesario que sean realizadas todas y de forma coordinada a
-            fin de conseguir un producto de calidad y sin errores.
-            El siguiente diagrama nos muestra cuales son estas fases y el orden
-            en el que deben ser realizadas:
+            PRUEBA TEORICA
+                Test superado
+                Has obtenido un 100 en esta tarea
 
-                        Documentación
+                Tus respuestas
+                1. Una variable es:
+                    Un tipo de dato utilizado en un programa
+                    Un mecanismo para creación de algoritmos
+                    Una instrucción de control
+                    X Una zona de memoria que almacena un dato
+                2. El lenguaje que manipula registros del procesador es:
+                    Lenguaje máquina
+                    Lenguaje C
+                    Cualquier lenguaje de alto nivel
+                    Lenguaje ensamblador
+                3. Indica cual de las siguientes es una diferencia entre un compilador y un intérprete:
+                    Un compilador genera código ejecutable puro, mientras que el intérprete genera código intermedio
+                    X Un compilador genera un archivo de código objeto, mientras que el intérprete no genera ningún archivo intermedio
+                    Un compilador genera código binario, mientras que el intérprete genera código en ensamblador
+                    Un compilador solo es aplicable a lenguajes de alto nivel, mientras que el intérprete se emplea con lenguajes de código intermedio.
 
-                Análisis Diseño Implementación Prueba Mantenimiento 
-
-            1.1 | Fase de análisis
-                Su principal objetivo es establecer qué debe hacer el software 
-                a desarrollar y no cómo debe hacerlo.
-                Suele ser misión del analista funcional.
-                    Durante esta fase, el analista recogerá las ideas expuestas por el
-                    cliente y deberá transformarlas en especificaciones válidas para
-                    el diseñador en lo que se conoce como 
-                        el documento de análisis funcional. 
-                    Así mismo, dicho documento se deberá validar con el
-                    cliente y comprobar que las especificaciones definidas en el mismo,
-                    se ajustan a los deseos que cliente le transmitió.
-
-            1.2 | Fase de diseño
-                En esta fase, partiendo de la información recogida en el análisis 
-                el diseñador establece cómo se llevan a cabo los objetivos presentados 
-                en dicho análisis. Suele ser ésta, la misión del analista orgánico.  
-                
-                Durante esta fase se deberá alcanzar una solución óptima, detallada
-                y con la mayor precisión posible para el desarrollo de la aplicación.
-                Se trata de diseñar el conjunto de algoritmos de lo que el programa 
-                debe hacer y para expresar dichos algoritmos, el analista orgánico
-                cuenta con los siguientes elementos:
-                    •  Diagramas de flujo. 
-                        El diagrama de flujo u ordinograma es una
-                        técnica que se basa en expresar de forma gráfica la secuencia
-                        lógica y detallada de las operaciones que necesitamos para la
-                        realización de un programa. Los ordinogramas se emplearon
-                        mucho hasta finales de los 80, y debido a la complejidad de los
-                        programas actuales, hoy en día no es la técnica más adecuada
-                        para expresar un algoritmo de programación.
-                    • Pseudocódigo. 
-                        El pseudocódigo consiste en expresar el
-                        algoritmo de un programa, de la forma más detallada posible,
-                        utilizando frases y palabras del lenguaje común. Las palabras y
-                        expresiones que utilizamos en pseudocódigo se asemejan a las
-                        que emplean los lenguajes de programación, de ahí que se llame
-                        pseudocódigo, pero de una manera más informal. Esto permite
-                        que la traducción del algoritmo al código final resulte una tarea
-                        relativamente sencilla
-
-            1.3 | Fase de implementación
-                Durante esta fase el programador debe convertir el algoritmo
-                diseñado en la fase anterior a código escrito en un lenguaje de
-                programación de alto nivel. El éxito de esta tarea depende en gran
-                medida del detalle y precisión con el que se ha creado el algoritmo, por
-                lo que la fase de diseño de un programa resulta de gran importancia
-                en el desarrollo de una aplicación.
-
-            1.4 | Fase de documentación
-                La fase de documentación no es una fase independiente como el resto de las presentadas,
-                sino que se integra con todas las anteriores. Esto significa que se deben documentar todos los
-                pasos y acciones realizadas en cada una de las fases del desarrollo. La documentación es algo
-                imprescindible para el mantenimiento y mejora del software    
-
-        1. Diseño de algoritmos 
-            La fase de diseño de un programa resulta es sin duda alguna una de las más
-            importante de todo el proceso de creación de un programa. En ella se diseña el
-            algoritmo que describe lo que tiene que hacer el programa. Esta descripción se
-            realiza siguiendo la lógica de programación
-
-            Por lógica de programación entendemos la capacidad para expresar
-            la secuencia de operaciones o algoritmo que debe seguir un programa
-            informático para resolver un problema, utilizando para ello una serie
-            de estructuras o expresiones estandarizadas.
-            La lógica de programación no es algo con lo que se nazca, sino que
-            se adquiere con el tiempo y con la práctica. Por ello, el objetivo de
-            este capítulo es presentarte todos los elementos necesarios para
-            que, dadas unas especificaciones, seas capaz de expresar de forma
-            adecuada la lógica de operaciones que un programa debería seguir
-            para conseguir su objetivo
-
-            Según hemos indicado en el capítulo anterior, dos son las técnicas
-            que se utilizan para diseñar el algoritmo de un programa:
-                • Diagramas de flujo
-                • Pseudocódigo
-
-            A continuación analizaremos dichas técnicas con detalle y veremos
-            numerosos ejemplos a fin de que adquieras la soltura necesaria para
-            diseñar tus propios programas.
-            Pero antes de entrar en las técnicas de diseño de algoritmos, vamos
-            a analizar uno de los elementos claves de la programación y, por
-            tanto, del diseño de algoritmos: los datos.
-
-            1.1 | Datos y variables
-                Durante el desarrollo de un programa informático, independientemente del lenguaje de
-                programación utilizado, se utilizan datos y variables. 
-                Los datos representan la información manejada
-                por el programa, y pueden ser 
-                    números, 
-                    fechas, 
-                    textos etc. 
-                Todo programa recibe unos datos de entrada que son manipulados por el mismo y,
-                 como resultado, generará unos datos de salida.
-
-                Durante la manipulación de los datos por parte del programa,
-                estos son almacenados en variables. Una variable es una zona de
-                memoria, a la que se le asigna un nombre o identificador, en la que se
-                guarda un dato de un determinado tipo. Después, la variable puede
-                utilizarse dentro del programa para realizar diferentes operaciones
-                con el dato que contine.
-                Normalmente, los lenguajes de programación obligan a declarar las
-                variables antes de ser utilizadas. Declarar una variable es la manera
-                de indicarle al compilador que queremos utilizar una variable,
-                a fin de que éste pueda reservar el espacio en memoria para el
-                almacenamiento de la misma.
-                La manera en la que un lenguaje declara una variable depende
-                de la sintaxis del mismo. El siguiente ejemplo corresponde a una
-                declaración de una variable de tipo entero en Java:
-
-                    int num; 
-
-                En este caso, se declara una variable de tipo
-                entero, es decir, que solo puede almacenar
-                datos numéricos de tipo entero, y se le
-                asigna el identificador num. Gráficamente, la
-                situación en memoria podría representarse
-                así:
-                    id   valor=dato
-                    num  caja
-
-                    La caja sería como la zona de memoria
-                asignada a la variable y el nombre que
-                aparece a su izquierda sería el identificador
-                asignado a la misma.
-                Una vez declarada la variable, el programa
-                puede hacer uso de ella para asignarle datos
-                y después realizar operaciones con los
-                mismos. En el ejemplo anterior, la asignación
-                de un dato a la variable se realizaría a través
-                del signo =, tal y como se muestra en el
-                ejemplo:
-
-                    num = 10;
-
-                Como decimos, a partir del momento en que
-                la variable ya tiene el dato, pueden realizarse
-                operaciones con el mismo, incluido la
-                modificación del valor de la propia variable.
-                El siguiente ejemplo, sumaría el contenido
-                de dos variables y lo depositaría en una de
-                ellas: 
-
-                    num1 = 10;
-                    num2 = 20;
-                    num2 = num2 + num1 //30
-            1.2 | Diagramas de flujo
-                Conocidos también como ordinogramas, los diagramas de flujo son una técnica que se hizo muy
-                popular en los principios de la programación de ordenadores. Aunque actualmente prácticamente no
-                se utilice, resulta muy útil para ir adquiriendo esa lógica de programación que nos permita diseñar
-                y desarrollar programas, pues el uso de elementos gráficos para representar las estructuras típicas
-                utilizadas en programación facilitará la comprensión de los mismos.
-
-                Los ordinogramas se emplean durante
-                la fase de diseño de un programa y
-                son independientes del lenguaje de
-                programación utilizado para implementar el
-                mismo.
-                Para crear un ordinograma se utilizan una
-                serie de símbolos bastante intuitivos y
-                fáciles de recordar. La siguiente imagen nos
-                muestra los símbolos básicos utilizados en
-                la creación de un diagrama de flujo:
-                    Principio o fin (de un programa o procedimiento)
-                    Proceso
-                    Invocación
-                    Conexión(en la misma página)
-                    Operación E/S
-                    Condición
-                    Líneas de flujo
-                    Conexión (en otra página)
-                A la hora de utilizar estos símbolos para crear un ordinograma hay
-                que tener en cuenta ciertas normas básicas que debemos cumplir:
-                • Todos los símbolos utilizados deben 
-                    estar unidos por líneas de flujo solo horizontales y/o verticales.
-                • No se pueden cruzar las líneas de flujo. Evitar los cruces.
-                • No deben quedar líneas de flujo sin conectar.
-                • A un símbolo de proceso pueden llegarle varias líneas de flujo
-                    pero solo puede salir una de él.
-                • Al símbolo de inicio no puede llegarle ninguna línea de flujo.
-                • De un símbolo de fin no puede salir ninguna línea de flujo pero si
-                    le pueden llegar varias.
-                • Se deben trazar los símbolos de manera que se pueda leer de
-                    arriba abajo y de izquierda a derecha.
-
-                El siguiente ordinograma de ejemplo corresponde al algoritmo de un
-                programa encargado de leer dos números y mostrar sin son iguales
-                o, en caso de ser distintos, cuál de ellos es el mayor.
-
-                1.3 | Símbolo de principio y fin
-                    Como su nombre indica, se utilizan para especificar el principio y fin del programa. En su interior se
-                    escribe la palabra inicio o fin, según corresponda.
-                1.4 | Símbolo de proceso
-                    El símbolo de proceso especifica una operación realizada por el programa, como por ejemplo, una
-                    operación aritmética con los datos recibidos en la entrada. La operación a realizar se especifica en el
-                    interior del rectángulo    
-
-                        s = a + b 
-
-                            En el ejemplo anterior, se realiza la suma de
-                            dos datos representados por las variables a
-                            y b y el resultado se deposita en una tercera
-                            variable llamada “s”. Es decir, la asignación
-                            se realiza de derecha a izquierda, que es
-                            como se hace en la mayoría de los lenguajes
-                            de alto nivel, utilizando el signo “=”.
-                            Para expresar las operaciones empleamos
-                            símbolos, como el signo + para la suma, el
-                            * para la multiplicación, el = para asignar
-                            un valor, etc. Estos símbolos son conocidos
-                            como operadores. 
-                            Cada lenguaje de programación tiene su
-                            propio juego de operadores, por lo que a
-                            la hora de utilizarlos en el diseño de un
-                            ordinograma no hay un convenio claro
-                            sobre su utilización; se debe procurar que
-                            sean lo más intuitivos posibles. Durante el
-                            estudio de la programación estructurada
-                            estableceremos un juego de operadores
-                            para ser utilizados durante el diseño de
-                            pseudocódigo.
-                1.5 | Líneas de flujo
-                    Las líneas de flujo representan el camino que sigue el algoritmo. 
-                    Para representarlas se utilizan flechas, 
-                    que parten de una operación y apuntan a la siguiente operación a realizar.
-
-                1.6 | Símbolo de entrada /salida
-                    Especifican una operación de entrada o salida, es decir, 
-                        de entrada de datos al programa 
-                        o de salida de datos desde el programa al exterior. 
-                    La operación en concreto se indica en el interior del símbolo,
-                    utilizando un verbo como “leer”, “mostrar”, “imprimir”, etc.  
-
-                        Leer a, b 
-                        Mostrar “El mayor es”, a  
-
-                    Al indicar la operación de entrada o salida en
-                    el diagrama de flujo, nos debemos abstraer
-                    del dispositivo en concreto que se utilizará
-                    para la operación. Por ejemplo, al indicar
-                    Leer a, b, simplemente indicamos que el
-                    programa recibe dos datos del exterior, sin
-                    especificar el dispositivo concreto utilizado
-                    para la lectura de los mismos 
-                        (teclado,fichero, Web, etc.).
-                    En el caso de las operaciones de entrada,
-                    a continuación del nombre de la operación
-                    (leer en este caso) se indican las variables
-                    donde se guardarán los datos recuperados,
-                    separadas por una coma. En el caso de las
-                    operaciones de salida, a continuación del
-                    nombre de la operación se indicará la lista
-                    de variables con los datos a mostrar y si
-                    queremos que aparezca también una frase
-                    como en nuestro ejemplo, esta frase se
-                    escribirá entre comillas.
-                1.7 | Símbolo de decisión
-                    Mediante este símbolo con forma de rombo expresamos 
-                    una operación de comprobación que puede
-                    alterar el flujo de ejecución de un programa. 
-                    El resultado de la comprobación será de tipo verdadero/
-                    falso (SI/NO), 
-                    de modo que si es verdadero el programa tomará un camino 
-                    y si es falso tomará otro
-
-                    La operación de comprobación se indica
-                    entre interrogaciones en el interior del
-                    rombo y se utilizan los llamados operadores
-                    de tipo condicional, es decir, aquellos
-                    símbolos que se utilizan para comprobar la
-                    igualdad o desigualdad de datos, si un dato
-                    es mayor o menor que otro, etc. El resultado
-                    de estas comprobaciones siempre será
-                    verdadero o falso.
-                    En el ejemplo que hemos presentado, se
-                    pregunta si el dato contenido en a es igual
-                    al contenido en b, para lo que usamos 
-                    el operador doble igual ==, en vez del
-                    simple igual =, pues éste se reserva para
-                    operaciones de asignación.
-                    Una variante de este tipo de operaciones
-                    son las decisiones con salida múltiple o
-                    alternativas múltiples. En este caso, la
-                    operación de comprobación puede dar como
-                    resultado distintos valores, no verdadero o
-                    falso, por lo que se podrán definir tantas
-                    salidas o caminos como posibles resultados
-                    queramos controlar.
-
-                    La forma de expresar una operación de 
-                    decisión múltiple sería como
-                    se indica en el ejemplo 
-
-                        Comprobar x
-
-                        1           5               10
-                        Instrucción 1   Instrucción 2     Instrucción 3
-
-                    Como vemos en el ejemplo, dependiendo del valor de un dato
-                    llamado “x”, el programa puede tomar diferentes caminos y ejecutar
-                    diferentes grupos de instrucciones; si es 1, ejecutará las instrucciones
-                    del grupo “instrucción 1”, si es 5 las del grupo “Instrucción 2”, etc. Se
-                    puede definir también un camino para el caso de que el resultado de
-                    la expresión no coincida con ninguno de los valores definidos.
-                    Después de ejecutar cada caso, el programa continuaría por un único
-                    camino.
-                    El siguiente ordinograma de ejemplo se encarga de leer un número
-                    de día y mostrar el día correspondiente, siempre que sea un número
-                    entre 1 y 3, sino mostrará que es un día no válido:
-
-                1.8 | Acumuladores y contadores 
-                    En la resolución de algoritmos nos vamos a encontrar numerosas
-                    situaciones en las que tenemos que realizar la suma o producto
-                    de varias cantidades. Estas operaciones no se realizarán en una
-                    única fase, sino que requerirán la realización de sumas o productos
-                    parciales de forma repetitiva hasta conseguir la cantidad final.
-                    Para guardar los resultados de estas operaciones utilizaremos
-                    variables de tipo numérico, a las que se conoce en programación
-                    con el nombre de acumuladores, puesto que van acumulando los
-                    resultados parciales de la operación.
-                    En cada suma parcial que se realiza con un acumulador se debe
-                    tomar el valor de la variable, sumarle o multiplicarle la cantidad y
-                    depositar el resultado de nuevo en la variable. Esto se representa
-                    en un ordinograma mediante el símbolo de proceso utilizado una
-                    expresión del tipo:
-
-                        variable=variable+cantidad o variable=variable*cantidad
-
-                    En el caso de los acumuladores de suma, la variable se inicializará a
-                    0 mientras que para la multiplicación lo hará a 1.
-                    En el siguiente ejemplo se muestra el caso de un pequeño programa
-                    que realiza la suma de los tres primeros múltiplos de 5 utilizando un
-                    acumulador
-
-                    Otro tipo de variables numéricas comúnmente utilizadas en un
-                    programa informático son los contadores. Un contador es una
-                    variable que se va incrementando en una unidad cada vez que el
-                    programa realiza una determinada acción, a fin de ir contando el
-                    número de veces que dicha acción es realizada. También puede
-                    haber decontadores, es decir, variables que vayan restando uno a su
-                    valor repetidas veces.
-                    La operación de incremento se representaría en un organigrama
-                    mediante el símbolo de proceso en el que se indicará una expresión
-                    del tipo variable=variable+1
-                    A continuación, te presentamos otro ejemplo de ordinograma que
-                    resuelve otro sencillo algoritmo, concretamente, se trataría de
-                    un programa que calcula la suma de todos los números naturales
-                    comprendidos entre 1 y un número leído. Por ejemplo, si el número
-                    leído por el programa es 8, el resultado sería 1+2+3+4+5+6+7+8.
-                    Este es su diagrama de flujo:
-
-                    Los contadores y acumuladores siempre se utilizan en el interior de
-                    estructuras repetitivas, es decir, aquellas que contienen bloques de
-                    instrucciones que se ejecutan repetidamente.
-
-                1.9 | Estructuras repetitivas 
-                    En el programa de ejemplo anterior hemos utilizado una estructura clásica en programación, que es
-                    la estructura repetitiva. No se trata de una operación en sí, sino de un conjunto de operaciones que
-                    se ejecutan mientras que se de una condición   
-
-                    En nuestro caso, se trata de ir acumulando la suma de números
-                    naturales en la variable suma hasta alcanzar el número leído.
-                    En una estructura repetitiva siempre encontramos una instrucción
-                    de tipo condicional, que determina si el grupo de instrucciones
-                    tiene que volver o no a ejecutarse. Se puede optar por comprobar
-                    la condición y ejecutar las instrucciones si se cumple, o ejecutar
-                    primero las instrucciones y comprobar después la condición:
-
-                    En cualquiera de los casos, si la condición se cumple (resultado
-                    verdadero), el bloque de instrucciones vuelve a ejecutarse y en el
-                    momento en que deje de ejecutarse se continuará por otro camino.
- 
-            CASOS PRACTICOS 
-                1   Realiza un ordinograma para un algoritmo que calcule el total
-                    de números naturales que hay que sumar, comenzando por el 1,
-                    hasta que la suma alcance el valor 1000.
-
-                        DESARROLLO
-
-                        Inicio                                                      | total = 0                          
-                            num = 1    
-                            CONDICION                         
-                                ?si (total <= 1000)           
-                                    total = total + num          
-                                    num = num + 1  
-                                ?no                 
-                                    presentar "El total es: " + total    
-                        Fin    
-
-                        <!DOCTYPE html>
-                        <html lang="es">
-                        <head>
-                            <meta charset="UTF-8">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                            <title>Document</title>
-                        </head>
-                        <body>
-                            <script>
-                                let total = 0;
-                                let num = 1;
-                                while (total <= 1000) {
-                                    total = total + num;
-                                    num = num + 1;
-                                }
-                                console.log("El total es: " + total);
-                            </script>
-                        </body>
-                        </html>
-                             
-                2  Análisis de un ordinograma
-                    ORDINOGRAMA 1
-                        A continuación te vamos a proponer que resuelvas el siguiente
-                        ejercicio. Teniendo en cuenta que el operador “%” calcula el resto
-                        de la división entre dos números, dado el siguiente diagrama de
-                        flujo:
-                        Explica el funcionamiento del programa y que es lo que hace.
-                        Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
-                        ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
-                        de la variable cont?
-
-                            DESARROLLO 
-                                Cada vez que el usuario ingresa un número, 
-                                se verifica si es par, 
-                                y si es par se incrementa el total 
-                                siempre el contador cont se incrementa en 1. 
-                                y Después de las 10 iteraciones, se muestra el total.
-                                que es el total de numeros pares ingresados
-                                el numero 11 no se logra ingresar pues son solo 10 iteraciones
-
-                            <!DOCTYPE html>
-                            <html lang="en">
-                            <head>
-                                <meta charset="UTF-8">
-                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                <title>Ordinograma1</title>
-                            </head>
-                            <body>
-                                <script>
-                                    // Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
-                                    // ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
-                                    // de la variable cont?
-                                    //n es = 2  total acumulando= 1 contador = 1 / n%2= 0  es par
-                                    //n es = 4  total acumulando= 2 contador = 2 / n%2= 0  es par
-                                    //n es = 5  total acumulando= 2 contador = 3 / n%2= 1  es impar
-                                    //n es = 1  total acumulando= 2 contador = 4 / n%2= 1  es impar
-                                    //n es = 9  total acumulando= 2 contador = 5 / n%2= 1  es impar
-                                    //n es = 17  total acumulando= 2 contador = 6 / n%2= 1  es impar
-                                    //n es = 25  total acumulando= 2 contador = 7 / n%2= 1  es impar
-                                    //n es = 27  total acumulando= 2 contador = 8 / n%2= 1  es impar
-                                    //n es = 16  total acumulando= 3 contador = 9 / n%2= 0  es par
-                                    //n es = 30  total acumulando= 4 contador = 10 / n%2= 0  es par
-                                    //Total: 4 contador = 10
-                                    
-                                    let daRespuesta=true
-                                    let mensaje=""
-                                    let espar=false
-                                    let total = 0;
-                                    let cont = 0;
-                                    // debugger
-                                    while (cont < 10) {
-                                        let n = prompt("Ingrese un número");
-                                        //si cancel el ingreso
-                                        if(n===null){
-                                            daRespuesta=false
-                                            break
-                                        }
-                                        //si es numero par acumula en el total
-                                        if (n % 2 === 0) {
-                                            total = total + 1;
-                                            espar=true //si es par es true
-                                        }    
-                                        //siempre se acumula 1
-                                        cont = cont + 1;
-                                        //si es par guarda el mensaje
-                                        if(espar){
-                                            mensaje=" es par"
-                                            
-                                        } else {
-                                            mensaje=" es impar"
-                                        }
-                                        espar=false
-                                        alert("n es = " + n +"  total acumulando= " + total + " contador = " +cont+ " / n%2= " +n%2 +" "+mensaje)
-                                    }
-                                    if(daRespuesta){
-                                        alert("Total: " + total+" contador = "+cont);
-                                    } else {
-                                        alert("se cancelo la operacion")
-                                    }
-                            </script>
-
-                    ORDINOGRAMA 2
-                        A continuación, dado el siguiente ordinograma, te proponemos
-                        que respondas a una serie de preguntas:
-                        ¿Qué es lo que hace el algoritmo anterior?. ¿Qué se mostraría si la
-                        secuencia de números introducidos fuera 2, 5, 9, 3, -1, 4?
-
-        LUEGO PRUEBA TEORICA
-            Test superado
-            Has obtenido un 100 en esta tarea
-
-            Tus respuestas
-            1. Una variable es:
-                Un tipo de dato utilizado en un programa
-                Un mecanismo para creación de algoritmos
-                Una instrucción de control
-                X Una zona de memoria que almacena un dato
-            2. El lenguaje que manipula registros del procesador es:
-                Lenguaje máquina
-                Lenguaje C
-                Cualquier lenguaje de alto nivel
-                Lenguaje ensamblador
-            3. Indica cual de las siguientes es una diferencia entre un compilador y un intérprete:
-                Un compilador genera código ejecutable puro, mientras que el intérprete genera código intermedio
-                X Un compilador genera un archivo de código objeto, mientras que el intérprete no genera ningún archivo intermedio
-                Un compilador genera código binario, mientras que el intérprete genera código en ensamblador
-                Un compilador solo es aplicable a lenguajes de alto nivel, mientras que el intérprete se emplea con lenguajes de código intermedio.
-
-            4. En un programa tenemos una variable llamada “intentos” que almacena el número de intentos disponibles que tenemos para poder realizar una determinada tarea. Cada vez que se falla la tarea se deberá quitar un intento, ¿qué instrucción de proceso debemos escribir para ello?:
-                intentos=-1
-                intentos=-intentos
-                intentos-1
-                X intentos=intentos-1
-            5. Teniendo en cuenta que el operador “%” calcula el resto de la división entre dos números, dado el siguiente diagrama de flujo:
+                4. En un programa tenemos una variable llamada “intentos” que almacena el número de intentos disponibles que tenemos para poder realizar una determinada tarea. Cada vez que se falla la tarea se deberá quitar un intento, ¿qué instrucción de proceso debemos escribir para ello?:
+                    intentos=-1
+                    intentos=-intentos
+                    intentos-1
+                    X intentos=intentos-1
+                5. Teniendo en cuenta que el operador “%” calcula el resto de la división entre dos números, dado el siguiente diagrama de flujo:
                 Indica los valores de las variables total y cont al finalizar el programa, suponiendo que los números leídos fueran: 2, 4, 5, 1, 9, 17, 25, 16, 30 y 11:
                     total=0, cont=2
                     X total=4, cont=10
                     total=5,cont=11
                     total=6,cont=0
-
-             MÓDULO 3. PSEUDOCÓDIGO.
+    MÓDULO 3. PSEUDOCÓDIGO.
                     El pseudocódigo consiste en expresar mediante un lenguaje coloquial 
                     las operaciones que describen el algoritmo asociado a un programa informático. 
                     Básicamente, se trata de traducir las operaciones que se describen en un organigrama 
@@ -2325,14 +1836,1361 @@ MÓDULO 1. FUNDAMENTOS DE LA PROGRAMACIÓN
                                     </body>
                                 </html>     
 
-    MÓDULO 2. ESTRUCTURAS DE CONTROL
-        Estructuras de selección
-            Hasta ahora hemos visto instrucciones en un orden secuencial, 
-            es decir, una detrás de otra. 
-            Aunque se pueden ejecutar instrucciones bajo algunas condiciones, 
-            para poder ejecutar mediante estas instrucciones, 
-            utilizaremos las estructuras de selección. 
-            En el siguiente vídeo te explicamos más sobre ellas. ¡Comenzamos!
+            
+        1. Fases en el desarrollo de un programa
+            El desarrollo de cualquier programa informático sigue una serie de
+            fases que no siempre son llevadas a cabo por la misma persona, pero
+            que es necesario que sean realizadas todas y de forma coordinada a
+            fin de conseguir un producto de calidad y sin errores.
+            El siguiente diagrama nos muestra cuales son estas fases y el orden
+            en el que deben ser realizadas:
+
+                        Documentación
+
+                Análisis Diseño Implementación Prueba Mantenimiento 
+
+            1.1 | Fase de análisis
+                Su principal objetivo es establecer qué debe hacer el software 
+                a desarrollar y no cómo debe hacerlo.
+                Suele ser misión del analista funcional.
+                    Durante esta fase, el analista recogerá las ideas expuestas por el
+                    cliente y deberá transformarlas en especificaciones válidas para
+                    el diseñador en lo que se conoce como 
+                        el documento de análisis funcional. 
+                    Así mismo, dicho documento se deberá validar con el
+                    cliente y comprobar que las especificaciones definidas en el mismo,
+                    se ajustan a los deseos que cliente le transmitió.
+
+            1.2 | Fase de diseño
+                En esta fase, partiendo de la información recogida en el análisis 
+                el diseñador establece cómo se llevan a cabo los objetivos presentados 
+                en dicho análisis. Suele ser ésta, la misión del analista orgánico.  
+                
+                Durante esta fase se deberá alcanzar una solución óptima, detallada
+                y con la mayor precisión posible para el desarrollo de la aplicación.
+                Se trata de diseñar el conjunto de algoritmos de lo que el programa 
+                debe hacer y para expresar dichos algoritmos, el analista orgánico
+                cuenta con los siguientes elementos:
+                    •  Diagramas de flujo. 
+                        El diagrama de flujo u ordinograma es una
+                        técnica que se basa en expresar de forma gráfica la secuencia
+                        lógica y detallada de las operaciones que necesitamos para la
+                        realización de un programa. Los ordinogramas se emplearon
+                        mucho hasta finales de los 80, y debido a la complejidad de los
+                        programas actuales, hoy en día no es la técnica más adecuada
+                        para expresar un algoritmo de programación.
+                    • Pseudocódigo. 
+                        El pseudocódigo consiste en expresar el
+                        algoritmo de un programa, de la forma más detallada posible,
+                        utilizando frases y palabras del lenguaje común. Las palabras y
+                        expresiones que utilizamos en pseudocódigo se asemejan a las
+                        que emplean los lenguajes de programación, de ahí que se llame
+                        pseudocódigo, pero de una manera más informal. Esto permite
+                        que la traducción del algoritmo al código final resulte una tarea
+                        relativamente sencilla
+
+            1.3 | Fase de implementación
+                Durante esta fase el programador debe convertir el algoritmo
+                diseñado en la fase anterior a código escrito en un lenguaje de
+                programación de alto nivel. El éxito de esta tarea depende en gran
+                medida del detalle y precisión con el que se ha creado el algoritmo, por
+                lo que la fase de diseño de un programa resulta de gran importancia
+                en el desarrollo de una aplicación.
+
+            1.4 | Fase de documentación
+                La fase de documentación no es una fase independiente como el resto de las presentadas,
+                sino que se integra con todas las anteriores. Esto significa que se deben documentar todos los
+                pasos y acciones realizadas en cada una de las fases del desarrollo. La documentación es algo
+                imprescindible para el mantenimiento y mejora del software    
+
+        1. Diseño de algoritmos 
+            La fase de diseño de un programa resulta es sin duda alguna una de las más
+            importante de todo el proceso de creación de un programa. En ella se diseña el
+            algoritmo que describe lo que tiene que hacer el programa. Esta descripción se
+            realiza siguiendo la lógica de programación
+
+            Por lógica de programación entendemos la capacidad para expresar
+            la secuencia de operaciones o algoritmo que debe seguir un programa
+            informático para resolver un problema, utilizando para ello una serie
+            de estructuras o expresiones estandarizadas.
+            La lógica de programación no es algo con lo que se nazca, sino que
+            se adquiere con el tiempo y con la práctica. Por ello, el objetivo de
+            este capítulo es presentarte todos los elementos necesarios para
+            que, dadas unas especificaciones, seas capaz de expresar de forma
+            adecuada la lógica de operaciones que un programa debería seguir
+            para conseguir su objetivo
+
+            Según hemos indicado en el capítulo anterior, dos son las técnicas
+            que se utilizan para diseñar el algoritmo de un programa:
+                • Diagramas de flujo
+                • Pseudocódigo
+
+            A continuación analizaremos dichas técnicas con detalle y veremos
+            numerosos ejemplos a fin de que adquieras la soltura necesaria para
+            diseñar tus propios programas.
+            Pero antes de entrar en las técnicas de diseño de algoritmos, vamos
+            a analizar uno de los elementos claves de la programación y, por
+            tanto, del diseño de algoritmos: los datos.
+
+            1.1 | Datos y variables
+                Durante el desarrollo de un programa informático, independientemente del lenguaje de
+                programación utilizado, se utilizan datos y variables. 
+                Los datos representan la información manejada
+                por el programa, y pueden ser 
+                    números, 
+                    fechas, 
+                    textos etc. 
+                Todo programa recibe unos datos de entrada que son manipulados por el mismo y,
+                 como resultado, generará unos datos de salida.
+
+                Durante la manipulación de los datos por parte del programa,
+                estos son almacenados en variables. Una variable es una zona de
+                memoria, a la que se le asigna un nombre o identificador, en la que se
+                guarda un dato de un determinado tipo. Después, la variable puede
+                utilizarse dentro del programa para realizar diferentes operaciones
+                con el dato que contine.
+                Normalmente, los lenguajes de programación obligan a declarar las
+                variables antes de ser utilizadas. Declarar una variable es la manera
+                de indicarle al compilador que queremos utilizar una variable,
+                a fin de que éste pueda reservar el espacio en memoria para el
+                almacenamiento de la misma.
+                La manera en la que un lenguaje declara una variable depende
+                de la sintaxis del mismo. El siguiente ejemplo corresponde a una
+                declaración de una variable de tipo entero en Java:
+
+                    int num; 
+
+                En este caso, se declara una variable de tipo
+                entero, es decir, que solo puede almacenar
+                datos numéricos de tipo entero, y se le
+                asigna el identificador num. Gráficamente, la
+                situación en memoria podría representarse
+                así:
+                    id   valor=dato
+                    num  caja
+
+                    La caja sería como la zona de memoria
+                asignada a la variable y el nombre que
+                aparece a su izquierda sería el identificador
+                asignado a la misma.
+                Una vez declarada la variable, el programa
+                puede hacer uso de ella para asignarle datos
+                y después realizar operaciones con los
+                mismos. En el ejemplo anterior, la asignación
+                de un dato a la variable se realizaría a través
+                del signo =, tal y como se muestra en el
+                ejemplo:
+
+                    num = 10;
+
+                Como decimos, a partir del momento en que
+                la variable ya tiene el dato, pueden realizarse
+                operaciones con el mismo, incluido la
+                modificación del valor de la propia variable.
+                El siguiente ejemplo, sumaría el contenido
+                de dos variables y lo depositaría en una de
+                ellas: 
+
+                    num1 = 10;
+                    num2 = 20;
+                    num2 = num2 + num1 //30
+            1.2 | Diagramas de flujo
+                Conocidos también como ordinogramas, los diagramas de flujo son una técnica que se hizo muy
+                popular en los principios de la programación de ordenadores. Aunque actualmente prácticamente no
+                se utilice, resulta muy útil para ir adquiriendo esa lógica de programación que nos permita diseñar
+                y desarrollar programas, pues el uso de elementos gráficos para representar las estructuras típicas
+                utilizadas en programación facilitará la comprensión de los mismos.
+
+                Los ordinogramas se emplean durante
+                la fase de diseño de un programa y
+                son independientes del lenguaje de
+                programación utilizado para implementar el
+                mismo.
+                Para crear un ordinograma se utilizan una
+                serie de símbolos bastante intuitivos y
+                fáciles de recordar. La siguiente imagen nos
+                muestra los símbolos básicos utilizados en
+                la creación de un diagrama de flujo:
+                    Principio o fin (de un programa o procedimiento)
+                    Proceso
+                    Invocación
+                    Conexión(en la misma página)
+                    Operación E/S
+                    Condición
+                    Líneas de flujo
+                    Conexión (en otra página)
+                A la hora de utilizar estos símbolos para crear un ordinograma hay
+                que tener en cuenta ciertas normas básicas que debemos cumplir:
+                • Todos los símbolos utilizados deben 
+                    estar unidos por líneas de flujo solo horizontales y/o verticales.
+                • No se pueden cruzar las líneas de flujo. Evitar los cruces.
+                • No deben quedar líneas de flujo sin conectar.
+                • A un símbolo de proceso pueden llegarle varias líneas de flujo
+                    pero solo puede salir una de él.
+                • Al símbolo de inicio no puede llegarle ninguna línea de flujo.
+                • De un símbolo de fin no puede salir ninguna línea de flujo pero si
+                    le pueden llegar varias.
+                • Se deben trazar los símbolos de manera que se pueda leer de
+                    arriba abajo y de izquierda a derecha.
+
+                El siguiente ordinograma de ejemplo corresponde al algoritmo de un
+                programa encargado de leer dos números y mostrar sin son iguales
+                o, en caso de ser distintos, cuál de ellos es el mayor.
+
+                1.3 | Símbolo de principio y fin
+                    Como su nombre indica, se utilizan para especificar el principio y fin del programa. En su interior se
+                    escribe la palabra inicio o fin, según corresponda.
+                1.4 | Símbolo de proceso
+                    El símbolo de proceso especifica una operación realizada por el programa, como por ejemplo, una
+                    operación aritmética con los datos recibidos en la entrada. La operación a realizar se especifica en el
+                    interior del rectángulo    
+
+                        s = a + b 
+
+                            En el ejemplo anterior, se realiza la suma de
+                            dos datos representados por las variables a
+                            y b y el resultado se deposita en una tercera
+                            variable llamada “s”. Es decir, la asignación
+                            se realiza de derecha a izquierda, que es
+                            como se hace en la mayoría de los lenguajes
+                            de alto nivel, utilizando el signo “=”.
+                            Para expresar las operaciones empleamos
+                            símbolos, como el signo + para la suma, el
+                            * para la multiplicación, el = para asignar
+                            un valor, etc. Estos símbolos son conocidos
+                            como operadores. 
+                            Cada lenguaje de programación tiene su
+                            propio juego de operadores, por lo que a
+                            la hora de utilizarlos en el diseño de un
+                            ordinograma no hay un convenio claro
+                            sobre su utilización; se debe procurar que
+                            sean lo más intuitivos posibles. Durante el
+                            estudio de la programación estructurada
+                            estableceremos un juego de operadores
+                            para ser utilizados durante el diseño de
+                            pseudocódigo.
+                1.5 | Líneas de flujo
+                    Las líneas de flujo representan el camino que sigue el algoritmo. 
+                    Para representarlas se utilizan flechas, 
+                    que parten de una operación y apuntan a la siguiente operación a realizar.
+
+                1.6 | Símbolo de entrada /salida
+                    Especifican una operación de entrada o salida, es decir, 
+                        de entrada de datos al programa 
+                        o de salida de datos desde el programa al exterior. 
+                    La operación en concreto se indica en el interior del símbolo,
+                    utilizando un verbo como “leer”, “mostrar”, “imprimir”, etc.  
+
+                        Leer a, b 
+                        Mostrar “El mayor es”, a  
+
+                    Al indicar la operación de entrada o salida en
+                    el diagrama de flujo, nos debemos abstraer
+                    del dispositivo en concreto que se utilizará
+                    para la operación. Por ejemplo, al indicar
+                    Leer a, b, simplemente indicamos que el
+                    programa recibe dos datos del exterior, sin
+                    especificar el dispositivo concreto utilizado
+                    para la lectura de los mismos 
+                        (teclado,fichero, Web, etc.).
+                    En el caso de las operaciones de entrada,
+                    a continuación del nombre de la operación
+                    (leer en este caso) se indican las variables
+                    donde se guardarán los datos recuperados,
+                    separadas por una coma. En el caso de las
+                    operaciones de salida, a continuación del
+                    nombre de la operación se indicará la lista
+                    de variables con los datos a mostrar y si
+                    queremos que aparezca también una frase
+                    como en nuestro ejemplo, esta frase se
+                    escribirá entre comillas.
+                1.7 | Símbolo de decisión
+                    Mediante este símbolo con forma de rombo expresamos 
+                    una operación de comprobación que puede
+                    alterar el flujo de ejecución de un programa. 
+                    El resultado de la comprobación será de tipo verdadero/
+                    falso (SI/NO), 
+                    de modo que si es verdadero el programa tomará un camino 
+                    y si es falso tomará otro
+
+                    La operación de comprobación se indica
+                    entre interrogaciones en el interior del
+                    rombo y se utilizan los llamados operadores
+                    de tipo condicional, es decir, aquellos
+                    símbolos que se utilizan para comprobar la
+                    igualdad o desigualdad de datos, si un dato
+                    es mayor o menor que otro, etc. El resultado
+                    de estas comprobaciones siempre será
+                    verdadero o falso.
+                    En el ejemplo que hemos presentado, se
+                    pregunta si el dato contenido en a es igual
+                    al contenido en b, para lo que usamos 
+                    el operador doble igual ==, en vez del
+                    simple igual =, pues éste se reserva para
+                    operaciones de asignación.
+                    Una variante de este tipo de operaciones
+                    son las decisiones con salida múltiple o
+                    alternativas múltiples. En este caso, la
+                    operación de comprobación puede dar como
+                    resultado distintos valores, no verdadero o
+                    falso, por lo que se podrán definir tantas
+                    salidas o caminos como posibles resultados
+                    queramos controlar.
+
+                    La forma de expresar una operación de 
+                    decisión múltiple sería como
+                    se indica en el ejemplo 
+
+                        Comprobar x
+
+                        1           5               10
+                        Instrucción 1   Instrucción 2     Instrucción 3
+
+                    Como vemos en el ejemplo, dependiendo del valor de un dato
+                    llamado “x”, el programa puede tomar diferentes caminos y ejecutar
+                    diferentes grupos de instrucciones; si es 1, ejecutará las instrucciones
+                    del grupo “instrucción 1”, si es 5 las del grupo “Instrucción 2”, etc. Se
+                    puede definir también un camino para el caso de que el resultado de
+                    la expresión no coincida con ninguno de los valores definidos.
+                    Después de ejecutar cada caso, el programa continuaría por un único
+                    camino.
+                    El siguiente ordinograma de ejemplo se encarga de leer un número
+                    de día y mostrar el día correspondiente, siempre que sea un número
+                    entre 1 y 3, sino mostrará que es un día no válido:
+
+                1.8 | Acumuladores y contadores 
+                    En la resolución de algoritmos nos vamos a encontrar numerosas
+                    situaciones en las que tenemos que realizar la suma o producto
+                    de varias cantidades. Estas operaciones no se realizarán en una
+                    única fase, sino que requerirán la realización de sumas o productos
+                    parciales de forma repetitiva hasta conseguir la cantidad final.
+                    Para guardar los resultados de estas operaciones utilizaremos
+                    variables de tipo numérico, a las que se conoce en programación
+                    con el nombre de acumuladores, puesto que van acumulando los
+                    resultados parciales de la operación.
+                    En cada suma parcial que se realiza con un acumulador se debe
+                    tomar el valor de la variable, sumarle o multiplicarle la cantidad y
+                    depositar el resultado de nuevo en la variable. Esto se representa
+                    en un ordinograma mediante el símbolo de proceso utilizado una
+                    expresión del tipo:
+
+                        variable=variable+cantidad o variable=variable*cantidad
+
+                    En el caso de los acumuladores de suma, la variable se inicializará a
+                    0 mientras que para la multiplicación lo hará a 1.
+                    En el siguiente ejemplo se muestra el caso de un pequeño programa
+                    que realiza la suma de los tres primeros múltiplos de 5 utilizando un
+                    acumulador
+
+                    Otro tipo de variables numéricas comúnmente utilizadas en un
+                    programa informático son los contadores. Un contador es una
+                    variable que se va incrementando en una unidad cada vez que el
+                    programa realiza una determinada acción, a fin de ir contando el
+                    número de veces que dicha acción es realizada. También puede
+                    haber decontadores, es decir, variables que vayan restando uno a su
+                    valor repetidas veces.
+                    La operación de incremento se representaría en un organigrama
+                    mediante el símbolo de proceso en el que se indicará una expresión
+                    del tipo variable=variable+1
+                    A continuación, te presentamos otro ejemplo de ordinograma que
+                    resuelve otro sencillo algoritmo, concretamente, se trataría de
+                    un programa que calcula la suma de todos los números naturales
+                    comprendidos entre 1 y un número leído. Por ejemplo, si el número
+                    leído por el programa es 8, el resultado sería 1+2+3+4+5+6+7+8.
+                    Este es su diagrama de flujo:
+
+                    Los contadores y acumuladores siempre se utilizan en el interior de
+                    estructuras repetitivas, es decir, aquellas que contienen bloques de
+                    instrucciones que se ejecutan repetidamente.
+
+                1.9 | Estructuras repetitivas 
+                    En el programa de ejemplo anterior hemos utilizado una estructura clásica en programación, que es
+                    la estructura repetitiva. No se trata de una operación en sí, sino de un conjunto de operaciones que
+                    se ejecutan mientras que se de una condición   
+
+                    En nuestro caso, se trata de ir acumulando la suma de números
+                    naturales en la variable suma hasta alcanzar el número leído.
+                    En una estructura repetitiva siempre encontramos una instrucción
+                    de tipo condicional, que determina si el grupo de instrucciones
+                    tiene que volver o no a ejecutarse. Se puede optar por comprobar
+                    la condición y ejecutar las instrucciones si se cumple, o ejecutar
+                    primero las instrucciones y comprobar después la condición:
+
+                    En cualquiera de los casos, si la condición se cumple (resultado
+                    verdadero), el bloque de instrucciones vuelve a ejecutarse y en el
+                    momento en que deje de ejecutarse se continuará por otro camino.
+ 
+            CASOS PRACTICOS 
+                1   Realiza un ordinograma para un algoritmo que calcule el total
+                    de números naturales que hay que sumar, comenzando por el 1,
+                    hasta que la suma alcance el valor 1000.
+
+                        DESARROLLO
+
+                        Inicio                                                      | total = 0                          
+                            num = 1    
+                            CONDICION                         
+                                ?si (total <= 1000)           
+                                    total = total + num          
+                                    num = num + 1  
+                                ?no                 
+                                    presentar "El total es: " + total    
+                        Fin    
+
+                        <!DOCTYPE html>
+                        <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Document</title>
+                        </head>
+                        <body>
+                            <script>
+                                let total = 0;
+                                let num = 1;
+                                while (total <= 1000) {
+                                    total = total + num;
+                                    num = num + 1;
+                                }
+                                console.log("El total es: " + total);
+                            </script>
+                        </body>
+                        </html>
+                2  Análisis de un ordinograma
+                    ORDINOGRAMA 1
+                        A continuación te vamos a proponer que resuelvas el siguiente
+                        ejercicio. Teniendo en cuenta que el operador “%” calcula el resto
+                        de la división entre dos números, dado el siguiente diagrama de
+                        flujo:
+                        Explica el funcionamiento del programa y que es lo que hace.
+                        Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+                        ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+                        de la variable cont?
+
+                            DESARROLLO 
+                                Cada vez que el usuario ingresa un número, 
+                                se verifica si es par, 
+                                y si es par se incrementa el total 
+                                siempre el contador cont se incrementa en 1. 
+                                y Después de las 10 iteraciones, se muestra el total.
+                                que es el total de numeros pares ingresados
+                                el numero 11 no se logra ingresar pues son solo 10 iteraciones
+
+                            <!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Ordinograma1</title>
+                            </head>
+                            <body>
+                                <script>
+                                    // Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+                                    // ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+                                    // de la variable cont?
+                                    //n es = 2  total acumulando= 1 contador = 1 / n%2= 0  es par
+                                    //n es = 4  total acumulando= 2 contador = 2 / n%2= 0  es par
+                                    //n es = 5  total acumulando= 2 contador = 3 / n%2= 1  es impar
+                                    //n es = 1  total acumulando= 2 contador = 4 / n%2= 1  es impar
+                                    //n es = 9  total acumulando= 2 contador = 5 / n%2= 1  es impar
+                                    //n es = 17  total acumulando= 2 contador = 6 / n%2= 1  es impar
+                                    //n es = 25  total acumulando= 2 contador = 7 / n%2= 1  es impar
+                                    //n es = 27  total acumulando= 2 contador = 8 / n%2= 1  es impar
+                                    //n es = 16  total acumulando= 3 contador = 9 / n%2= 0  es par
+                                    //n es = 30  total acumulando= 4 contador = 10 / n%2= 0  es par
+                                    //Total: 4 contador = 10
+                                    
+                                    let daRespuesta=true
+                                    let mensaje=""
+                                    let espar=false
+                                    let total = 0;
+                                    let cont = 0;
+                                    // debugger
+                                    while (cont < 10) {
+                                        let n = prompt("Ingrese un número");
+                                        //si cancel el ingreso
+                                        if(n===null){
+                                            daRespuesta=false
+                                            break
+                                        }
+                                        //si es numero par acumula en el total
+                                        if (n % 2 === 0) {
+                                            total = total + 1;
+                                            espar=true //si es par es true
+                                        }    
+                                        //siempre se acumula 1
+                                        cont = cont + 1;
+                                        //si es par guarda el mensaje
+                                        if(espar){
+                                            mensaje=" es par"
+                                            
+                                        } else {
+                                            mensaje=" es impar"
+                                        }
+                                        espar=false
+                                        alert("n es = " + n +"  total acumulando= " + total + " contador = " +cont+ " / n%2= " +n%2 +" "+mensaje)
+                                    }
+                                    if(daRespuesta){
+                                        alert("Total: " + total+" contador = "+cont);
+                                    } else {
+                                        alert("se cancelo la operacion")
+                                    }
+                            </script>
+
+                    ORDINOGRAMA 2
+                        A continuación, dado el siguiente ordinograma, te proponemos
+                        que respondas a una serie de preguntas:
+                        ¿Qué es lo que hace el algoritmo anterior?. ¿Qué se mostraría si la
+                        secuencia de números introducidos fuera 2, 5, 9, 3, -1, 4?
+            PRUEBA TEORICA
+                Test superado
+                Has obtenido un 100 en esta tarea
+
+                Tus respuestas
+                1. Una variable es:
+                    Un tipo de dato utilizado en un programa
+                    Un mecanismo para creación de algoritmos
+                    Una instrucción de control
+                    X Una zona de memoria que almacena un dato
+                2. El lenguaje que manipula registros del procesador es:
+                    Lenguaje máquina
+                    Lenguaje C
+                    Cualquier lenguaje de alto nivel
+                    Lenguaje ensamblador
+                3. Indica cual de las siguientes es una diferencia entre un compilador y un intérprete:
+                    Un compilador genera código ejecutable puro, mientras que el intérprete genera código intermedio
+                    X Un compilador genera un archivo de código objeto, mientras que el intérprete no genera ningún archivo intermedio
+                    Un compilador genera código binario, mientras que el intérprete genera código en ensamblador
+                    Un compilador solo es aplicable a lenguajes de alto nivel, mientras que el intérprete se emplea con lenguajes de código intermedio.
+
+                4. En un programa tenemos una variable llamada “intentos” que almacena el número de intentos disponibles que tenemos para poder realizar una determinada tarea. Cada vez que se falla la tarea se deberá quitar un intento, ¿qué instrucción de proceso debemos escribir para ello?:
+                    intentos=-1
+                    intentos=-intentos
+                    intentos-1
+                    X intentos=intentos-1
+                5. Teniendo en cuenta que el operador “%” calcula el resto de la división entre dos números, dado el siguiente diagrama de flujo:
+                    Indica los valores de las variables total y cont al finalizar el programa, suponiendo que los números leídos fueran: 2, 4, 5, 1, 9, 17, 25, 16, 30 y 11:
+                        total=0, cont=2
+                        X total=4, cont=10
+                        total=5,cont=11
+                        total=6,cont=0
+
+                        El pseudocódigo consiste en expresar mediante un lenguaje coloquial 
+                        las operaciones que describen el algoritmo asociado a un programa informático. 
+                        Básicamente, se trata de traducir las operaciones que se describen en un organigrama 
+                        a frases del lenguaje común, sin emplear símbolos.
+                        El lenguaje utilizado para describir los algoritmos mediante pseudocódigo, 
+                        debe ser fácil de interpretar por parte de una persona. 
+                        Las palabras y expresiones utilizadas en los mismos deberán indicar de forma 
+                        clara y precisa las tareas a realizar.    
+                        Y es que, el objetivo del pseudocódigo es intentar describir un
+                        algoritmo de la forma más detallada posible y, a su vez, próxima a un
+                        lenguaje de programación de alto nivel, de manera que la traducción
+                        final al código real durante la fase de implementación sea lo más
+                        sencilla posible, de ahí que se le llame pseudocódigo.
+                        Seguidamente vamos a ver unos ejemplos que nos van a ir aclarando
+                        como plantear un pseudocódigo y las estructuras típicas que se
+                        utilizan.  
+                            Inicio
+                                leer a, b
+                                si (a==b) entonces
+                                    mostrar “Son iguales”
+                                sino
+                                    si (a>b) entonces
+                                        mostrar “El mayor es”, a
+                                    sino
+                                        mostrar “El mayor es”, b
+                                    fin si
+                                fin si
+                            Fin  
+                        Como vemos, el esquema es similar al que se sigue en los
+                        ordinogramas pero sin la utilización de símbolos. En el caso
+                        de estructuras complejas, como las instrucciones alternativas,
+                        utilizamos palabras especiales como si..entonces..sino..fin si, para
+                        definir las operaciones y delimitar su ámbito.
+                        Al no seguir un esquema gráfico como el ordinograma, durante la
+                        definición de un pseudocódigo 
+                            es conveniente indentar (escribir con espacios o tabulaciones a la izquierda) 
+                            aquellas instrucciones o bloques de instrucciones que forman parte de otras, 
+                            a fin de aclarar la estructura del algoritmo.
+                        Aunque hay lenguajes de programación de alto nivel que si lo hacen,
+                        nosotros no haremos distinción entre mayúsculas y minúsculas a la
+                        hora de escribir un pseudocódigo.
+                        En este otro ejemplo tenemos el bloque de pseudocódigo que
+                        describe el algoritmo a seguir por un programa encargado de mostrar
+                        la suma de todos los números naturales comprendidos entre 1 y un
+                        número leído:
+                            Inicio
+                                suma=0
+                                cont=1
+                                leer n
+                                etiqueta1:
+                                suma=suma+cont
+                                si(cont<n) entonces
+                                    cont=cont+1
+                                    ir a etiqueta1
+                                sino
+                                    mostrar suma
+                                fin si	
+                            Fin
+                        En el pseudocódigo anterior vemos el uso de etiquetas, como la
+                        expresión “etiqueta 1:”, que sirven para marcar ciertas partes del
+                        programa, de modo que podamos utilizar dichas etiquetas como
+                        referencia a la hora pasar el control del programa a ese punto.  
+                        Sin la utilización de saltos, que muchas veces dificultan el seguimiento
+                        de un algoritmo, el programa anterior podría haberse escrito de esta
+                        otra manera utilizando una estructura repetitiva:  
+
+                            Inicio
+                            suma=0
+                            cont=1
+                            leer n
+                            mientras (cont<=n)
+                                suma=suma+cont
+                                cont=cont+1
+                            fin mientras
+                            mostrar suma
+                            Fin
+                        Con la estructura repetitiva mientras, lo que queremos expresar es
+                        que mientras se cumpla la condición indicada en el paréntesis, el
+                        programa tendrá que ejecutar el bloque de sentencias codificadas
+                        en su interior (las que aparecen entre mientras y fin mientras).
+                        Su funcionamiento es el siguiente: cuando el programa llega a la
+                        instrucción mientras, se comprueba la condición y, si esta es cierta,
+                        se ejecutará el bloque de sentencias. Después de ejecutar la última
+                        sentencia del bloque, el programa vuelve a comprobar la condición
+                        del mientras y, si vuelve a cumplirse, de nuevo se ejecuta el conjunto
+                        de instrucciones. 
+                        Así sucesivamente hasta que la condición sea falsa, en cuyo caso el
+                        programa continuará con las instrucciones situadas después de fin
+                        mientras.
+                        Según indicamos en el apartado anterior, la estructura mientras
+                        tendría la siguiente forma representándola con este sistema
+                        Como ya hemos visto durante el estudio de los ordinogramas y
+                        analizaremos con más detalle durante el estudio de las técnicas de
+                        programación estructurada, existen distintas variantes a la hora de
+                        implementar una estructura repetitiva, como que la condición sea
+                        evaluada después de la ejecución de las instrucciones en vez de
+                        antes, o que el bloque de sentencias se ejecute un número definido
+                        de veces controlado por un contador.
+                        El siguiente pseudocódigo corresponde al ejercicio resuelto
+                        presentado en el apartado anterior, consistente en un algoritmo que
+                        realiza la lectura y suma de números hasta que el usuario indica que
+                        no quiere introducir más números:
+                            Inicio
+                                suma=0
+                                Hacer
+                                    leer n
+                                    suma=suma+n
+                                    mostrar “¿Desea introducir otro número?”
+                                    leer op
+                                        Mientras (op==”si”)
+                                        Mostrar suma
+                            Fin
+                        En este caso utilizamos la expresión Hacer…Mientras, para ejecutar
+                        primero el bloque de sentencias que se deben repetir y preguntas al
+                        final por la condición, de modo que si esta condición se cumple, se
+                        volverá a ejecutar de nuevo el conjunto de instrucciones indicadas
+                        dentro de hacer.
+                    1.1 | Normas en la creación de pseudocódigo
+                        Aunque cada persona es libre de definir sus propias normas a la hora de 
+                        crear pseudocódigo, a fin de conseguir este objetivo,
+                        es necesario seguir una serie de reglas básicas y de sentido común, entre
+                        las que podríamos destacar:
+                            • Disponer de un juego limitado de instrucciones. 
+                                Es importante
+                                que a la hora de definir un algoritmo mediante pseudocódigo,
+                                utilicemos siempre el mismo juego de instrucciones y con ellas
+                                resolver cualquier problema de programación.
+                            • Utilizar estructuras lógicas de control. 
+                                Además de lo que serían
+                                las instrucciones de proceso (asignación de datos a una variable,
+                                operación aritmética entre variables, etc.), se debe disponer
+                                de un juego de instrucciones que expresen las operaciones de
+                                control de flujo que se llevan a cabo habitualmente en cualquier
+                                programa, como las alternativas simples y múltiples o las de tipo
+                                repetitivo.
+                            • Separación de datos y código. 
+                                Cuando se van a manejar varios
+                                datos en un programa, conviene separar la declaración de esos
+                                datos a utilizar de lo que serían las instrucciones de manipulación
+                                de los mismos.
+
+                                Según la última de las reglas que acabamos de presentar, conviene
+                                a la hora de diseñar el pseudocódigo de un algoritmo definir
+                                previamente las variables de los datos que se van a manipular y,
+                                cuando proceda, inicializar las mismas. Esto permite, antes de
+                                empezar con el código, aclarar con qué datos vamos a trabajar.
+                                A la hora de declarar las variables, se indicará el nombre de la variable
+                                seguido del tipo de dato con el que vamos a trabajar:
+
+                                    Nombre_variable tipo
+
+                                A continuación, mostramos una versión del programa anterior en el
+                                que se realiza una separación entre datos y código   
+                                    Inicio
+                                        suma=0
+                                        Hacer
+                                        leer n
+                                        suma=suma+n
+                                        mostrar “¿Desea introducir otro número?”
+                                        leer op
+                                            Mientras (op==”si”)
+                                            Mostrar suma
+                                    Fin 
+                                Los nombres de los tipos de datos los indicaremos según nuestro
+                                criterio, aunque será conveniente estandarizarlos. Más adelante
+                                daremos unas indicaciones sobre los tipos de datos habituales que
+                                podemos encontrarnos en un programa.
+
+                                Veamos otro algoritmo de ejemplo en pseudocódigo. Corresponde al
+                                de un programa encargado de leer un número y mostrar el factorial
+                                de dicho número.  
+
+                                El factorial de un número se calcula multiplicando todos los números
+                                naturales menores de ese número hasta 1. Por ejemplo, el factorial
+                                del 5 se calcularía  
+
+                                    5*4*3*2*1
+
+                                He aquí el algoritmo:
+
+                                    Inicio
+                                        Datos:
+                                        factorial entero
+                                        cont entero
+                                        n entero
+                                        Código:
+                                    factorial=1
+                                    Leer n
+                                    cont=n
+                                        Mientras (cont>=1)
+                                            factorial=factorial*cont
+                                            cont=cont-1
+                                        Fin mientras
+                                        mostrar factorial
+                                    Fin    
+
+                                    En este ejemplo mostrado se trata de ir multiplicando los números
+                                    naturales comprendidos entre 1 y el número leído.
+                                    Una vez más, para ir ejecutando repetidas veces una tarea tenemos
+                                    que echar mano de la instrucción mientras. 
+
+                                    Para controlar el número de multiplicaciones realizadas, utilizamos
+                                    una variable contador que se inicializa al número leído y que con cada
+                                    multiplicación se decrementa en una unidad. La variable factorial se
+                                    utiliza como acumulador de las multiplicaciones
+                    1.2 | Seguimiento de algoritmos
+                        El seguimiento de algoritmos es un ejercicio mental que,
+                        como su nombre indica, consiste en seguir
+                        la lógica de un algoritmo, en nuestro caso escrito mediante pseudocódigo, 
+                        tal y como lo haría un ordenador, a fin de determinar el valor final 
+                        de ciertas variables.
+                        Este ejercicio mental nos va ayudar a comprender el funcionamiento
+                        de las estructuras lógicas utilizadas en programación, lo que sin
+                        duda va a contribuir enormemente a adaptar nuestra mente a la
+                        lógica de programación.  
+                    Casos prácticos "Pseudocódigo"
+                        A continuación te preesentamos un caso práctico relacionado con  
+                        pseudocódigo. Lee atentamente y desarrolla la actividad planteada. 
+                        Puedes compartirla en el foro con tus compañeros.      
+                        1 - Realización de algoritmos en pseudocódigo
+                            ALGORITMO 1
+                                Realiza el algoritmo correspondiente a un programa que lea un
+                                número y muestre un texto indicando si el número es o no primo
+
+
+                                Un número primo es un número mayor que 1 
+                                que no tiene divisores exactos más allá de 1 y sí mismo. 
+                                En otras palabras, un número primo solo es divisible por 1 y por sí mismo. 
+                                Aquí hay algunos ejemplos de números primos:
+
+                                2 es el único número primo par.
+                                3 es primo, ya que solo es divisible por 1 y 3.
+                                5 es primo, ya que solo es divisible por 1 y 5.
+                                7 es primo, ya que solo es divisible por 1 y 7.
+                                11 es primo, ya que solo es divisible por 1 y 11.
+                                Y así sucesivamente.
+                                2,3,5,7,11
+
+                                Número primo (Ejemplo: 5):
+
+                                5 es divisible por 1 (5 ÷ 1 = 5).
+                                5 es divisible por 5 (5 ÷ 5 = 1).
+                                No hay otros números enteros que dividan exactamente a 5.
+                                En este caso, los únicos divisores exactos de 5 son 1 y 5.
+
+                                Número no primo (Ejemplo: 6):
+
+                                6 es divisible por 1 (6 ÷ 1 = 6).
+                                6 es divisible por 2 (6 ÷ 2 = 3).
+                                6 es divisible por 3 (6 ÷ 3 = 2).
+                                6 es divisible por 6 (6 ÷ 6 = 1).
+                                En este caso, 6 tiene más divisores exactos que 1 y 6. Por lo tanto, no es un número primo.
+
+                                Inicio
+                                    Código:
+                                    ingrese numero 
+                                    valida si el numero es primos
+                                    si numero es primo 
+                                            presenta texto "El numero es primo"
+                                        de lo contrario
+                                            presenta texto "El numero no es primo"
+                                Fin
+
+                                Inicio:
+                                    Datos:
+                                        Numero entero
+                                    Código:
+                                        Escribir "Ingrese un número:"
+                                        Leer Numero
+
+                                        Si Numero es menor o igual a 1 entonces
+                                            Escribir "El número no es primo, ya que es menor o igual a 1."
+                                        Sino si Numero es igual a 2 entonces
+                                            Escribir "El número es primo, ya que 2 es el único número primo par."
+                                        Sino
+                                            Divisor <- 2
+                                            Primo <- Verdadero
+
+                                            Mientras Divisor * Divisor <= Numero y Primo es Verdadero hacer
+                                                Si Numero es divisible por Divisor entonces
+                                                    Primo <- Falso
+                                                Fin Si
+                                                Divisor <- Divisor + 1
+                                            Fin Mientras
+
+                                            Si Primo es Verdadero entonces
+                                                Escribir "El número es primo."
+                                            Sino
+                                                Escribir "El número no es primo."
+                                            Fin Si
+                                        Fin Si
+                                Fin
+
+                                <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Verificar si un número es primo</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            function esPrimo(numero) {
+                                                if (numero <= 1) {
+                                                    return false;
+                                                }
+                                                for (let i = 2; i <= Math.sqrt(numero); i++) {
+                                                    if (numero % i === 0) {
+                                                        return false;
+                                                    }
+                                                }
+                                                return true;
+                                            }
+                                            function verificarNumero() {
+                                                var inputNumero = document.getElementById('numero');
+                                                var numero = parseInt(inputNumero.value);
+                                                var mensaje = esPrimo(numero) ? "El número es primo." : "El número no es primo.";
+                                                document.getElementById('resultado').innerHTML = mensaje;
+                                            }
+                                        </script>
+                                        <h1>Verificar si un número es primo</h1>
+                                        <label for="numero">Ingrese un número:</label>
+                                        <input type="number" id="numero">
+                                        <button onclick="verificarNumero()">Verificar</button>
+                                        <p id="resultado"></p>
+                                    </body>
+                                </html>
+
+
+                                
+                                if (numero <= 1) {
+                                    return false;
+                                }
+                                verifica si el número es menor o igual a 1. 
+                                Si es así, retorna false porque
+                                los números menores o iguales a 1 no son primos.
+
+                                for (let i = 2; i <= Math.sqrt(numero); i++) {
+                                    if (numero % i === 0) {
+                                        return false;
+                                    }
+                                }
+                                Este bucle itera desde 2 hasta la raíz cuadrada del número. 
+                                No es necesario verificar divisores más allá de la raíz cuadrada 
+                                para determinar si un número es primo. 
+                                Si encuentra algún divisor (numero % i === 0), 
+                                significa que el número no es primo 
+                                y la función devuelve false.
+
+                            ALGORITMO 2
+                                Diseñar un algoritmo que lea dos números y realice la suma de todos los
+                                números pares comprendidos entre ambos números.
+
+                                Inicio:
+                                    Datos:
+                                        Numero1, Numero2, Suma entero
+                                    Código:
+                                        Escribir "Ingrese el primer número:"
+                                        Leer Numero1
+
+                                        Escribir "Ingrese el segundo número:"
+                                        Leer Numero2
+
+                                        Si Numero1 > Numero2 entonces
+                                            Intercambiar Numero1 y Numero2
+                                        Fin Si
+
+                                        Suma = 0
+
+                                        Para i desde Numero1 hasta Numero2 hacer
+                                            Si i mod 2 = 0 entonces
+                                                Suma = Suma + i
+                                            Fin Si
+                                        Fin Para
+
+                                        Escribir "La suma de los números pares entre ", Numero1, " y ", Numero2, " es ", Suma
+                                Fin
+
+                                <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Suma de Números Pares</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            function intercambiarNumeros(a, b) {
+                                                return [b, a];
+                                            }
+                                            function sumaNumerosPares() {
+                                                var numero1 = parseInt(prompt("Ingrese el primer número:"));
+                                                var numero2 = parseInt(prompt("Ingrese el segundo número:"));
+                                                if (numero1 > numero2) {
+                                                    [numero1, numero2] = intercambiarNumeros(numero1, numero2);
+                                                }
+                                                document.write("NUMERO1= "+numero1 + " NUMERO2="+numero2+ "<br>");
+                                                var suma = 0;
+                                                for (var i = numero1; i <= numero2; i++) {
+                                                    if (i % 2 === 0) {
+                                                        suma += i;
+                                                        document.write("I= "+i + " suma="+suma + "<br>");
+                                                    }
+                                                }
+                                                alert("La suma de los números pares entre " + numero1 + " y " + numero2 + " es " + suma);
+                                            }
+                                            sumaNumerosPares();
+                                        </script>
+                                    </body>
+                                </html>
+
+                        2- Seguimiento de algoritmos
+
+                            ALGORITMO 1
+                                Indica el valor de las variables A y B al finalizar el siguiente
+                                algoritmo:
+
+                                Inicio
+                                    Datos:
+                                    A, B, C entero
+                                    Código:
+                                    A=7
+                                    B=4
+                                    C=9 //C=9
+                                    Mientras (A<>C) hacer //7<>9
+                                        Si (C>9) entonces //9 no es mayor que 9
+                                            B=B+5  //B=4
+                                        Sino
+                                            A=A+2 //a=7 c=9 a=7+2=9 A=9
+                                        Fin Si
+                                    Fin Mientras
+                                Fin
+
+                                <!DOCTYPE html>
+                                    <html lang="es">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <title>algoritomo 1</title>
+                                        </head>
+                                        <body>
+                                            <script>
+                                                var A = 7;
+                                                var B = 4;
+                                                var C = 9;
+                                                while (A !== C) {
+                                                    if (C > 9) {
+                                                        B = B + 5;
+                                                    } else {
+                                                        A = A + 2;
+                                                    }
+                                                }
+                                                console.log("A: " + A); //9
+                                                console.log("B: " + B); //4
+                                                console.log("C: " + C); //9
+                                            </script>
+                                        </body>
+                                    </html>
+                                RESPUESTA
+                                    A=9
+                                    B=4
+                                    C=9
+
+                            ALGORITMO 2 
+                                Indica los valores de las variables X, Y y Z al finalizar el siguiente
+                                proceso.
+                                    Respuesta
+                                        X=0 Y=21 Z=0
+
+                                Inicio
+                                Datos:
+                                    X entero
+                                    Y entero
+                                    Z entero
+                                Código:
+                                    X=0
+                                    Y=7
+                                    Z=-4
+                                    Mientras (X > Z) hacer  //X=0> Z=-4 0>-4    //0>z=-4     //15<15 no cumple   //X=0 >Z=-2  //Z=0 * no cumple sale
+                                        Si (Y<15) entonces  //Y=7<15            //11<15                         //y=18
+                                            Y=Y+4           //Y=7+4=11          //Y=11+4=15 sale del if         sale del if
+                                        Sino                //y=11                        
+                                            Si(Z<0) entonces                                //Z=-4<0            //Z=-2<0
+                                                Z=Z+2                                       //Z=-4+2=-2         //Z=-2+2=0 
+                                            Sino
+                                                Z=Z+1                   
+                                                X=X-1                   
+                                            Fin si
+                                            Y=Y+3                                           //y=15+3=18         //y=18+3=21 //*
+                                        Fin si
+                                    Fin mientras
+                                Fin 
+
+                                <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Algoritmo 2 analisis</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var X = 0;
+                                            var Y = 7;
+                                            var Z = -4;
+                                            while (X > Z) {
+                                                console.log("X= "+X+" Z= "+Z)
+                                                if (Y < 15) {
+                                                    Y = Y + 4;
+                                                    console.log("y= "+Y)
+                                                } else {
+                                                    if (Z < 0) {
+                                                        Z = Z + 2;
+                                                        console.log("Z= "+Z)
+                                                    } else {
+                                                        Z = Z + 1;
+                                                        console.log("Z= "+Z)
+                                                        X = X - 1;
+                                                        console.log("X= "+X)
+                                                    }
+                                                    Y = Y + 3;
+                                                    console.log("y= "+Y)
+                                                }
+                                            }
+                                            alert("X="+X+" Y="+Y+" Z="+Z)
+                                        </script>
+                                    </body>
+                                </html> 
+
+                            ALGORITMO 3
+                                Indica el valor que se imprimirá al finalizar el proceso:
+                                Respuesta
+                                    20
+                                    
+                                Inicio
+                                    Datos:
+                                    P,X, Contador entero
+                                    Código:
+                                    P=4
+                                    X=0
+                                    Contador=0
+                                    Mientras(P<>8) hacer    //4<>8 se cumple
+                                        X=X+5               //x=0+5=5 //10 //15 // 20
+                                        P=P+1               //p=4+1=5 //6  //7 // 8
+                                        Contador=Contador+1 //cont =1 //2
+                                    Fin Mientras
+                                    Mostrar “El valor de X es”, X //x=20
+                                Fin   
+                                <!DOCTYPE html>
+                                    <html lang="es">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <title>Ejemplo de código en HTML con JS</title>
+                                        </head>
+                                        <body>
+                                            <script>
+                                                var P = 4;
+                                                var X = 0;
+                                                var Contador = 0;
+                                                while (P !== 8) {                       //p=4<>8    //P=5       //P=6,  7
+                                                    X = X + 5;                          //X=0+5=5   //X=5+1=10  //X=15, 20
+                                                    P = P + 1;                          //P=4+1=5   //P=5+1=6   //P=7,  8
+                                                    Contador = Contador + 1;            //C=0+1=1   //C=2       //C=3,  4 
+                                                }
+                                                console.log("El valor de X es " + X); //x=20
+                                            </script>
+                                        </body>
+                                    </html>
+
+                            ALGORITMO 4
+                                Indica el valor de la variable X al finalizar el proceso siguiente:
+                            RESPUESTA 
+                                    no termina el proceso del bucle interno
+                                    el valor de x sera siempre el mismo X=100 
+                                    hay un bucle infinito y no hay condiciones para salir de ese bucle interno. 
+                                Inicio
+                                    Datos:
+                                    A, B, X, Y, Z entero
+                                    Código:
+                                    A=15
+                                    B=15
+                                    X=100
+                                    Y=100
+                                    Z=0
+                                    Mientras(A==B) hacer        //A=B=15        //A=B=18
+                                        A=A+3                   //A=15+3=18
+                                        Mientras(X==Y) hacer    //X=Y=100      //queda en loop interno infinito     
+                                            X=X+Z               //X=100+0=100  //y no logra salir de este bucle 
+                                        Fin Mientras
+                                        B=B+3                   
+                                    Fin Mientras                
+                                Fin  
+
+                            ALGORITMO 5
+                                Indica el valor de la variable Z al finalizar el proceso siguiente:
+
+                                Respuesta.
+                                    Z: 100
+                                    La variable Z no se cambia en ningun momento en el codigo
+
+                                Inicio                          
+                                    Datos:                      
+                                    A, B, X, Y, Z entero         
+                                    Código:                     
+                                    A=60                        
+                                    B=0                         
+                                    X=100                       
+                                    Y=100                       
+                                    Z=100                       
+                                    Mientras(A<>B) hacer        //A=60<>B=0                         //A=60<>B=20                        //A=60,B=40     //A=70,B=40
+                                        A=A+10                  //A=60+10=70                        //A=60+10=70                        //A=60+10=70    
+                                        Mientras(X==Y) hacer    //X=100 == Y=100 //X=200 <> Y=100   //X=200=Y=200   //X=300<> Y=200     //X=300=Y
+                                            X=X+Z               //X=100+100=200                     //X=200+100=300                     //X=300+100=400
+                                        Fin Mientras                            //sale                              //sale
+                                        B=B+20                                  //B=0+20=20                         //B=20+20=40
+                                        A=A-10                                  //A=70-10=60                        //A=70-10=60
+                                        Y=X                                     //Y=200                             //Y=300=X
+                                    Fin Mientras                
+                                Fin                               
+
+                                DESARROLLO
+                                    <!DOCTYPE html>
+                                    <html lang="es">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <title>Algoritmo 5</title>
+                                        </head>
+                                        <body>
+                                            <script>
+                                                var A = 60;
+                                                var B = 0;
+                                                var X = 100;
+                                                var Y = 100;
+                                                var Z = 100;
+                                                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                while (A !== B ) {
+                                                    document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                    A = A + 10;
+                                                    document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                    while (X == Y) {
+                                                        X = X + Z;
+                                                        document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                    }
+                                                    B = B + 20;
+                                                    A = A - 10;
+                                                    Y = X;
+                                                    document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                }
+                                            </script>
+                                        </body>
+                                    </html>  
+
+                                    valores  
+                                    A: 60, B: 0,  X: 100, Y: 100, Z: 100
+                                    A: 60, B: 0,  X: 100, Y: 100, Z: 100
+                                    A: 70, B: 0,  X: 100, Y: 100, Z: 100
+                                    A: 70, B: 0,  X: 200, Y: 100, Z: 100
+                                    A: 60, B: 20, X: 200, Y: 200, Z: 100
+                                    A: 60, B: 20, X: 200, Y: 200, Z: 100
+                                    A: 70, B: 20, X: 200, Y: 200, Z: 100
+                                    A: 70, B: 20, X: 300, Y: 200, Z: 100
+                                    A: 60, B: 40, X: 300, Y: 300, Z: 100
+                                    A: 60, B: 40, X: 300, Y: 300, Z: 100
+                                    A: 70, B: 40, X: 300, Y: 300, Z: 100
+                                    A: 70, B: 40, X: 400, Y: 300, Z: 100
+                                    A: 60, B: 60, X: 400, Y: 400, Z: 100
+
+                            ALGORITMO 6
+                                Indica el valor al que habrá que inicializar P para que al finalizar
+                                el proceso el valor que se imprima de X sea 10:
+
+                                Respuesta
+                                    P=-2
+                                
+                                Inicio:
+                                    Datos:
+                                    X, P entero
+                                    Código:
+                                    X=0
+                                    P=?
+                                    Mientras(P<=7) hacer
+                                        X=X+1
+                                        P=P+1
+                                    Fin Mientras
+                                    Mostrar “El valor de X es “, X
+                                Fin  
+
+                                DESARROLLO
+                                    <!-- Inicio:
+                                        Datos:
+                                        X, P entero
+                                        Código:
+                                        X=0
+                                        P=-2
+                                        Mientras(P<=7) hacer
+                                            X=X+1
+                                            P=P+1
+                                        Fin Mientras
+                                        Mostrar “El valor de X es “, X
+                                    Fin  -->
+                                    <!DOCTYPE html>
+                                    <html lang="es">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <title>Código en HTML con JS</title>
+                                        </head>
+                                        <body>
+                                            <script>
+                                                var X = 0;
+                                                var P = -2;
+                                                while (P <= 7) {
+                                                    // Operaciones dentro del bucle
+                                                    X = X + 1;
+                                                    P = P + 1;
+                                                }
+                                                document.write("El valor de X es " + X);
+                                            </script>
+                                        </body>
+                                    </html>     
+            PRUEBA TEORICA
+                Test superado
+                Has obtenido un 100 en esta tarea
+                    1. Indica cual será el valor de la variable I al finalizar el siguiente bloque de instrucciones:
+                            I=1
+                            MIENTRAS(I<10) HACER 
+                                I=I+2
+                                SI(I==7)entonces
+                                    I=1
+                                FIN SI 
+                            FIN MIENTRAS         
+                        
+                        7
+                        10
+                        1
+                        X Bucle infinito
+                    2. Cuál de las siguientes no es una norma a seguir a la hora de realizar pseudocódigos:
+                        No utilizar instrucciones repetitivas
+                        Separar datos y código
+                        Disponer de juego limitado de instrucciones
+                        X Se deben evitar saltos    
+                    3. Indica el valor que se imprimirá al finalizar el proceso:    
+                        INICIO 
+                            DATOS 
+                            P,X CONTADOR ENTEROS 
+                            CODIGO
+                            P=4
+                            X=0
+                            MIENTRAS(P<>8) HACER 
+                                X=X+5 
+                                P=P+1
+                                CONTADOR=CONTADOR+1
+                            FIN MIENTRAS 
+                            MOSTRAR "EL VALOR DE X ES", X    
+                        FIN
+
+                        0
+                        1
+                        X 20
+                        Bucle infinito
+
+                    4. Indica el valor de la variable X al finalizar el proceso siguiente:
+                        INICIO
+                            DATOS 
+                                A,B,X,Y,Z ENTEROS 
+                            CODIGO
+                                A=15
+                                B=15 
+                                X=100
+                                Y=100
+                                Z=0
+                                MIENTRAS(A==B) HACER 
+                                    A=A+3
+                                    MIENTRAS(X==Y)HACER 
+                                        X=X+Z
+                                    FIN MIENTRAS 
+                                    B=B+3 
+                                FIN MIENTRAS 
+                        FIN
+
+                                        
+                        0
+                        3
+                        9
+                        x Bucle infinito
+                    5. Indica el valor de la variable Z al finalizar el proceso siguiente:
+                        (z nunca se modifica en el codigo)
+                        400
+                        x 100
+                        50
+                        600
+    MÓDULO 4. PROGRAMACIÓN ESTRUCTURADA.
+    Tipos de instrucciones
+        A continuación, vamos a conocer los tres tipos de estructuras lógicas que se utilizan 
+        en programación estructurada: 
+            instrucciones secuenciales, 
+            instrucciones alternativas 
+            e instrucciones repetitivas.
+
+            Instrucciones secuenciales
+                Son aquellas que se ejecutan en secuencia, es decir, 
+                una detrás de otra. Realmente, en un programa estructurado 
+                todas las sentencias son secuenciales, 
+                solo que unas pueden ser simples, como 
+                    la inicialización de variables, 
+                    operaciones aritméticas entre datos, 
+                    lectura de números, 
+                y otras pueden ser complejas, 
+                    como una instrucción alternativa o repetitiva.
+
+        Centrándonos en las operaciones simples, pueden consistir en la inicialización de alguna variable:
+    
+    
+    
 
         
 
