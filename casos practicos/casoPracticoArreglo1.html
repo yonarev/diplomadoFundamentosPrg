@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenar Textos</title>
+    <script>
+        function obtenerLetra(texto, posicion) {
+            return texto.charAt(posicion);
+        }
+        function contarVocales(texto) {
+            var vocales = texto.match(/[aeiou]/gi);
+            return vocales ? vocales.length : 0;
+        }
+        function ordenarTextos() {
+            var textos = [];
+            var caracteresTextos = [];
+            for (var i = 1; i <= 10; i++) {
+                var texto = prompt("Ingrese el texto " + i + ":");
+                textos.push(texto);
+                caracteresTextos.push(texto.length);
+            }
+            for (var i = 0; i < 9; i++) {
+                for (var j = 0; j < 10 - i - 1; j++) {
+                    if (caracteresTextos[j] > caracteresTextos[j + 1]) {
+                        // Intercambiar textos[j], caracteresTextos[j] y textos[j+1], caracteresTextos[j+1]
+                        var tempTexto = textos[j];
+                        var tempCaracteres = caracteresTextos[j];
+                        textos[j] = textos[j + 1];
+                        caracteresTextos[j] = caracteresTextos[j + 1];
+                        textos[j + 1] = tempTexto;
+                        caracteresTextos[j + 1] = tempCaracteres;
+                    }
+                }
+            }
+            for (var i = 0; i < 9; i++) {
+                for (var j = 0; j < 10 - i - 1; j++) {
+                    if (caracteresTextos[j] === caracteresTextos[j + 1] && contarVocales(textos[j]) < contarVocales(textos[j + 1])) {
+                        // Intercambiar textos[j] y textos[j+1]
+                        var tempTexto = textos[j];
+                        textos[j] = textos[j + 1];
+                        textos[j + 1] = tempTexto;
+                    }
+                }
+            }
+            var resultado = "Textos ordenados:\n";
+            for (var i = 0; i < 10; i++) {
+                resultado += textos[i] + "\n";
+            }
+            alert(resultado);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="ordenarTextos()">Ordenar Textos</button>
+</body>
+</html>

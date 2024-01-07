@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ordenar Array 2D</title>
+    </head>
+    <body>
+        <script>
+            function tablaDesordenada(array) {
+                document.write("<p>Array antes de ordenar:</p>");
+                document.write("<table border='1'>");
+                for (let i = 0; i < array.length; i++) {
+                    document.write("<tr>");
+                    for (let j = 0; j < array[i].length; j++) {
+                        document.write("<td>" + array[i][j] + "</td>");
+                    }
+                    document.write("</tr>");
+                }
+                document.write("</table>");
+            }
+            function tablaOrdenada(array) {
+                document.write("<p>Array ordenado de menor a mayor:</p>");
+                document.write("<table border='1'>");
+                for (let i = 0; i < array.length; i++) {
+                    document.write("<tr>");
+                    for (let j = 0; j < array[i].length; j++) {
+                        document.write("<td>" + array[i][j] + "</td>");
+                    }
+                    document.write("</tr>");
+                }
+                document.write("</table>");
+            }
+            function ordenarArray(arr) {
+                const filas = arr.length;
+                const columnas = arr[0].length;
+                for (let i = 0; i < filas; i++) {
+                    for (let j = 0; j < columnas - 1; j++) {
+                        for (let k = 0; k < columnas - j - 1; k++) {
+                            if (arr[i][k] > arr[i][k + 1]) {
+                                const temp = arr[i][k];
+                                arr[i][k] = arr[i][k + 1];
+                                arr[i][k + 1] = temp;
+                            }
+                        }
+                    }
+                }
+            }
+            function crearArray2D(filas, columnas) {
+                const array2D = [];
+
+                for (let i = 0; i < filas; i++) {
+                    const fila = [];
+                    for (let j = 0; j < columnas; j++) {
+                        fila.push(0);
+                    }
+                    array2D.push(fila);
+                }
+                return array2D;
+            }
+            const array2D = crearArray2D(4, 6);
+            for (let i = 0; i < 4; i++) {
+                for (let j = 0; j < 6; j++) {
+                    array2D[i][j] = parseInt(prompt(`Ingrese el número en la posición ${i + 1},${j + 1}:`));
+                }
+            }
+            tablaDesordenada(array2D);
+            ordenarArray(array2D);
+            tablaOrdenada(array2D);
+        </script>
+    </body>
+</html>

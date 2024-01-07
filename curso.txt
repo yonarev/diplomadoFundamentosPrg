@@ -4099,13 +4099,358 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 el que tenga mayor número de vocales. Para este algoritmo
                 podemos utilizar la función ObtenerLetra.
 
+                DESARROLLO 
+                    Inicio
+                        Datos:
+                            textos 1 to 10 entero
+                            largos 1 to 10 entero
+                            texto es texto
+                            I entero
+                            largoTexto entero
+                        Código:
+                            largoTexto=0
+                            texto=""
+                            For I=1 To 10 Step 1
+                               solicita texto[i] al usuario
+                               largoTexto=largo(textos[I])
+                               largos[I]=largoTexto
+                            End For
+                            For K=1 To 10 Step 1
+                              ordenar menor a mayor 
+                              si dos largos iguales 
+                                    mayor numero de vocales primero
+                              end si
+                            End For
+                    Fin   
+
+                    INICIO
+                        DATOS
+                            textos[10]: ARRAY DE STRING
+                            caracteresTextos[10]: ARRAY DE ENTERO
+                        CODIGO
+                            FUNCION ObtenerLetra(texto: STRING, posicion: ENTERO) -> CARACTER
+                            FUNCION ContarVocales(texto: STRING) -> ENTERO
+
+                            //ALMACENA TEXTOS
+                            PARA i DESDE 1 HASTA 10
+                                ESCRIBIR "Ingrese el texto ", i, ": "
+                                LEER textos[i]
+                                caracteresTextos[i] = LONGITUD(textos[i])
+                            FIN PARA
+
+                            //ORDENA MENOR A MAYOR
+                            PARA i DESDE 1 HASTA 9
+                                PARA j DESDE 1 HASTA 10-i
+                                    SI caracteresTextos[j] > caracteresTextos[j+1]
+                                        tempTexto = textos[j]
+                                        tempCaracteres = caracteresTextos[j]
+
+                                        textos[j] = textos[j+1]
+                                        caracteresTextos[j] = caracteresTextos[j+1]
+
+                                        textos[j+1] = tempTexto
+                                        caracteresTextos[j+1] = tempCaracteres
+                                    FIN SI
+                                FIN PARA
+                            FIN PARA
+
+                            //ORDENA POR VOCALES
+                            PARA i DESDE 1 HASTA 9
+                                PARA j DESDE 1 HASTA 10-i
+                                    SI caracteresTextos[j] == caracteresTextos[j+1] Y ContarVocales(textos[j]) < ContarVocales(textos[j+1])
+                                        tempTexto = textos[j]
+                                        textos[j] = textos[j+1]
+                                        textos[j+1] = tempTexto
+                                    FIN SI
+                                FIN PARA
+                            FIN PARA
+
+                            // Mostrar los textos ordenados
+                            ESCRIBIR "Textos ordenados:"
+                            PARA i DESDE 1 HASTA 10
+                                ESCRIBIR textos[i]
+                            FIN PARA
+                    FIN 
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Ordenar Textos</title>
+                            <script>
+                                function obtenerLetra(texto, posicion) {
+                                    return texto.charAt(posicion);
+                                }
+                                function contarVocales(texto) {
+                                    var vocales = texto.match(/[aeiou]/gi);
+                                    return vocales ? vocales.length : 0;
+                                }
+                                function ordenarTextos() {
+                                    var textos = [];
+                                    var caracteresTextos = [];
+                                    for (var i = 1; i <= 10; i++) {
+                                        var texto = prompt("Ingrese el texto " + i + ":");
+                                        textos.push(texto);
+                                        caracteresTextos.push(texto.length);
+                                    }
+                                    for (var i = 0; i < 9; i++) {
+                                        for (var j = 0; j < 10 - i - 1; j++) {
+                                            if (caracteresTextos[j] > caracteresTextos[j + 1]) {
+                                                // Intercambiar textos[j], caracteresTextos[j] y textos[j+1], caracteresTextos[j+1]
+                                                var tempTexto = textos[j];
+                                                var tempCaracteres = caracteresTextos[j];
+                                                textos[j] = textos[j + 1];
+                                                caracteresTextos[j] = caracteresTextos[j + 1];
+                                                textos[j + 1] = tempTexto;
+                                                caracteresTextos[j + 1] = tempCaracteres;
+                                            }
+                                        }
+                                    }
+                                    for (var i = 0; i < 9; i++) {
+                                        for (var j = 0; j < 10 - i - 1; j++) {
+                                            if (caracteresTextos[j] === caracteresTextos[j + 1] && contarVocales(textos[j]) < contarVocales(textos[j + 1])) {
+                                                // Intercambiar textos[j] y textos[j+1]
+                                                var tempTexto = textos[j];
+                                                textos[j] = textos[j + 1];
+                                                textos[j + 1] = tempTexto;
+                                            }
+                                        }
+                                    }
+                                    var resultado = "Textos ordenados:\n";
+                                    for (var i = 0; i < 10; i++) {
+                                        resultado += textos[i] + "\n";
+                                    }
+                                    alert(resultado);
+                                }
+                            </script>
+                        </head>
+                        <body>
+                            <button onclick="ordenarTextos()">Ordenar Textos</button>
+                        </body>
+                    </html>
+                    
             ALGORITMO 2
                 Dado un array de dos dimensiones de 4x6, realizar un programa que lea
                 24 números y los coloque en el array. Posteriormente, se ordenará el
                 array de menor a mayor (la posición 1,1 tendrá el número más pequeño,
                 mientras que 4,6 tendrá el mayor) y se mostrará ordenado
 
+                DESARROLLO 
+                    INICIO
+                        DATOS
+                            ARRAY array_2d[4][6]
+                        CODIGO
+                            PARA i DESDE 0 HASTA 3
+                                PARA j DESDE 0 HASTA 5
+                                    ESCRIBIR "Ingrese el número en la posición ", i+1, ",", j+1, ": "
+                                    LEER array_2d[i][j]
+                                FIN PARA
+                            FIN PARA
 
+                            PARA i DESDE 0 HASTA 3
+                                PARA j DESDE 0 HASTA 5
+                                    ESCRIBIR array_2d[i][j]
+                                    SI j < 5 ENTONCES
+                                        ESCRIBIR ", "
+                                    FIN SI
+                                FIN PARA
+                                SALTO DE LÍNEA
+                            FIN PARA
+
+                            OrdenarArray(array_2d)
+
+                            ESCRIBIR "\nArray ordenado de menor a mayor:"
+                            PARA i DESDE 0 HASTA 3
+                                PARA j DESDE 0 HASTA 5
+                                    ESCRIBIR array_2d[i][j]
+                                    SI j < 5 ENTONCES
+                                        ESCRIBIR ", "
+                                    FIN SI
+                                FIN PARA
+                                SALTO DE LÍNEA
+                            FIN PARA
+
+                            OrdenarArray(array)
+                                filas = LONGITUD(array)
+                                columnas = LONGITUD(array[0])
+                                array_plano = []
+                                PARA i DESDE 0 HASTA filas-1
+                                    PARA j DESDE 0 HASTA columnas-1
+                                        AÑADIR array[i][j] A array_plano
+                                    FIN PARA
+                                FIN PARA
+                                PARA i DESDE 0 HASTA LONGITUD(array_plano)-1
+                                    PARA j DESDE 0 HASTA LONGITUD(array_plano)-i-2
+                                        SI array_plano[j] > array_plano[j+1] ENTONCES
+                                            INTERCAMBIAR array_plano[j], array_plano[j+1]
+                                        FIN SI
+                                    FIN PARA
+                                FIN PARA
+                                k = 0
+                                PARA i DESDE 0 HASTA filas-1
+                                    PARA j DESDE 0 HASTA columnas-1
+                                        array[i][j] = array_plano[k]
+                                        k = k + 1
+                                    FIN PARA
+                            FIN PARA
+                    FIN
+
+                <!DOCTYPE html>
+                <html lang="es">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Ordenar Array 2D</title>
+                    </head>
+                    <body>
+                        <script>
+                            function tablaDesordenada(array) {
+                                document.write("<p>Array antes de ordenar:</p>");
+                                document.write("<table border='1'>");
+                                for (let i = 0; i < array.length; i++) {
+                                    document.write("<tr>");
+                                    for (let j = 0; j < array[i].length; j++) {
+                                        document.write("<td>" + array[i][j] + "</td>");
+                                    }
+                                    document.write("</tr>");
+                                }
+                                document.write("</table>");
+                            }
+                            function tablaOrdenada(array) {
+                                document.write("<p>Array ordenado de menor a mayor:</p>");
+                                document.write("<table border='1'>");
+                                for (let i = 0; i < array.length; i++) {
+                                    document.write("<tr>");
+                                    for (let j = 0; j < array[i].length; j++) {
+                                        document.write("<td>" + array[i][j] + "</td>");
+                                    }
+                                    document.write("</tr>");
+                                }
+                                document.write("</table>");
+                            }
+                            function ordenarArray(arr) {
+                                const filas = arr.length;
+                                const columnas = arr[0].length;
+                                for (let i = 0; i < filas; i++) {
+                                    for (let j = 0; j < columnas - 1; j++) {
+                                        for (let k = 0; k < columnas - j - 1; k++) {
+                                            if (arr[i][k] > arr[i][k + 1]) {
+                                                const temp = arr[i][k];
+                                                arr[i][k] = arr[i][k + 1];
+                                                arr[i][k + 1] = temp;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            function crearArray2D(filas, columnas) {
+                                const array2D = [];
+
+                                for (let i = 0; i < filas; i++) {
+                                    const fila = [];
+                                    for (let j = 0; j < columnas; j++) {
+                                        fila.push(0);
+                                    }
+                                    array2D.push(fila);
+                                }
+                                return array2D;
+                            }
+                            const array2D = crearArray2D(4, 6);
+                            for (let i = 0; i < 4; i++) {
+                                for (let j = 0; j < 6; j++) {
+                                    array2D[i][j] = parseInt(prompt(`Ingrese el número en la posición ${i + 1},${j + 1}:`));
+                                }
+                            }
+                            tablaDesordenada(array2D);
+                            ordenarArray(array2D);
+                            tablaOrdenada(array2D);
+                        </script>
+                    </body>
+                </html>
+
+            M4 - Prueba teórica
+                100% APROBADA
+                1. Indica cual de las siguientes características no corresponde con una ventaja de la programación estructurada:
+                    Programas más fáciles de seguir
+                    Facilidad en la detección de errores
+                    X Reutilización de código
+                    Eliminación de saltos en el programa
+
+
+                2. Si queremos ejecutar un bloque de sentencias mientras se cumple una condición, y que dicho bloque de sentencias sea ejecutado como mínimo una vez, utilizaríamos la estructura:
+                    Do While … End While
+                    X Do … While
+                    If… End If
+                    For… End For
+                3. ¿Cual será el valor de la variable K al finalizar la ejecución del siguiente bloque?
+
+                    i=1
+                    k=1
+                    mientras i<10   // i=1  //i=3       //i=5       //i=7       //i=9       //i=11
+                        si i>k      // 1>1  3>1         5>-2        7<10        9<10        11<9
+                            k=k-i           k=1-3=-2    k=-2-5=-7   k=-7-7=-14  k=-14-9=-23
+                        end si 
+                        i=i+2       //i=3   //i=3+2=5   i=5+2=7     i=7+2=9     i=9+2=11    i=11+2=13
+                    end mientras   
+
+                        0
+                        1
+                       X  -23
+                        21
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Bucle While en HTML con JavaScript</title>
+                        </head>
+                        <body>
+                            <script>
+                                let i = 1;
+                                let k = 1;
+                                while (i < 10) {
+                                    if (i > k) {
+                                        k = k - i;
+                                    }
+                                    i = i + 2;
+                                }
+                                document.write("<p>El valor final de k es: " + k + "</p>");
+                            </script>
+                        </body>
+                    </html>    
+                4. Tenemos un array cuyo tamaño está especificado por la variable tam, y en el que el índice del primer elemento es el 0. ¿Cuál de las siguientes instrucciones permitiría recorrer el array desde el primer elemento hasta el último?:
+                    For i=1 To tam Step 1
+                    X For i=0 To tam-1 Step 1
+                    For i=0 To tam Step 1
+                    For i=1 To tam-1 Step 1
+                5. Para inicializar un array M de 10 enteros con los 10 primeros números impares utilizaremos el bloque de instrucciones:
+
+
+                    X  M[i] = (2 * i) - 1;
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Array de Números Impares</title>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    var M = [];
+                                    for (var i = 0; i < 10; i++) {
+                                        M[i] = (2 * i) - 1;
+                                    }
+                                    console.log("Array M:", M);
+                                });
+                            </script>
+                        </head>
+                        <body>
+                        </body>
+                    </html>
+    MÓDULO 5. PROGRAMACIÓN MODULAR.
+    akivamos
 CLASES SINCRONICAS VER FORO
     Diplomado: 
     Fundamentos de la Programación 
