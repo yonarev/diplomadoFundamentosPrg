@@ -3169,31 +3169,941 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                         50
                         600
     MÓDULO 4. PROGRAMACIÓN ESTRUCTURADA.
-    Tipos de instrucciones
-        A continuación, vamos a conocer los tres tipos de estructuras lógicas que se utilizan 
-        en programación estructurada: 
-            instrucciones secuenciales, 
-            instrucciones alternativas 
-            e instrucciones repetitivas.
+        Como ya hemos visto, un algoritmo es un conjunto de operaciones que
+        resuelven un problema específico. Pero muchos problemas de programación,
+        especialmente los que tienen cierta complejidad, pueden resolverse con
+        diferentes algoritmos, algunos de ellos más óptimos y eficientes que otros.
+            
+        Esta situación se nos planteó durante la realización de los ejemplos
+        de pseudocódigo que vimos anteriormente, cuando el programa
+        que se encargaba de calcular la suma entre 1 y un número leído lo
+        resolvimos de dos maneras, una utilizando saltos de un punto a otro
+        del programa y la otra mediante el uso de una instrucción repetitiva,
+        siendo esta última la más eficiente.
 
-            Instrucciones secuenciales
-                Son aquellas que se ejecutan en secuencia, es decir, 
-                una detrás de otra. Realmente, en un programa estructurado 
-                todas las sentencias son secuenciales, 
-                solo que unas pueden ser simples, como 
-                    la inicialización de variables, 
-                    operaciones aritméticas entre datos, 
-                    lectura de números, 
-                y otras pueden ser complejas, 
-                    como una instrucción alternativa o repetitiva.
+        De ahí que a finales de los años sesenta surgiera una forma de
+        programar que permitía crear programas 
+            fiables 
+            y eficientes, 
+            además de fáciles de comprender. 
 
-        Centrándonos en las operaciones simples, pueden consistir en la inicialización de alguna variable:
+        Esta nueva forma de programar se definía
+        a través del teorema del programa estructurado 
+        o teorema de la estructura.
+
+        1.1 | Teorema de la estructura
+            Según el teorema de la estructura, todo programa, por muy complejo que sea, puede ser diseñado
+            con sólo tres tipos de instrucciones básicas:
+                • Instrucciones secuenciales.
+                • Instrucciones alternativas o condicionales.
+                • Instrucciones repetitivas.
+
+        1.2 | Ventajas de la programación estructurada
+            Con la programación estructurada, diseñar algoritmos para resolver 
+            un problema informático sigue siendo una labor que requiere 
+                esfuerzo, 
+                creatividad 
+                y precaución, pero aplicando sus principios
+            podemos obtener las siguientes ventajas:
+                • Programas más fáciles de comprender. 
+                    Al carecer de saltos a otras
+                    partes del código, el algoritmo 
+                    se puede seguir secuencialmente,
+                    lo que facilita su comprensión.
+                • Estructura de programa clara. 
+                    Las tres tipos de instrucciones que
+                    se utilizan tienen un funcionamiento 
+                    claro y definido.
+                • Reducción de errores. 
+                    Al limitar el juego de instrucciones 
+                    a utilizar y tener una estructura definida, 
+                    se cometen menos errores al diseñar el algoritmo +
+                    y por lo tanto, al programar.
+                • Facilidad en la detección de errores. 
+                    No solamente se comenten menos errores,
+                    sino que los que se cometen son más
+                    fáciles de detectar y corregir.
+                • Programas más simples y rápidos.
+                    Estructurar un programa garantiza
+                    la solución más sencilla en cuanto a
+                    cantidad de código utilizado, además de
+                    más eficiente.
+
+
+        1.3 | Tipos de instrucciones
+                A continuación, vamos a conocer los tres tipos de estructuras lógicas que se utilizan 
+                en programación estructurada: 
+                    instrucciones secuenciales, 
+                    instrucciones alternativas 
+                    e instrucciones repetitivas.
+
+                    Instrucciones secuenciales
+                        Son aquellas que se ejecutan en secuencia, es decir, 
+                        una detrás de otra. Realmente, en un programa estructurado 
+                        todas las sentencias son secuenciales, 
+                        solo que unas pueden ser simples, como 
+                            la inicialización de variables, 
+                            operaciones aritméticas entre datos, 
+                            lectura de números, 
+                        y otras pueden ser complejas, 
+                            como una instrucción 
+                                alternativa 
+                                o repetitiva.
+
+                        Centrándonos en las operaciones simples, 
+                        pueden consistir en la inicialización de alguna variable:
+                            I=0
+                            Operaciones entre datos:
+                                I=I+4
+                                A=B*I
+                            O operaciones de entrada y salida:
+                                Leer N
+                                Imprimir Suma
+                                
+                        En la siguiente imagen se ilustra 
+                        cómo se representan estas instrucciones, 
+                        tanto en 
+                            un ordinograma 
+                            como mediante pseudocódigo:
+            
+                            Ordinograma         Pseudológico
+
+                                ⇩               Inicio
+                            Instrucción 1          Instrucción 1
+                                ⇩
+                            Instrucción 2          Instrucción 2
+                                ⇩
+                            Instrucción 3          Instrucción 3
+                                                Fin
+                    instrucciones alternativas 
+                        Las instrucciones alternativas o condicionales nos permiten 
+                            tomar decisiones en un programa, 
+                                de modo que ante una condición el programa pueda 
+                                tomar un camino en caso de que dicha condición se
+                                cumpla, o ejecutar sentencias diferentes si no se cumple.
+                        Las instrucciones alternativas pueden ser de dos tipos:
+                            • Alternativas simples. 
+                                En este tipo de alternativas tenemos
+                                solamente dos caminos posibles, 
+                                    el que se tomará si la condición evaluada es verdadera 
+                                    y el que se seguirá si es falsa. 
+                                En la siguiente imagen tenemos su representación 
+                                tanto en ordinograma como en pseudocódigo
+
+                                Ordinograma 
+
+                                             condición
+                                                 ♢
+                                        si                  no    
+                                        ↓                   ↓
+                                    Instrucciones-si    Instrucciones-no
+                                        ⇾                   ⇽
+                                                  ↓ 
+
+                                Pseudológico
+
+                                    If (condicion) then
+                                        Instrucción 1
+                                        Instrucción 2
+                                    Else
+                                        Instrucción 1
+                                        Instrucción 2
+                                    End if
+                                Como puedes observar, hay dos variantes de esta instrucción, en
+                                la primera se evalúa la condición, 
+                                    si es verdadera se ejecutan unas
+                                        instrucciones
+                                    y si es falsa otras diferentes. 
+                                Al final, el programa
+                                continúa por el mismo camino.
+                                En la otra variante, si la condición es falsa no se ejecuta ninguna
+                                instrucción especial, el programa continúa por el mismo camino
+                                por el que seguiría después de ejecutar las instrucciones para la
+                                condición verdadera.
+                                A la hora de expresar estas instrucciones mediante pseudocódigo
+                                utilizaremos el convenido de emplear palabras en inglés, de esta
+                                manera, puesto que las instrucciones que utilizan los lenguajes de
+                                programación de alto nivel para definir este tipo de estructuras son
+                                también palabras en inglés, se facilita la traducción final del diseño
+                                en pseudocódigo a código en la fase de implementación
+
+                            • Alternativas múltiples. 
+                                En una estructura de tipo alternativa
+                                múltiple, no es una condición de tipo verdadero o falso la que
+                                determina el camino a seguir por el programa, sino una expresión
+                                que puede dar como resultado múltiples valores.
+
+                                Para cada valor que nos interese controlar se definirá un grupo de
+                                instrucciones a ejecutar diferente. Opcionalmente, se puede definir
+                                un conjunto de instrucciones a ejecutar en caso de que el resultado
+                                de la expresión no coincida con ninguno de los valores controlados.
+                                Tras la ejecución de cualquiera de los casos, el programa continuará
+                                por un camino común.
+                                A continuación se muestra el diagrama de flujo equivalente a esta
+                                instrucción:
+
+                                                                        condiciónes
+                                                                            ♢
+                                                                            ↓ 
+                                            ↓                   ↓                       ↓                       ↓
+                                    Instruccionescaso1   Instruccionescaso2     Instruccionescaso3      Instruccionesdefault
+
+                                            ⇾                   ⇾                    ⇽                       ⇽
+                                                                            ↓ 
+                                En pseudocódigo, podríamos definirlo de la siguiente manera: 
+
+                                        Switch (expresion)
+                                            Case valor1:
+                                                Instrucciones
+                                            Case valor2:
+                                                Instrucciones
+                                            Default
+                                                Instrucciones
+                                        End Switch
+
+                                A la hora de indicar los valores de cada caso, podemos utilizar un
+                                valor concreto, una lista de valores separados por comas o un rango
+                                de valores definido por la expresión valorinicial To valorfinal, si bien
+                                algunos lenguajes de programación de alto nivel solo permiten
+                                indicar valores concretos a la hora de evaluar las salidas de una
+                                instrucción de este tipo.
+                                El final de las instrucciones de cada caso vendrá determinado por el
+                                caso siguiente, y tras ejecutar un caso, el programa continuará con
+                                la ejecución de la sentencia indicada después del End Switch
+                                En el siguiente ejemplo te mostramos un pseudocódigo de un
+                                algoritmo encargado de leer una nota de un examen y mostrar la
+                                calificación correspondiente:   
+
+                                        Inicio
+                                            Datos:
+                                                nota entero
+                                            Algoritmo:
+                                                Leer nota
+                                                Switch(nota)
+                                                    Case 0 to 4
+                                                        Imprimir “Suspenso”
+                                                    Case 5
+                                                        Imprimir “Aprobado”
+                                                    Case 6
+                                                        Imprimir “Bien”
+                                                    Case 7, 8
+                                                        Imprimir “Notable”
+                                                    Case 9, 10
+                                                        Imprimir “Sobresaliente”
+                                                    Default
+                                                        Imprimir “Nota no válida”
+                                                End Switch
+                                        Fin
+                    instrucciones repetitivas 
+                        Las instrucciones de tipo repetitivo permiten ejecutar un bloque
+                        de sentencias varias veces en función del cumplimiento de una
+                        condición. Se trata de un tipo de instrucción muy importante en
+                        programación, con la que podemos 
+                            realizar cálculos iterativos y
+                            recorrer tablas 
+                            u otras estructuras de datos complejas.
+                        Utilizando adecuadamente esta instrucción, 
+                            podemos evitar saltos en un programa,
+                                que es una de las claves de la programación estructurada.
+                        En el siguiente esquema tenemos las dos formas clásicas en las que
+                        se puede presentar este tipo de instrucciones:  
+
+                        Pseudológico
+
+                            caso 1
+                            Do While (condicion)        ↑   →   condición (al principio la condicion)
+                                                                    ♢
+                                                                    ↓
+                                Instrucción 1           ↑    si             no    
+                                                              ↓             ↓
+                                Instrucción 2             Instrucciones
+                                                        ←     ←             ↓
+                            End While    
+
+                            caso 2
+                            Do
+                                Instrucción 1
+                                                        Instrucciones
+                                Instrucción 2               ↑
+                                                            ↑               ♢             
+                            While (condicion)               ←  si ←   condición     (al final la condicion)
+                                                                                no
+                                                                                ↓
+                            En el primer caso, lo primero es evaluar la condición y si esta se
+                            cumple, se ejecutará el bloque de sentencias definido entre Do While
+                            y End While. Al finalizar la ejecución de dicho bloque, se vuelve a
+                            evaluar la condición de nuevo y si vuelve a cumplirse, otra vez se
+                            ejecuta el bloque de sentencias. Es de esperar que la ejecución del
+                            bloque de sentencias actúen sobre los elementos utilizados en la
+                            condición, de forma que esta deje de cumplirse en algún momento.
+
+                            En el segundo caso, primero se ejecutan las instrucciones indicadas
+                            dentro del Do.. While y después se evalúa la condición, de modo que
+                            si esta se cumple, el bloque de instrucciones volverá a ejecutarse
+                            de nuevo. Con esta estructura se garantiza que el bloque de
+                            instrucciones se ejecuta al menos una vez, aunque la condición no
+                            se cumpla desde el principio.
+
+                                Podemos ver un ejemplo de utilización de esta segunda forma de la
+                                estructura repetitiva While en la siguiente versión del programa de
+                                las notas en la que se repite la lectura de la nota hasta que el valor
+                                introducido sea válido, es decir, entre 0 y 10
+                                    Inicio
+                                        Datos:
+                                            nota entero
+                                        Algoritmo:
+                                            Do
+                                                Leer nota
+                                            While(nota<0 OR nota>10)
+                                                Switch(nota)
+                                                    Case 0 To 4
+                                                        Imprimir “Suspenso”
+                                                    Case 5
+                                                        Imprimir “Aprobado”
+                                                    Case 6
+                                                        Imprimir “Bien”
+                                                    Case 7, 8
+                                                        Imprimir “Notable”
+                                                    Case 9, 10
+                                                    Imprimir “Sobresaliente”
+                                                End Switch
+                                    Fin
+                            
+                            Un caso habitual de instrucción repetitiva es aquella que ejecuta el
+                            bloque de instrucciones un número concreto de veces, el cual viene
+                            determinado por una variable contador que se va incrementando
+                            en cada iteración. 
+                            Este tipo de instrucciones repetitivas suele
+                            representarse en los lenguajes de programación de alto nivel
+                            mediante una instrucción llamada For en vez de While.
+                            La siguiente ilustración nos muestra su representación en forma de
+                            ordinograma y pseudocódigo:
+                                        For i=1 To valor_final Step1
+                                            Instrucción 1
+                                            Instrucción 2
+                                        End For
+
+                                                           ↓
+                                                        contador = 1
+                                                           ↓
+                            instrucciones  →    →        → ♢
+                            contador=contador+1  ¿contador < valor?
+                                                          no
+                                ↑    ⇽     ⇽  si         ↓
+
+                            Desde que la variable de control, llamada i en este caso, toma un valor
+                            inicial hasta que alcanza un valor final, se ejecutan las instrucciones
+                            del bloque. Al entrar en la instrucción for, la variable se inicializa al
+                            valor indicado, en este caso 1 y, si el valor de esta variable es menor
+                            o igual que el valor final, se ejecuta el bloque de sentencias definido
+                            en su interior. Al finalizar la ejecución del bloque, se incrementa en
+                            1 la variable de control y se vuelve a comprobar si ha alcanzado el
+                            valor final, así hasta que la variable haya recorrido todos los valores
+                            enteros entre el inicial y el final.
+                            En la instrucción step se indica el incremento a realizar al finalizar
+                            cada iteración y, aunque normalmente es 1, puede ser cualquier
+                            otro valor.
+                            El algoritmo del programa encargado de calcular la suma de todos
+                            los números naturales comprendidos entre 1 y un número leído
+                            podría representarse de la siguiente manera:
+
+                                Inicio
+                                    Datos:
+                                        N entero
+                                        I entero
+                                        Suma entero
+                                    Código:
+                                        Suma =0
+                                        Leer N
+                                        For I=1 to N Step 1
+                                            Suma=Suma+I
+                                        End For
+                                        Imprimir “La suma final es “,Suma
+                                Fin
+
+        2. Otros elementos de programación estructurada
+            Como ya hemos visto, un algoritmo es un conjunto de operaciones que
+            resuelven un problema específico. Pero muchos problemas de programación,
+            especialmente los que tienen cierta complejidad, pueden resolverse con
+            diferentes algoritmos, algunos de ellos más óptimos y eficientes que otros.
+
+            2.1 | Tipos de datos
+
+                En todos los programas se manejan datos que, 
+                como ya hemos visto en los pseudocódigos 
+                realizados, se almacenan en variables y
+                se opera con ellos a través de estas.
+                Cada lenguaje de programación de alto nivel 
+                tiene su propio juego de tipos de datos, 
+                pero de cara a poder definir los distintos tipos
+                de datos con los que vamos a tratar en un 
+                pseudocódigo, vamos a definir nuestro propio 
+                conjunto de tipos. Será un conjunto básico,
+                formado por los tipos más comunes:
+
+                Nombre tipo         Significado
+                    Integer     Numérico entero
+                    Decimal     Numérico decimal
+                    String      Texto
+                    Date        Fecha
+                    Boolean     Lógico (true o false)
+
+                Así, en la zona de definición de datos, 
+                cuando vayamos a indicar el tipo de 
+                una variable utilizaremos 
+                los nombres indicados en la tabla
+
+            2.2 | Operadores
+                Los operadores permiten realizar operaciones 
+                con los datos dentro de un programa. 
+                Ya hemos visto como utilizar algunos de los más 
+                habituales en los ejemplos que te hemos ido 
+                presentando a lo largo del módulo.
+
+                En la siguiente tabla resumimos los operadores que utilizaremos en
+                el diseño de nuestros programas, clasificados por tipos:
+
+                    Tipos de operadores         Operadores
+                        Aritméticos           +, -, *, /, %
+                        Condicionales       <, >, <=, >=, = =, <>
+                        Lógicos                 AND, OR, NOT
+                Los operadores aritméticos los utilizaremos con tipos numéricos, es
+                decir, Integer y Decimal. Los cuatro primeros son para las operaciones
+                de suma, resta, multiplicación y división, mientras que el operador
+                “%” se utiliza para calcular el resto de la división entre dos números.
+                Este operador ya lo utilizamos en los ejercicios donde teníamos que
+                comprobar si un número era par o impar.
+
+                Los operadores condicionales se emplean en las condiciones de las
+                instrucciones de tipo If y While. Siempre devolverán un valor de tipo
+                boolean (true o false). Los operadores <, >, <=, >= los emplearemos
+                con tipos numéricos, mientras que los de igualdad y desigualdad (==
+                y <>) los emplearemos con cualquier tipo de datos
+
+                En cuanto a los operadores lógicos, se usarán para realizar las tres
+                operaciones lógicas básicas:
+                    • AND. El resultado es verdadero si las dos expresiones lo son:
+                            (3>1 AND 5<10) // el resultado es vedadero
+                            (4>2 AND 2>8) //el resultado es falso porque la segunda
+                                            expresión lo es
+                    • OR. El resultado es verdadero si alguna de de las expresiones lo es:
+                            (10>3 OR 5<1) //el resultado es verdadero
+                    • NOT. El contrario a un valor boolean:
+                            (NOT 4<6) //el resultado es falso
+
+            2.3 | Comentarios
+                Los comentarios los utilizamos en un programa, 
+                y también en pseudocódigo, para 
+                    incluir notas del programador que no forman parte de la sintaxis lógica del programa.                
+                Su misión es aclarar a la persona que está leyendo el programa el
+                    uso de alguna instrucción o expresión, por lo que ayudan a entender
+                    el funcionamiento del mismo.   
+                Los comentarios los podemos incluir en cualquier parte del
+                    pseudocódigo, y siempre irán precedidos por los símbolos //. En la
+                    explicación de los operadores lógicos hemos visto unos ejemplos
+                    de uso.     
+
+        Caso práctico "Programación estructurada"
+            Realización de algoritmos con programación estructurada
+
+            ALGORITMO 1
+                Diseña un algoritmo para la lectura de 20 números y que nos
+                muestre la suma de los pares por un lado y la de los impares por otro.
+                DESarrollo
+                    Inicializar las variables sumaPares y sumaImpares en 0.
+                    Iniciar un bucle para leer 20 números.
+                    a. Leer un número desde la entrada del usuario.
+                    b. Verificar si el número es par o impar.
+                    Si es par, sumarlo a la variable sumaPares.
+                    Si es impar, sumarlo a la variable sumaImpares.
+                    Mostrar el valor de sumaPares.
+                    Mostrar el valor de sumaImpares.
+
+                    Inicio
+                        Datos:
+                            numero (entero)
+                            sumaPares (entero)
+                            sumaImpares (entero)
+                        Algoritmo:
+                            sumaPares = 0
+                            sumaImpares = 0
+
+                            Para i desde 1 hasta 20
+                                Leer numero del usuario
+                                Si (numero % 2 es igual a 0)
+                                    sumaPares = sumaPares + numero
+                                De lo contrario
+                                    sumaImpares = sumaImpares + numero
+                                Fin Si
+                            Fin Para
+
+                            Imprimir "La suma de los pares es:", sumaPares
+                            Imprimir "La suma de los impares es:", sumaImpares
+                    Fin
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Suma de Pares e Impares</title>
+                        </head>
+                        <body>
+                            <script>
+                                let sumaPares = 0;
+                                let sumaImpares = 0;
+                                for (let i = 0; i < 20; i++) {
+                                    let numero = parseInt(prompt(`Ingrese el número ${i + 1}:`));
+                                    if (numero % 2 === 0) {
+                                        sumaPares += numero;
+                                    } else {
+                                        sumaImpares += numero;
+                                    }
+                                }
+                                document.write(`<p>La suma de los números pares es: ${sumaPares}</p>`);
+                                document.write(`<p>La suma de los números impares es: ${sumaImpares}</p>`);
+                            </script>
+                        </body>
+                    </html>
+
+            ALGORITMO 2
+                Diseña un algoritmo para un programa que lea 10 textos y nos
+                muestre aquel que tenga el mayor número de caracteres. Si hay
+                más de un texto con el mismo número de caracteres, mostrará
+                el último de ellos. Puedes utilizar la función Longitud para este
+                ejercicio.
+                DESARROLLO 
+                    Inicio
+                        Datos:
+                            texto (texto)
+                            textoMayor (texto)
+                            caracteres (entero)
+                        Algoritmo:
+                            texto = ""
+                            sumaImpares = 0
+                            caracteres=0
+                            textoMayor=""
+                            Para i desde 1 hasta 10
+                                Leer texto del usuario
+                                caracteres=longitud(texto)
+                                Si (caracteres>=longitud(textoMayor))
+                                    textoMayor=texto //almacena texto mayor 
+                                Fin Si
+                            Fin Para
+
+                            Imprimir "el texto mayor:", textoMayor
+                    Fin
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>suma caracteres</title>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    let textoMayor = "";
+                                    let resultadosDiv = document.getElementById("resultados");
+                                    for (let i = 1; i <= 10; i++) {
+                                        let texto = prompt("Ingrese un texto:");
+                                        let caracteres = texto.length;
+                                        if (caracteres >= textoMayor.length) {
+                                            textoMayor = texto;
+                                        }
+                                        //ESTO NO SE SOLICITO EN EL CASO PERO SE IMPRIME PARA IR VIENDO
+                                        resultadosDiv.innerHTML += `Iteración ${i}: Texto=${texto}, Caracteres=${caracteres}, Texto Mayor=${textoMayor}<br>`;
+                                    }
+                                    //ESTO NO SE SOL▬ICITO EN EL CASO PERO SE IMPRIME PARA IR VIENDO
+                                    resultadosDiv.innerHTML += `<br>El texto mayor es: ${textoMayor}`;
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div id="resultados"></div>
+                        </body>
+                    </html>
+                        
+            ALGORITMO 3
+                Diseñar un algoritmo para la lectura de 20 números y que nos
+                muestre la media de todos los números leídos y cuál ha sido el
+                más pequeño.
+
+                DESARROLLO 
+                   Inicio
+                        Datos:
+                            total (entero)
+                            numero (entero)
+                            numeroMenor (entero)
+                            promedio (entero)
+                        Algoritmo:
+                            total = 0
+                            numero=0
+                            numeroMenor = 0
+                            promedio=0
+                            Para i desde 1 hasta 20
+                                Leer numero del usuario
+                                total = total + numero
+                                Si (i = 1) o (numero < numeroMenor)
+                                    numeroMenor = numero
+                                Fin Si
+                            Fin Para
+                            promedio = total / 20
+                            Imprimir "La promedio:", promedio
+                            Imprimir "El número menor es:", numeroMenor
+                    Fin
+
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Algoritmo Media y Número Menor</title>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
+                                    let resultadosDiv = document.getElementById("resultados");
+                                    let numero = 0;
+                                    let total = 0;
+                                    let numeroMenor=0;
+                                    let promedio=0;
+                                    for (let i = 1; i <= 20; i++) {
+                                        let input = prompt("Ingrese un número:");
+                                        if (input === null) {
+                                            document.write("<p>Se canceló la operación.</p>");
+                                            break;
+                                        }
+                                        numero = parseInt(input);
+                                        if (isNaN(numero)) {
+                                            document.write("<p>Entrada inválida. Inténtelo de nuevo.</p>");
+                                            break;
+                                        }
+                                        total += numero;
+                                        if (i === 1 || numero < numeroMenor) {
+                                            numeroMenor = numero;
+                                        }
+                                        resultadosDiv.innerHTML += `Iteración ${i}: numero=${numero}, numeroMenor=${numeroMenor}, total=${total}<br>`;
+                                    }
+                                    promedio = total / 20;
+                                    if (promedio > 0) {
+                                        resultadosDiv.innerHTML += `promedio ${promedio}: El número menor es=${numeroMenor}<br>`;
+                                    }
+                                });
+                            </script>
+                        </head>
+                        <body>
+                            <div id="resultados"></div>
+                        </body>
+                    </html>
+
+            ALGORITMO 4
+
+                Realizar un algoritmo para un programa que lea 15 números y
+                nos diga cuántos de ellos son primos. De cara a la lectura de
+                los números, si el número introducido es negativo se le deberá
+                volver a pedir de nuevo el número hasta que se introduzca uno
+                positivo.    
+
+                DESARROLLO 
+                    numerosPrimos = 0
+                    for i = 1 to 15
+                        hacer
+                            escribir("Introduce un número positivo:")
+                            leer(numero)
+                        mientras numero <= 0
+                        esPrimo = true
+                        si numero > 1
+                            para j = 2 hasta numero / 2
+                                si numero % j == 0
+                                    esPrimo = false
+                                    salir del bucle
+                                fin si
+                            fin para
+                        sino
+                            esPrimo = false
+                        fin si
+                        si esPrimo
+                            numerosPrimos = numerosPrimos + 1
+                        fin si
+                    fin for
+                    escribir("El número de primos entre los 15 números introducidos es:", numerosPrimos)
+
+                    NUMEROS PRIMOS       
+                    2
+                    3
+                    5
+                    7
+                    11
+                    13
+                    17
+                    19
+                    23
+                    29
+                    31
+                    37
+                    41
+                    43
+                    47..Hay mas  
+
+                    <!DOCTYPE html>
+                    <html lang="es">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Contador de Primos</title>
+                        </head>
+                        <body>
+                            <script>
+                                var numerosPrimos = 0;
+                                for (var i = 1; i <= 15; i++) {
+                                    var numero;
+                                    do {
+                                        numero = parseInt(prompt(i + " Introduce un número positivo:"));
+                                        if (numero === null) {
+                                            document.write("<p>Se canceló la operación.</p>");
+                                            break;
+                                        }
+                                    } while (numero <= 0);
+                                    var esPrimo = true;
+                                    if (numero === 1) {
+                                        esPrimo = false;
+                                    } else if (numero === 2) {
+                                        esPrimo = true;
+                                    } else {
+                                        for (var j = 2; j <= Math.sqrt(numero); j++) {
+                                            if (numero % j === 0) {
+                                                esPrimo = false;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    if (esPrimo) {
+                                        numerosPrimos++;
+                                    }
+                                }
+                                alert("El número de primos entre los 15 números introducidos es: " + numerosPrimos);
+                            </script>
+                        </body>
+                    </html>
+
+        1. Arrays
+            Un array, también llamado tabla o matriz, es un conjunto de datos de un
+            mismo tipo al que se accede mediante una única variable. Cada dato tiene una
+            posición en el array:
+                            1   2   3   4   5   6   7
+                codigos     10  25  1   30  15  9
+
+            En el ejemplo de la figura anterior, tenemos un array de 7 elementos
+            de tipo número entero, contenido en la variable codigos. En este
+            caso, la posición asignada al primer elemento es la 1, a siguiente la
+            2 y así sucesivamente.
+
+            Los arrays los utilizamos cuando queremos manejar un grupo de
+            datos de manera conjunta, realizando una serie de operaciones
+            sobre dichos datos. Al acceder a todos ellos mediante la misma
+            variable y tener un índice asociado, el array se puede recorrer
+            mediante una instrucción de tipo repetitivo, con lo que podemos
+            definir las operaciones dentro de la estructura repetitiva y que estas
+            se apliquen para cada uno de los elementos del array.
+
+        1.1 | Definición de un array
+
+            A la hora de declarar una variable de tipo array, 
+            lo haremos como con cualquier otra variable, solo
+            que debemos indicar el rango de índices para establecer el tamaño del array:
+                
+                        codigos 1 to 7 Integer
+                
+                En la instrucción anterior se ha declarado la variable códigos del
+                ejemplo, consistente en un array de enteros de 7 elementos
+
+            Hay lenguajes de programación en los que el índice del primer
+            elemento está fijado en 0 y no se puede modificar, por lo que a la hora
+            de declarar el array simplemente se indicará el tamaño del mismo.   
+
+        1.2 | Acceso a los elementos del array
+            Para poder acceder a una posición del array utilizaremos 
+            la expresión variable[indice]. Como vemos,
+            después del nombre de la variable se indica entre corchetes la posición 
+            a la que queremos acceder.
+            Por ejemplo, para almacenar un valor en la primera posición del array 
+            llamado códigos sería:     
+
+                        codigos[1]=100
+
+                Y para decirle al programa que nos muestre el valor de la última
+
+                        Imprimir codigos[7]
+
+            El siguiente programa de ejemplo almacena los 10 primeros números
+            pares en un array de enteros y después lo recorre para mostrar su
+            contenido:
+                Inicio
+                    Datos:
+                        nums 1 to 10 Integer
+                        i Integer
+                    Código:
+                        For i=1 To 10 Step 1
+                            nums[i]=(i-1)*2
+                        End For
+                        For i=1 To 10 Step 1
+                            Imprimir nums[i]
+                        End For
+                Fin
+
+                este es el resultado 
+                    0
+                    2
+                    4
+                    6
+                    8
+                    10
+                    12
+                    14
+                    16
+                    18
+
+        1.3 | Arrays multidimensionales 
+            El tipo de array que hemos tratado hasta ahora es un array de una dimensión, 
+            pero podemos tener arrays de varias dimensiones. 
+            Un array de dos dimensiones, por ejemplo, sería como una tabla
+            organizada en filas y columnas:
+
+                    1   2   3   4   5   6   7
+                1
+                2                   30
+                3
+                4
+
+                El array de la imagen anterior sería de dos dimensiones y tendría un
+            tamaño de 4 x 7 = 28 elementos. Para declarar una variable de este
+            tipo de array utilizaremos la expresión:
+
+                elementos 1 to 7, 1 to 4 Integer
+
+            La variable la hemos llamado elementos y se deben indicar los rangos
+            de índices de cada dimensión, separados por una coma.
+
+            Para acceder a cada posición, utilizaremos doble corchete, uno para
+            cada índice. Por ejemplo, para almacenar un número en la quinta
+            columna y segunda fila sería: 
+
+                    elementos[5][2]=30    
+
+            Para arrays con más de dos dimensiones el proceso sería el mismo,
+            aunque a partir de tres dimensiones no podríamos hacer una
+            representación gráfica del mismo.
+
+            En el siguiente ejemplo declaramos un array de tres dimensiones de
+            tamaño 4x7x3:
+
+                    datos 1 to 4, 1 to 7, 1 to 3 Integer
+                    
+                    datos[2][5][1]=100
+
+            Para recorrer un array multidimensional, se deberán utilizar
+            estructuras repetitivas anidadas, una por cada dimensión. El
+            siguiente algoritmo de ejemplo simula la generación de un tablero
+            de ajedrez mediante un array bidimensional, representando los
+            1 cuadrados negros con 1 y los blancos con 0:     
+
+                Inicio
+                Datos:
+                    Tablero 1 to 8, 1 to 8 Integer
+                    I,K Integer
+                    For I=1 To 8 Step 1
+                        For K=1 To 8 Step 1
+                            If((I+K)%2==0) Then
+                                Tablero[I][K]=0
+                            Else
+                                Tablero[I][K]=1
+                            End If
+                        End For
+                    End For
+                Fin   
     
-    
-    
+        1.4 | Ordenación de arrays
+            Una de las tareas más habituales que se llevan a cabo con arrays 
+            es la ordenación de los mismos. 
+            Ordenar un array consiste en colocar sus elementos siguiendo 
+            un determinado criterio de ordenación, 
+            por ejemplo, en un array de números este criterio podría consistir 
+            en colocar los elementos de menor a mayor o de mayor a menor.
 
-        
+            En cualquier caso, para conseguir ordenar un array debemos seguir
+            algún método que nos permita definir un algoritmo que garantice
+            dicha ordenación. Uno de esos métodos es el conocido como método
+            de la burbuja.
 
+            El método de la burbuja consiste en ir realizando ordenaciones
+            parciales de cada elemento del array, de manera que al final
+            conseguiremos tener ordenados todos los elementos.
+
+            Más concretamente, el procedimiento a seguir para aplicar este
+            método en el caso de un array numérico que deba ser ordenado
+            de menor a mayor, consistirá en lo siguiente: para cada elemento
+            del array, se comprueba si alguno de los siguientes elementos es
+            menor que él, si es así realizamos el intercambio de los elementos
+            y seguimos con las comprobaciones, si encontramos un nuevo
+            elemento menor, volvemos a intercambiar, y así hasta llegar al
+            último.
+            Si el proceso anterior se realiza con todos los elementos del array,
+            excepto el último, se garantiza que el array quedará ordenado al
+            finalizar todas las comprobaciones.
+            En la siguiente imagen se ilustra gráficamente el proceso de
+            ordenación de un array de ejemplo, formado por los números 
+            10 25, 1, 30 y 17, utilizando el método de la burbuja que se acaba de
+            describir:
+
+            La primera fila representa las comprobaciones del primer elemento
+            del array, en la segunda fila se indican las comprobaciones con el
+            segundo elemento, y así sucesivamente. Cuando se cumple la
+            condición, se realiza el intercambio de los elementos y se continúa
+            comprobando con los siguientes.
+            De cara a aplicar mediante pseudocódigo el método de la burbuja para
+            ordenar un array, debemos utilizar dos instrucciones for anidadas,
+            la primera para recorrer cada uno de los elementos del array y la
+            segunda para realizar las comprobaciones entre cada elemento y los
+            siguientes. Así mismo, se necesitará una variable auxiliar para poder
+            realizar el intercambio de las posiciones, tal y como se ilustra en la
+            siguiente imagen:
+
+            Para poder intercambiar el contenido de dos posiciones del array,
+            primero se salva el contenido de una de las posiciones en la variable
+            auxiliar, después se vuelca en dicha posición el contenido de la
+            segunda y en tercer lugar, el valor de la variable auxiliar se lleva a la
+            posición que fue volcada en la primera.
+            El siguiente algoritmo realiza la ordenación del array de notas que
+            utilizamos en el ejercicio de ejemplo presentado al principio del
+            apartado, utilizando la variable aux para realizar el intercambio de
+            los datos:
+
+                For I=1 To 15 Step 1
+                    For K=I+1 To 15 Step 1
+                        If(notas[K]<notas[I]) Then
+                            //realización del intercambio
+                            aux=notas[I]
+                            notas[I]=notas[K]
+                            notas[K]=aux
+                        End If
+                    End For
+                End For
+        Caso práctico
+            Realización de algoritmo para un programa
+            con ordenación de arrays
+
+            ALGORITMO 1
+                Realizar un algoritmo para un programa que se encargue de leer
+                10 textos y, posteriormente, nos muestre los textos ordenados
+                de menor a mayor número de caracteres. En caso de que dos
+                textos tengan el mismo número de caracteres, se pondrá primero
+                el que tenga mayor número de vocales. Para este algoritmo
+                podemos utilizar la función ObtenerLetra.
+
+            ALGORITMO 2
+                Dado un array de dos dimensiones de 4x6, realizar un programa que lea
+                24 números y los coloque en el array. Posteriormente, se ordenará el
+                array de menor a mayor (la posición 1,1 tendrá el número más pequeño,
+                mientras que 4,6 tendrá el mayor) y se mostrará ordenado
 
 
 CLASES SINCRONICAS VER FORO

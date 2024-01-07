@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo Media y Número Menor</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let resultadosDiv = document.getElementById("resultados");
+            let numero = 0;
+            let total = 0;
+            let numeroMenor=0;
+            let promedio=0;
+            for (let i = 1; i <= 20; i++) {
+                let input = prompt("Ingrese un número:");
+                if (input === null) {
+                    document.write("<p>Se canceló la operación.</p>");
+                    break;
+                }
+                numero = parseInt(input);
+                if (isNaN(numero)) {
+                    document.write("<p>Entrada inválida. Inténtelo de nuevo.</p>");
+                    break;
+                }
+                total += numero;
+                if (i === 1 || numero < numeroMenor) {
+                    numeroMenor = numero;
+                }
+                resultadosDiv.innerHTML += `Iteración ${i}: numero=${numero}, numeroMenor=${numeroMenor}, total=${total}<br>`;
+            }
+            promedio = total / 20;
+            if (promedio > 0) {
+                resultadosDiv.innerHTML += `promedio ${promedio}: El número menor es=${numeroMenor}<br>`;
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="resultados"></div>
+</body>
+</html>

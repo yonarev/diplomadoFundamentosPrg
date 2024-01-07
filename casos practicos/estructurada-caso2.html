@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suma caracteres</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let resultadosDiv = document.getElementById("resultados");
+            let textoMayor = "";
+            for (let i = 1; i <= 10; i++) {
+                let texto = prompt("Ingrese un texto:");
+                let caracteres = texto.length;
+                if (caracteres >= textoMayor.length) {
+                    textoMayor = texto;
+                }
+                //ESTO NO SE SOLICITO EN EL CASO PERO SE IMPRIME PARA IR VIENDO
+                resultadosDiv.innerHTML += `Iteración ${i}: Texto=${texto}, Caracteres=${caracteres}, Texto Mayor=${textoMayor}<br>`;
+            }
+            //ESTO NO SE SOL▬ICITO EN EL CASO PERO SE IMPRIME PARA IR VIENDO
+            resultadosDiv.innerHTML += `<br>El texto mayor es: ${textoMayor}`;
+        });
+    </script>
+</head>
+<body>
+    <div id="resultados"></div>
+</body>
+</html>

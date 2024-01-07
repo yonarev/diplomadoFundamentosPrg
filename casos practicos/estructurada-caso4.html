@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Primos</title>
+</head>
+<body>
+    <script>
+        var numerosPrimos = 0;
+        for (var i = 1; i <= 15; i++) {
+            var numero;
+            do {
+                numero = parseInt(prompt(i + " Introduce un número positivo:"));
+                if (numero === null) {
+                    document.write("<p>Se canceló la operación.</p>");
+                    break;
+                }
+            } while (numero <= 0);
+            var esPrimo = true;
+            if (numero === 1) {
+                esPrimo = false;
+            } else if (numero === 2) {
+                esPrimo = true;
+            } else {
+                for (var j = 2; j <= Math.sqrt(numero); j++) {
+                    if (numero % j === 0) {
+                        esPrimo = false;
+                        break;
+                    }
+                }
+            }
+            if (esPrimo) {
+                numerosPrimos++;
+            }
+        }
+        alert("El número de primos entre los 15 números introducidos es: " + numerosPrimos);
+    </script>
+</body>
+</html>
