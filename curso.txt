@@ -13,11 +13,9 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
             no te asustes que no resultan complejos. 
         Operaciones
             Una vez hemos visto los tipos de datos con los que vamos a trabajar, vamos a comenzar a realizar operaciones con ellos. Vamos a trabajar básicamente con 3 tipos de operaciones:
-
-            Operaciones con números.
-            Operaciones con cadenas
-            Operaciones con booleanos
-
+                Operaciones con números.
+                Operaciones con cadenas
+                Operaciones con booleanos
             En el vídeo que tienes a continuación vamos a trabajar las operaciones que podemos 
             realizar con cada uno de los tipos de datos que hemos definido anteriormente.
             Veamos como podemos operar con los diferentes datos.    
@@ -25,17 +23,14 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
             Una variable es un cajón con una etiqueta donde almacenamos datos de un programa. 
             Para definir una variable en JavaScript,
             usamos la palabra reservada"var" seguida del nombre que le queremos dar a la variable.
-
             En el siguiente video, veremos como declarar variables para utilizarlas
             en nuestros programas. ¡Adelante!    
         Comparaciones entre variables
             Una vez visto, qué son y cómo se declaran las variables en nuestros programas, ahora toca trabajar sobre la comparación entre ellas. Vamos a ver los operadores principales para llevar a cabo la comparación entre varibles:
-
-            Igualdad y desigualdad
-            Mayor y menor
-            Falsy y truthy
+                Igualdad y desigualdad
+                Mayor y menor
+                Falsy y truthy
             Dicen que las comparaciones son odiosas: ¡vamos a verlo!
-
             En el siguiente enlace te puedes descargar el material con todo 
             lo que has trabajado durante el módulo. 
         ESTRUCTURAS DE CONTROL
@@ -49,7 +44,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
         PRUEBA 
             Test superado
             Has obtenido un 100 en esta tarea
-
             Tus respuestas
             1. Una variable es:
                 Un tipo de dato utilizado en un programa
@@ -79,14 +73,13 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 no solo para sus beneficios,
                 sino incluso para su propia supervivencia. 
             La manera en la que se van a tratar y manipular los datos resulta pues crucial.
-
             En este contexto surge el concepto de informática, que hoy en día
-            puede considerarse como 
-                la Ciencia que estudia 
-                    el tratamiento,
-                    elaboración, 
-                    transmisión 
-                    y utilización de la información. 
+                puede considerarse como 
+                    la Ciencia que estudia 
+                        el tratamiento,
+                        elaboración, 
+                        transmisión 
+                        y utilización de la información. 
             La informática estudia 
                 el tratamiento automático de la información
                     utilizando 
@@ -116,11 +109,9 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 no solo para sus beneficios, 
                 sino incluso para su propia supervivencia. 
             La manera en la que se van a tratar y manipular los datos resulta pues crucial.
-
             La informática estudia el tratamiento automático 
                 de la información utilizando dispositivos electrónicos 
                 y sistemas computacionales.
-
             Un ordenador es una máquina que permite 
                 automatizar el tratamiento de la información. 
                 Por sí solo, el ordenador no toma decisiones, 
@@ -129,7 +120,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 para las que se le ha programado. 
                 Estas tareas son definidas 
                 en lo que se conoce como un programa.
-
             Los programas establecen las tareas que el ordenador debe realizar
                 con los datos. Básicamente, estas tareas se definen en forma de
                     operaciones aritméticas, 
@@ -149,17 +139,17 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
             es recoger unos datos de entrada, 
         2 Componentes del ordenador
             El ordenador está formado por dos tipos de componentes:
-            Hardware. 
-                Es la parte física, que la componen 
-                    la CPU, 
-                    la memoria 
-                    y los dispositivos periféricos.
-            Software. 
-                La forman los elementos lógicos, 
-                    como el sistema operativo 
-                    y los programas.
-                Es el verdadero cerebro del ordenador. 
-                Observa el siguiente esquema para ver su interacción con el resto de componentes:        
+                Hardware. 
+                    Es la parte física, que la componen 
+                        la CPU, 
+                        la memoria 
+                        y los dispositivos periféricos.
+                Software. 
+                    La forman los elementos lógicos, 
+                        como el sistema operativo 
+                        y los programas.
+                    Es el verdadero cerebro del ordenador. 
+                    Observa el siguiente esquema para ver su interacción con el resto de componentes:        
 
             2.1 | Unidad central de proceso (CPU)
                 Es el verdadero cerebro del ordenador. 
@@ -169,9 +159,7 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     o realizar todas las operaciones del sistema. 
                 Se comunica con los otros componentes hardware a través de 
                     los buses o canales por donde fluye la información de un bloque a otro.
-
                 La CPU está formada por:
-
                     • La unidad de control. 
                         Como su nombre indica, es el centro de control del ordenador, 
                         desde ella se localizan y se interpretan las instrucciones 
@@ -181,8 +169,7 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                         la unidad aritmético-lógica para que opere con ellos, 
                         así como el almacenamiento del resultado de dichas
                         operaciones.
-   
-                     •  La unidad aritmético – lógica
+                    •  La unidad aritmético – lógica
                         Su función es ejecutar la operación sobre los datos 
                         que recibe de la unidad de control. 
                         . Realiza las operaciones elementales de tipo aritmético y lógico. 
@@ -199,7 +186,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                                 • Operador. 
                                     Es el encargado de realizar las operaciones. 
                                     El operador entrega al acumulador el resultado de las operaciones
-
             2.2 | Memoria
                 La memoria o memoria principal es un componente hardware que almacena las instrucciones
                 que debe procesar la CPU así como los datos generados por esta durante el procesamiento 
@@ -208,17 +194,17 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     circuitos de memoria rom 
                     memoria ram (expandible e intercambiable)
 
-                Memoria RAM (Random Access Memory): 
-                    Esta memoria es de tipo volátil, 
-                    lo que significa que la información que contiene solo permanece en ella 
-                    mientras el ordenador esta encendido.
-                    Su contenido puede ser 
-                        leído 
-                        y modificado por la CPU. 
-                    Es de acceso aleatorio porque la CPU puede acceder directamente a
-                    cualquier posición de la misma, sin tener que recorrerla de forma
-                    secuencial.
-                    Una variante de la memoria RAM es la memoria cache. 
+                • Memoria RAM (Random Access Memory): 
+                        Esta memoria es de tipo volátil, 
+                        lo que significa que la información que contiene solo permanece en ella 
+                        mientras el ordenador esta encendido.
+                        Su contenido puede ser 
+                            leído 
+                            y modificado por la CPU. 
+                        Es de acceso aleatorio porque la CPU puede acceder directamente a
+                        cualquier posición de la misma, sin tener que recorrerla de forma
+                        secuencial.
+                        Una variante de la memoria RAM es la memoria cache. 
                         Se trata de una parte de la RAM a la que la CPU puede acceder de forma
                         especialmente rápida. 
                         Está destinada a almacenar 
@@ -233,7 +219,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                         es decir, aquellas que son fundamentales para que el ordenador pueda funcionar, 
                         entre ellas las conocidas como 
                             BIOS (Basic Input-Output System) o instrucciones básicas de control de dispositivos.
-
                     La Memoria ROM se encuentra fijada a la placa base del ordenador, 
                     mientras que la memoria RAM se compone de uno o varios chips insertables, 
                     lo que en muchos ordenadores permite que la capacidad de este tipo de memoria 
@@ -255,7 +240,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                         a través del cual el usuario teclea la información, 
                         que es convertida en señales eléctricas binarias 
                         (1 y 0) que se almacenan en la memoria central.
-
                 Por otro lado están 
                     los dispositivos de salida,
                         que permiten al usuario ver los resultados de
@@ -355,7 +339,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 El sistema operativo 
                     es el componente software más importante del ordenador, 
                     pues se trata de un programa que hace que el propio ordenador funcione                
-
                     Entre sus funciones principales están:
                         • Proporcionar una interfaz entre el resto de programas del
                             ordenador, los dispositivos hardware y el usuario.
@@ -363,7 +346,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                             CPU.
                         • Gestionar y organizar los archivos.
                         • Controlar los dispositivos periféricos.
-
                     Como vemos, es el responsable de que todo funcione adecuadamente
                     dentro del ordenador
                 Existen varios tipos de sistemas operativos en función 
@@ -427,8 +409,7 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                             Linux, lo que lo hace bastante robusto y seguro. Actualmente,
                             los programas que corren sobre este sistema operativo están
                             escritos en lenguaje Java.
-
-            El sistema operativo
+                El sistema operativo
                 El sistema operativo es el componente software más importante del ordenador, 
                 pues se trata de un programa que hace que el propio ordenador funcione.
                 Entre sus funciones principales están:
@@ -437,14 +418,12 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     Administrar los recursos de la máquina, como la memoria y la CPU
                     Gestionar y organizar los archivos
                     Controlar los dispositivos periféricos
-
                 A continuación, los principales sistemas operativos que puedes encontrar 
                 en un ordenador o dispositivo móvil:   
                     windows 10
                     linux 
                     android 
                     mac ios 
-
         1. Codificación de la información    
             1.1 | Sistema binario
                 Los datos, y toda la información en general, 
@@ -452,7 +431,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 un sistema de numeración conocido como binario. 
                 El sistema binario utiliza nada más que dos dígitos para 
                 representar la información, el 0 y el 1.
-
                 El sistema numérico binario fue el escogido por los ingenieros
                 informáticos para el funcionamiento de los ordenadores, porque
                 era más fácil para el sistema electrónico de la máquina distinguir
@@ -464,7 +442,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     o ausencia de tensión en el circuito.
                 A la presencia de tensión en un punto del circuito le asignamos el
                 valor 1 y a la ausencia de la misma el valor 0.
-
                 Conversión de binario a decimal
                     Mediante la combinación de unos y ceros podemos representar
                     cualquier valor, por ejemplo, 
@@ -539,7 +516,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     =1530
                      4          F       A
                      4*16e2 + 15*16E1 + 10*1660
-
                 El sistema hexadecimal no es utilizado internamente por los
                 ordenadores, que como hemos explicado, emplean el binario, 
                 sin embargo, resulta muy útil en informática para representar 
@@ -547,7 +523,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 simplifica la transformación de representación binaria a hexadecimal,
                 pues bastará con transformar cada grupo de cuatro bits a su equivalente
                 hexadecimal, comenzando por la derecha:
-                
                 TRANSFORMACIÓN BINARIO A HEXADECIMAL
                         (binarios de 4 bits)
                     1000    1011    0001    1101
@@ -559,7 +534,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
 
                     Conversión de binario a hexadecimal
                         https://www.calcuvio.com/conversion-binario-hexadecimal
-
 
                     convierte de exadecinal a binario 
                         https://es.convertbinary.com/hexadecimal-a-binario/  
@@ -586,7 +560,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 1 MegaByte  MB          megas       1024 KB (1.048.576 bytes)
                 1 GigaByte  BG          gigas       1024 MB (1.073.741.824 bytes)
                 1 TeraByte  TB          teras       1024 GB (un billón de bytes)
-
                 Como hemos explicado, el sistema binario
                 es el que utilizan los computadores para
                 representar la información. En este sistema,
@@ -599,7 +572,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     de esta unidad de medida, como el KiloByte,
                         que son 1024 bytes, 
                     o el MegaByte que son 1.024.000 bytes. 
-
                 Dado que la información en el interior de una memoria o un disco
                 duro se representa en binario, 
                 las unidades de mediada anteriores se utilizan también para expresar 
@@ -651,40 +623,32 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                         letras acentuadas 
                         y con diéresis, 
                         la letra ñ, etc. 
-                        
                     Los códigos correspondientes a estos caracteres van 
                         del 128 a 255.
-            
             PRUEBA
                 Test superado
                 Has obtenido un 100 en esta tarea
-
                 1 kilobyte (KB) = 1024 bytes
                 1 megabyte (MB) = 1024 kilobytes
-
                 Primero, convirtamos 3.4 megabytes a bytes:
                     3.4MB=3.4×1024KB×1024bytes/KB
                     3.4MB=3,584KB×1024bytes/KB
                     3.4MB=3,665,216bytes
-                 
                 1. Indica cual de los siguientes elementos no corresponde a un dispositivo de entrada y salida:
                     CD-ROM
                     X Memoria ROM
                     Impresora
                     Scanner
-
                 2. Las operaciones sobre los datos manejados por un programa son realizadas por:
                     La memoria RAM
                     La memoria cache
                     X La CPU
                     La memoria ROM
-
                 3. 4 MB son aproximadamente:
                     X 4.000.000 bytes
                     4.000 bytes
                     40.000  bits
                     400.000 bits
-
                 4. La representación en binario del número hexadecimal 4FA es:
                     110001110110
                     111111110001
@@ -692,12 +656,12 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     X 010011111010
 
                     "&" se representa con el código decimal 38 (SE VE EN LA TABLA ASCCII), que en binario es 00100110
-
                 5. El símbolo & se representa internamente en el ordenador:
                     X Mediante la combinación 00100110
                     Directamente como &, pues es un símbolo ASCII
                     Este símbolo no tiene representación
                     Mediante la combinación 0&h  
+AKI
     Módulo 2. Introducción a la programación.
         Un ordenador es un sistema ciertamente complejo que cuenta con
         unos elementos hardware ciertamente sofisticados y potentes, pero
@@ -909,7 +873,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                                 y de código abierto y está enfocado a la productividad. Se aplica
                                 especialmente sobre la plataforma on-rails para el desarrollo de
                                 aplicaciones para Web 
-        
         1. Ensambladores, compiladores e intérpretes
             Cuando utilizamos un lenguaje distinto al lenguaje máquina, 
             los programas elaborados en dicho lenguaje deben ser traducidos a código binario 
@@ -1026,7 +989,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 ordenador.   
                 
                     Código fuente ->  Compilador -> Código objeto ->  Módulos externos ->   Montador  ->  Código ejecutable (.exe)
-
             1.5 | Entornos de desarrollo integrado
                 Los entornos de desarrollo integrados, conocidos como IDE, son programas informáticos
                 creados con el objetivo de facilitar 
@@ -1090,7 +1052,6 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                     X Un compilador genera un archivo de código objeto, mientras que el intérprete no genera ningún archivo intermedio
                     Un compilador genera código binario, mientras que el intérprete genera código en ensamblador
                     Un compilador solo es aplicable a lenguajes de alto nivel, mientras que el intérprete se emplea con lenguajes de código intermedio.
-
                 4. En un programa tenemos una variable llamada “intentos” que almacena el número de intentos disponibles que tenemos para poder realizar una determinada tarea. Cada vez que se falla la tarea se deberá quitar un intento, ¿qué instrucción de proceso debemos escribir para ello?:
                     intentos=-1
                     intentos=-intentos
@@ -5004,9 +4965,13 @@ Diplomado Fundamentos de la Programación y Desarrollo Web Edición 1
                 Al hecho de poder definir más de un constructor en una clase se le
                 conoce como sobrecarga de constructores.   
                 
-            9/1/2024 
+8/1/2024 
             NO LOGRO ACCESAR AL CURSO 
-            ENVIE CORREO Y CONSULTA POR CENSE      
+            ENVIE CORREO Y CONSULTA POR CENSE 
+9/1/24      no me han respondido de los 2 lados 
+            no logro ingresar 
+                envie otro mensaje por telefonica 
+
 
 VER TRABAJOS PRACTICOS ENVIO 
 

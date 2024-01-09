@@ -1,0 +1,597 @@
+CASOS PRACTICOS "Pseudocódigo"
+    A continuación te preesentamos un caso práctico relacionado con  
+    pseudocódigo. Lee atentamente y desarrolla la actividad planteada. 
+    Puedes compartirla en el foro con tus compañeros.      
+    1 - Realización de algoritmos en pseudocódigo
+        ALGORITMO 1
+            Realiza el algoritmo correspondiente a un programa que lea un
+            número y muestre un texto indicando si el número es o no primo
+            DESARROLLO
+            Un número primo es un número mayor que 1 
+            que no tiene divisores exactos más allá de 1 y sí mismo. 
+            En otras palabras, un número primo solo es divisible por 1 y por sí mismo. 
+            Aquí hay algunos ejemplos de números primos:
+                2 es el único número primo par.
+                3 es primo, ya que solo es divisible por 1 y 3.
+                5 es primo, ya que solo es divisible por 1 y 5.
+                7 es primo, ya que solo es divisible por 1 y 7.
+                11 es primo, ya que solo es divisible por 1 y 11.
+                Y así sucesivamente.
+                2,3,5,7,11
+                    Número primo (Ejemplo: 5):
+                        5 es divisible por 1 (5 ÷ 1 = 5).
+                        5 es divisible por 5 (5 ÷ 5 = 1).
+                        No hay otros números enteros que dividan exactamente a 5.
+                        En este caso, los únicos divisores exactos de 5 son 1 y 5.
+                    Número no primo (Ejemplo: 6):
+                        6 es divisible por 1 (6 ÷ 1 = 6).
+                        6 es divisible por 2 (6 ÷ 2 = 3).
+                        6 es divisible por 3 (6 ÷ 3 = 2).
+                        6 es divisible por 6 (6 ÷ 6 = 1).
+                        En este caso, 6 tiene más divisores exactos que 1 y 6. Por lo tanto, no es un número primo.
+                PSEUDOCODIGO
+                    Inicio
+                        Código:
+                        ingrese numero 
+                        valida si el numero es primos
+                        si numero es primo 
+                                                presenta texto "El numero es primo"
+                                            de lo contrario
+                                                presenta texto "El numero no es primo"
+                    Fin
+                    OTRA FORMA 
+                        Inicio:
+                                            Datos:
+                                                Numero entero
+                                            Código:
+                                                Escribir "Ingrese un número:"
+                                                Leer Numero
+                                                Si Numero es menor o igual a 1 entonces
+                                                        Escribir "El número no es primo, ya que es menor o igual a 1."
+                                                    Sino si Numero es igual a 2 entonces
+                                                        Escribir "El número es primo, ya que 2 es el único número primo par."
+                                                    Sino
+                                                        Divisor <- 2
+                                                        Primo <- Verdadero
+                                                        Mientras Divisor * Divisor <= Numero y Primo es Verdadero hacer
+                                                            Si Numero es divisible por Divisor entonces
+                                                                Primo <- Falso
+                                                            Fin Si
+                                                            Divisor <- Divisor + 1
+                                                        Fin Mientras
+                                                    Si Primo es Verdadero entonces
+                                                            Escribir "El número es primo."
+                                                        Sino
+                                                            Escribir "El número no es primo."
+                                                    Fin Si
+                                                Fin Si
+                        Fin
+                CODIGO HTML JS
+                    <!DOCTYPE html>
+                    <html lang="es">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <title>Verificar si un número es primo</title>
+                                        </head>
+                                        <body>
+                                            <script>
+                                                function esPrimo(numero) {
+                                                    if (numero <= 1) {
+                                                        return false;
+                                                    }
+                                                    for (let i = 2; i <= Math.sqrt(numero); i++) {
+                                                        if (numero % i === 0) {
+                                                            return false;
+                                                        }
+                                                    }
+                                                    return true;
+                                                }
+                                                function verificarNumero() {
+                                                    var inputNumero = document.getElementById('numero');
+                                                    var numero = parseInt(inputNumero.value);
+                                                    var mensaje = esPrimo(numero) ? "El número es primo." : "El número no es primo.";
+                                                    document.getElementById('resultado').innerHTML = mensaje;
+                                                }
+                                            </script>
+                                            <h1>Verificar si un número es primo</h1>
+                                            <label for="numero">Ingrese un número:</label>
+                                            <input type="number" id="numero">
+                                            <button onclick="verificarNumero()">Verificar</button>
+                                            <p id="resultado"></p>
+                                        </body>
+                    </html>
+                DETALLES 
+                                    if (numero <= 1) {
+                                        return false;
+                                    }
+                                    verifica si el número es menor o igual a 1. 
+                                    Si es así, retorna false porque
+                                    los números menores o iguales a 1 no son primos.
+                                    ---
+                                    for (let i = 2; i <= Math.sqrt(numero); i++) {
+                                        if (numero % i === 0) {
+                                            return false;
+                                        }
+                                    }
+                                    Este bucle itera desde 2 hasta la raíz cuadrada del número. 
+                                    No es necesario verificar divisores más allá de la raíz cuadrada 
+                                    para determinar si un número es primo. 
+                                    Si encuentra algún divisor (numero % i === 0), 
+                                    significa que el número no es primo 
+                                    y la función devuelve false.
+        ALGORITMO 2
+            Diseñar un algoritmo que lea dos números y realice la suma de todos los
+            números pares comprendidos entre ambos números.
+                ALGORITMO
+                    Inicio:
+                        Datos:
+                            Numero1, Numero2, Suma entero
+                        Código:
+                            Escribir "Ingrese el primer número:"
+                            Leer Numero1
+                            Escribir "Ingrese el segundo número:"
+                            Leer Numero2
+                            Si Numero1 > Numero2 entonces
+                                                Intercambiar Numero1 y Numero2
+                            Fin Si
+                            Suma = 0
+                            Para i desde Numero1 hasta Numero2 hacer
+                                Si i mod 2 = 0 entonces
+                                                    Suma = Suma + i
+                                Fin Si
+                            Fin Para
+                            Escribir "La suma de los números pares entre ", Numero1, " y ", Numero2, " es ", Suma
+                    Fin
+                CODIGO HTML JS
+                    <!DOCTYPE html>
+                    <html lang="es">
+                                        <head>
+                                            <meta charset="UTF-8">
+                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <title>Suma de Números Pares</title>
+                                        </head>
+                                        <body>
+                                            <script>
+                                                function intercambiarNumeros(a, b) {
+                                                    return [b, a];
+                                                }
+                                                function sumaNumerosPares() {
+                                                    var numero1 = parseInt(prompt("Ingrese el primer número:"));
+                                                    var numero2 = parseInt(prompt("Ingrese el segundo número:"));
+                                                    if (numero1 > numero2) {
+                                                        [numero1, numero2] = intercambiarNumeros(numero1, numero2);
+                                                    }
+                                                    document.write("NUMERO1= "+numero1 + " NUMERO2="+numero2+ "<br>");
+                                                    var suma = 0;
+                                                    for (var i = numero1; i <= numero2; i++) {
+                                                        if (i % 2 === 0) {
+                                                            suma += i;
+                                                            document.write("I= "+i + " suma="+suma + "<br>");
+                                                        }
+                                                    }
+                                                    alert("La suma de los números pares entre " + numero1 + " y " + numero2 + " es " + suma);
+                                                }
+                                                sumaNumerosPares();
+                                            </script>
+                                        </body>
+                    </html>
+    2- Seguimiento de algoritmos
+        ALGORITMO 1
+            Indica el valor de las variables A y B al finalizar el siguiente
+            ALGORITMO
+                Inicio
+                                    Datos:
+                                    A, B, C entero
+                                    Código:
+                                    A=7
+                                    B=4
+                                    C=9 //C=9
+                                    Mientras (A<>C) hacer //7<>9
+                                        Si (C>9) entonces //9 no es mayor que 9
+                                            B=B+5  //B=4
+                                        Sino
+                                            A=A+2 //a=7 c=9 a=7+2=9 A=9
+                                        Fin Si
+                                    Fin Mientras
+                Fin
+            CODIGO HTML JS
+                <!DOCTYPE html>
+                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>algoritomo 1</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var A = 7;
+                                            var B = 4;
+                                            var C = 9;
+                                            while (A !== C) {
+                                                if (C > 9) {
+                                                    B = B + 5;
+                                                } else {
+                                                    A = A + 2;
+                                                }
+                                            }
+                                            console.log("A: " + A); //9
+                                            console.log("B: " + B); //4
+                                            console.log("C: " + C); //9
+                                        </script>
+                                    </body>
+                </html>
+            RESPUESTA
+                A=9
+                B=4
+                C=9
+        ALGORITMO 2 
+                            Indica los valores de las variables X, Y y Z al finalizar el siguiente
+                            RESPUESTA
+                                X=0 Y=21 Z=0
+                            ALGORITMO
+                                Inicio▬
+                                    Datos:
+                                        X entero
+                                        Y entero
+                                        Z entero
+                                    Código:
+                                        X=0
+                                        Y=7
+                                        Z=-4
+                                        Mientras (X > Z) hacer  //X=0> Z=-4 0>-4    //0>z=-4     //15<15 no cumple   //X=0 >Z=-2  //Z=0 * no cumple sale
+                                            Si (Y<15) entonces  //Y=7<15            //11<15                         //y=18
+                                                Y=Y+4           //Y=7+4=11          //Y=11+4=15 sale del if         sale del if
+                                            Sino                //y=11                        
+                                                Si(Z<0) entonces                                //Z=-4<0            //Z=-2<0
+                                                    Z=Z+2                                       //Z=-4+2=-2         //Z=-2+2=0 
+                                                Sino
+                                                    Z=Z+1                   
+                                                    X=X-1                   
+                                                Fin si
+                                                Y=Y+3                                           //y=15+3=18         //y=18+3=21 //*
+                                            Fin si
+                                        Fin mientras
+                                Fin 
+                            CODIGO HTML JS
+                                <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Algoritmo 2 analisis</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var X = 0;
+                                            var Y = 7;
+                                            var Z = -4;
+                                            while (X > Z) {
+                                                console.log("X= "+X+" Z= "+Z)
+                                                if (Y < 15) {
+                                                    Y = Y + 4;
+                                                    console.log("y= "+Y)
+                                                } else {
+                                                    if (Z < 0) {
+                                                        Z = Z + 2;
+                                                        console.log("Z= "+Z)
+                                                    } else {
+                                                        Z = Z + 1;
+                                                        console.log("Z= "+Z)
+                                                        X = X - 1;
+                                                        console.log("X= "+X)
+                                                    }
+                                                    Y = Y + 3;
+                                                    console.log("y= "+Y)
+                                                }
+                                            }
+                                            alert("X="+X+" Y="+Y+" Z="+Z)
+                                        </script>
+                                    </body>
+                                </html> 
+        ALGORITMO 3
+            Indica el valor que se imprimirá al finalizar el proceso:
+            RESPUESTA
+                                20
+            ALGORITMO          
+                                Inicio
+                                    Datos:
+                                        P,X, Contador entero
+                                    Código:
+                                        P=4
+                                        X=0
+                                        Contador=0
+                                        Mientras(P<>8) hacer    //4<>8 se cumple
+                                            X=X+5               //x=0+5=5 //10 //15 // 20
+                                            P=P+1               //p=4+1=5 //6  //7 // 8
+                                            Contador=Contador+1 //cont =1 //2
+                                        Fin Mientras
+                                        Mostrar “El valor de X es”, X //x=20
+                                Fin   
+            CODIGO HTML JS    
+                                <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Ejemplo de código en HTML con JS</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var P = 4;
+                                            var X = 0;
+                                            var Contador = 0;
+                                            while (P !== 8) {                       //p=4<>8    //P=5       //P=6,  7
+                                                X = X + 5;                          //X=0+5=5   //X=5+1=10  //X=15, 20
+                                                P = P + 1;                          //P=4+1=5   //P=5+1=6   //P=7,  8
+                                                Contador = Contador + 1;            //C=0+1=1   //C=2       //C=3,  4 
+                                            }
+                                            console.log("El valor de X es " + X); //x=20
+                                        </script>
+                                    </body>
+                                </html>
+        ALGORITMO 4
+                            Indica el valor de la variable X al finalizar el proceso siguiente:
+                            RESPUESTA 
+                                no termina el proceso del bucle interno
+                                el valor de x sera siempre el mismo X=100 
+                                hay un bucle infinito y no hay condiciones para salir de ese bucle interno. 
+                            ALGORITMO
+                                Inicio
+                                    Datos:
+                                        A, B, X, Y, Z entero
+                                    Código:
+                                        A=15
+                                        B=15
+                                        X=100
+                                        Y=100
+                                        Z=0
+                                        Mientras(A==B) hacer        //A=B=15        //A=B=18
+                                            A=A+3                   //A=15+3=18
+                                            Mientras(X==Y) hacer    //X=Y=100      //queda en loop interno infinito     
+                                                X=X+Z               //X=100+0=100  //y no logra salir de este bucle 
+                                            Fin Mientras
+                                            B=B+3                   
+                                        Fin Mientras                
+                                Fin  
+        ALGORITMO 5
+                            Indica el valor de la variable Z al finalizar el proceso siguiente:
+                            RESPUESTA
+                                Z: 100
+                                La variable Z no se cambia en ningun momento en el codigo
+                            ALGORITMO
+                                Inicio                          
+                                    Datos:                      
+                                        A, B, X, Y, Z entero         
+                                    Código:                     
+                                        A=60                        
+                                        B=0                         
+                                        X=100                       
+                                        Y=100                       
+                                        Z=100                       
+                                        Mientras(A<>B) hacer        //A=60<>B=0                         //A=60<>B=20                        //A=60,B=40     //A=70,B=40
+                                            A=A+10                  //A=60+10=70                        //A=60+10=70                        //A=60+10=70    
+                                            Mientras(X==Y) hacer    //X=100 == Y=100 //X=200 <> Y=100   //X=200=Y=200   //X=300<> Y=200     //X=300=Y
+                                                X=X+Z               //X=100+100=200                     //X=200+100=300                     //X=300+100=400
+                                            Fin Mientras                            //sale                              //sale
+                                            B=B+20                                  //B=0+20=20                         //B=20+20=40
+                                            A=A-10                                  //A=70-10=60                        //A=70-10=60
+                                            Y=X                                     //Y=200                             //Y=300=X
+                                        Fin Mientras                
+                                Fin                               
+                            CODIGO HTML JS
+                                <!DOCTYPE html>
+                                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Algoritmo 5</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var A = 60;
+                                            var B = 0;
+                                            var X = 100;
+                                            var Y = 100;
+                                            var Z = 100;
+                                            document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                            while (A !== B ) {
+                                                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                A = A + 10;
+                                                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                while (X == Y) {
+                                                    X = X + Z;
+                                                    document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                                }
+                                                B = B + 20;
+                                                A = A - 10;
+                                                Y = X;
+                                                document.write("A: " + A + ", B: " + B + ", X: " + X + ", Y: " + Y + ", Z: " + Z + "<br>");
+                                            }
+                                        </script>
+                                    </body>
+                                </html>  
+                                RESULTADOS 
+                                    valores  
+                                    A: 60, B: 0,  X: 100, Y: 100, Z: 100
+                                    A: 60, B: 0,  X: 100, Y: 100, Z: 100
+                                    A: 70, B: 0,  X: 100, Y: 100, Z: 100
+                                    A: 70, B: 0,  X: 200, Y: 100, Z: 100
+                                    A: 60, B: 20, X: 200, Y: 200, Z: 100
+                                    A: 60, B: 20, X: 200, Y: 200, Z: 100
+                                    A: 70, B: 20, X: 200, Y: 200, Z: 100
+                                    A: 70, B: 20, X: 300, Y: 200, Z: 100
+                                    A: 60, B: 40, X: 300, Y: 300, Z: 100
+                                    A: 60, B: 40, X: 300, Y: 300, Z: 100
+                                    A: 70, B: 40, X: 300, Y: 300, Z: 100
+                                    A: 70, B: 40, X: 400, Y: 300, Z: 100
+                                    A: 60, B: 60, X: 400, Y: 400, Z: 100
+        ALGORITMO 6
+            Indica el valor al que habrá que inicializar P para que al finalizar
+            el proceso el valor que se imprima de X sea 10:
+            RESPUESTA
+                P=-2
+            ALGORITMO    
+                                Inicio:
+                                    Datos:
+                                        X, P entero
+                                    Código:
+                                        X=0
+                                        P=?
+                                        Mientras(P<=7) hacer
+                                            X=X+1
+                                            P=P+1
+                                        Fin Mientras
+                                        Mostrar “El valor de X es “, X
+                                Fin  
+            CODIGO HTML JS
+                <!DOCTYPE html>
+                <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Código en HTML con JS</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            var X = 0;
+                                            var P = -2;
+                                            while (P <= 7) {
+                                                // Operaciones dentro del bucle
+                                                X = X + 1;
+                                                P = P + 1;
+                                            }
+                                            document.write("El valor de X es " + X);
+                                        </script>
+                                    </body>
+                </html>     
+CASOS PRACTICOS diagrama de flujo
+    1   Realiza un ordinograma para un algoritmo que calcule el total
+            de números naturales que hay que sumar, comenzando por el 1,
+            hasta que la suma alcance el valor 1000.
+                DESARROLLO
+                    PSEUDOCODIGO
+                        Inicio  
+                            datos
+                                total = 0                          
+                                num = 1    
+                            condicion                         
+                                ?si (total <= 1000)           
+                                    total = total + num          
+                                    num = num + 1  
+                                ?no                 
+                                    presentar "El total es: " + total    
+                        Fin    
+                    CODIGO HTML JS
+                        <!DOCTYPE html>
+                        <html lang="es">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Document</title>
+                            </head>
+                            <body>
+                                <script>
+                                    let total = 0;
+                                    let num = 1;
+                                    while (total <= 1000) {
+                                        total = total + num;
+                                        num = num + 1;
+                                    }
+                                    console.log("El total es: " + total);
+                                </script>
+                            </body>
+                        </html>
+    2   Análisis de un ordinograma   
+            ORDINOGRAMA 1
+                A continuación te vamos a proponer que resuelvas el siguiente
+                ejercicio. Teniendo en cuenta que el operador “%” calcula el resto
+                de la división entre dos números, dado el siguiente diagrama de
+                flujo:
+                Explica el funcionamiento del programa y que es lo que hace.
+                Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+                ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+                de la variable cont?
+                    DESARROLLO 
+                        Cada vez que el usuario ingresa un número, 
+                        se verifica si es par, 
+                        y si es par se incrementa el total 
+                        siempre el contador cont se incrementa en 1. 
+                        y Después de las 10 iteraciones, se muestra el total.
+                        que es el total de numeros pares ingresados
+                        el numero 11 no se logra ingresar pues son solo 10 iteraciones
+                    CODIGO HTML JS
+                        <!DOCTYPE html>
+                        <html lang="es">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Ordinograma1</title>
+                                    </head>
+                                    <body>
+                                        <script>
+                                            // Si se leen los siguientes números: 2, 4, 5, 1, 9, 17, 25, 27, 16, 30 y 11.
+                                            // ¿Cuál sería el valor de la variable total al finalizar el programa? ¿y
+                                            // de la variable cont?
+                                            //n es = 2  total acumulando= 1 contador = 1 / n%2= 0  es par
+                                            //n es = 4  total acumulando= 2 contador = 2 / n%2= 0  es par
+                                            //n es = 5  total acumulando= 2 contador = 3 / n%2= 1  es impar
+                                            //n es = 1  total acumulando= 2 contador = 4 / n%2= 1  es impar
+                                            //n es = 9  total acumulando= 2 contador = 5 / n%2= 1  es impar
+                                            //n es = 17  total acumulando= 2 contador = 6 / n%2= 1  es impar
+                                            //n es = 25  total acumulando= 2 contador = 7 / n%2= 1  es impar
+                                            //n es = 27  total acumulando= 2 contador = 8 / n%2= 1  es impar
+                                            //n es = 16  total acumulando= 3 contador = 9 / n%2= 0  es par
+                                            //n es = 30  total acumulando= 4 contador = 10 / n%2= 0  es par
+                                            //Total: 4 contador = 10
+
+                                            let daRespuesta=true
+                                            let mensaje=""
+                                            let espar=false
+                                            let total = 0;
+                                            let cont = 0;
+                                            // debugger
+                                            while (cont < 10) {
+                                                let n = prompt("Ingrese un número");
+                                                //si cancel el ingreso
+                                                if(n===null){
+                                                    daRespuesta=false
+                                                    break
+                                                }
+                                                //si es numero par acumula en el total
+                                                if (n % 2 === 0) {
+                                                    total = total + 1;
+                                                    espar=true //si es par es true
+                                                }    
+                                                //siempre se acumula 1
+                                                cont = cont + 1;
+                                                //si es par guarda el mensaje
+                                                if(espar){
+                                                    mensaje=" es par"
+
+                                                } else {
+                                                    mensaje=" es impar"
+                                                }
+                                                espar=false
+                                                alert("n es = " + n +"  total acumulando= " + total + " contador = " +cont+ " / n%2= " +n%2 +" "+mensaje)
+                                            }
+                                            if(daRespuesta){
+                                                alert("Total: " + total+" contador = "+cont);
+                                            } else {
+                                                alert("se cancelo la operacion")
+                                            }
+                                        </script>
+                                    </body>
+                        </html>
+            ORDINOGRAMA 2
+                A continuación, dado el siguiente ordinograma, te proponemos
+                que respondas a una serie de preguntas:
+                ¿Qué es lo que hace el algoritmo anterior?. ¿Qué se mostraría si la
+                secuencia de números introducidos fuera 2, 5, 9, 3, -1, 4?
+                    n es = 2  total acumulando= 1 contador = 1 / n%2= 0  es par
+                    n es = 5  total acumulando= 1 contador = 2 / n%2= 1  es impar
+                    n es = 9  total acumulando= 1 contador = 3 / n%2= 1  es impar
+                    n es = 3  total acumulando= 1 contador = 4 / n%2= 1  es impar
+                    n es = -1  total acumulando= 1 contador = 5 / n%2= -1  es impar
+                    n es = 4  total acumulando= 2 contador = 6 / n%2= 0  es par
+
